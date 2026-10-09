@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cloud, Telco & Green Internships</title>
+<style>
+  :root { --fg:#111; --muted:#666; --line:#ddd; --bg:#fff; --alt:#f7f7f7; --link:#0645ad; --new:#0a7f3f;
+          --ok:#0a7f3f; --no:#b33; --unk:#8a6d00; --th:#fff; --input:#fff; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --fg:#e6e6e6; --muted:#9a9a9a; --line:#333; --bg:#151515; --alt:#1d1d1d;
+      --link:#7fb0ff; --new:#4fd18b; --ok:#4fd18b; --no:#ff7b7b; --unk:#e0c050; --th:#151515; --input:#222; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:var(--fg); background:var(--bg); }
+  header { padding:18px 20px 10px; border-bottom:1px solid var(--line); }
+  h1 { font-size:20px; margin:0 0 4px; }
+  .sub { color:var(--muted); font-size:13px; }
+  .controls { display:flex; flex-wrap:wrap; gap:8px 14px; align-items:center; padding:10px 20px; border-bottom:1px solid var(--line); background:var(--alt); }
+  .controls .row { display:flex; flex-wrap:wrap; gap:6px 12px; align-items:center; width:100%; }
+  .controls .lbl { color:var(--muted); font-size:12px; min-width:62px; }
+  .controls label { display:inline-flex; align-items:center; gap:4px; white-space:nowrap; }
+  input[type=text], select { font:inherit; padding:5px 7px; border:1px solid #888; border-radius:3px; background:var(--input); color:var(--fg); }
+  input[type=text] { min-width:220px; }
+  .count { color:var(--muted); margin-left:auto; }
+  .wrap { overflow-x:auto; }
+  table { width:100%; border-collapse:collapse; }
+  th, td { text-align:left; padding:7px 10px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { position:sticky; top:0; background:var(--th); cursor:pointer; user-select:none; font-weight:600; border-bottom:2px solid #888; white-space:nowrap; }
+  th .dir { color:var(--muted); font-size:11px; margin-left:3px; }
+  tr:nth-child(even) td { background:var(--alt); }
+  td a { color:var(--link); text-decoration:none; }
+  td a:hover { text-decoration:underline; }
+  .tag { display:inline-block; font-size:11px; padding:1px 6px; border:1px solid #888; border-radius:3px; margin:0 3px 2px 0; }
+  .tag.d { border-style:dashed; opacity:.8; }
+  .tag.devops { border-color:#c60; color:#c60; } .tag.cloud { border-color:#36c; color:#36c; }
+  .tag.telco { border-color:#939; color:#939; } .tag.green { border-color:#2a7; color:#2a7; }
+  .tag.ml { border-color:#888; } .tag.research { border-color:#888; }
+  .el { font-size:11px; font-weight:600; white-space:nowrap; cursor:help; }
+  .el.graduates { color:var(--ok); } .el.students { color:var(--no); } .el.unknown { color:var(--unk); }
+  .kind { font-size:12px; color:var(--muted); white-space:nowrap; }
+  .new { color:var(--new); font-weight:600; font-size:11px; margin-left:4px; }
+  .muted { color:var(--muted); }
+  details { padding:14px 20px; border-top:1px solid var(--line); }
+  summary { cursor:pointer; font-weight:600; }
+  details h3 { font-size:13px; margin:12px 0 4px; }
+  details ul { margin:0 0 6px; padding-left:20px; line-height:1.8; }
+  details a { color:var(--link); }
+  .status td { padding:3px 10px; font-size:13px; }
+  .err { color:var(--no); }
+  footer { padding:14px 20px; color:var(--muted); font-size:12px; }
+  @media (max-width:760px){ .hide-sm{display:none} input[type=text]{min-width:0; width:100%} .controls{padding:10px 16px} header,details,footer{padding-left:16px;padding-right:16px} }
+</style>
+</head>
+<body>
+<header>
+  <h1>Cloud · DevOps · Telco · Green computing — internships, graduate programmes & PhDs</h1>
+  <div class="sub" id="meta">Loading…</div>
+</header>
+
+<div class="controls">
+  <div class="row">
+    <input type="text" id="q" placeholder="Search title / company / location">
+    <select id="group">
+      <option value="">All groups</option>
+      <option value="big">Big tech / industry</option>
+      <option value="cloud">Cloud / DevOps / infra</option>
+      <option value="telco">Telco</option>
+      <option value="green">Green / climate-tech</option>
+      <option value="research">Research labs</option>
+      <option value="portal">PhD / research portals</option>
+      <option value="programme">Graduate programmes</option>
+    </select>
+    <select id="company"><option value="">All companies</option></select>
+    <select id="region" title="Location">
+      <option value="eu+">Europe + remote + unknown</option>
+      <option value="europe">Europe only</option>
+      <option value="remote">Remote</option>
+      <option value="c:Italy">Italy</option>
+      <option value="c:France">France</option>
+      <option value="c:Belgium">Belgium</option>
+      <option value="c:Netherlands">Netherlands</option>
+      <option value="c:Portugal">Portugal</option>
+      <option value="c:Spain">Spain</option>
+      <option value="c:Germany">Germany</option>
+      <option value="c:Switzerland">Switzerland</option>
+      <option value="c:Ireland">Ireland</option>
+      <option value="c:United Kingdom">United Kingdom</option>
+      <option value="c:Nordics">Nordics</option>
+      <option value="other">Outside Europe</option>
+      <option value="">Everywhere</option>
+    </select>
+    <select id="elig" title="Can you apply after graduating?">
+      <option value="ok+unk">Open to graduates + unclear</option>
+      <option value="ok">Open to graduates only</option>
+      <option value="">All (incl. students-only)</option>
+    </select>
+    <label><input type="checkbox" id="newonly"> new (7 days)</label>
+    <span class="count" id="count"></span>
+  </div>
+  <div class="row">
+    <span class="lbl">Topics</span>
+    <label><input type="checkbox" class="tagf" value="devops" checked> devops</label>
+    <label><input type="checkbox" class="tagf" value="cloud" checked> cloud / infra</label>
+    <label><input type="checkbox" class="tagf" value="telco" checked> telco</label>
+    <label><input type="checkbox" class="tagf" value="green" checked> green</label>
+    <label><input type="checkbox" class="tagf" value="ml"> ml</label>
+    <label><input type="checkbox" class="tagf" value="research"> research</label>
+    <label><input type="checkbox" class="tagf" value="other"> other</label>
+    <label title="also match topics found only in the job description (dashed tags)"><input type="checkbox" id="usedesc" checked> incl. description</label>
+  </div>
+  <div class="row">
+    <span class="lbl">Position</span>
+    <label><input type="checkbox" class="kindf" value="internship" checked> internship / stage</label>
+    <label><input type="checkbox" class="kindf" value="graduate" checked> graduate programme / trainee / VIE</label>
+    <label><input type="checkbox" class="kindf" value="phd" checked> PhD</label>
+    <label><input type="checkbox" class="kindf" value="research" checked> research engineer / predoc</label>
+    <label><input type="checkbox" class="kindf" value="junior"> junior job</label>
+  </div>
+</div>
+
+<div class="wrap">
+<table>
+  <thead>
+    <tr>
+      <th data-k="company">Company<span class="dir"></span></th>
+      <th data-k="title">Title<span class="dir"></span></th>
+      <th data-k="kind" class="hide-sm">Kind<span class="dir"></span></th>
+      <th data-k="elig">Graduates?<span class="dir"></span></th>
+      <th data-k="location" class="hide-sm">Location<span class="dir"></span></th>
+      <th data-k="tags" class="hide-sm">Topics<span class="dir"></span></th>
+      <th data-k="first_seen">First seen<span class="dir"></span></th>
+    </tr>
+  </thead>
+  <tbody id="rows"></tbody>
+</table>
+</div>
+
+<details>
+  <summary>Check by hand — programmes and sites that can't be tracked automatically</summary>
+  <p class="muted" style="margin:8px 0">JavaScript-only career sites, sites that block GitHub's servers, and programmes with one call per year.</p>
+  <h3>Programmes open to graduates (no enrolment needed)</h3>
+  <ul>
+    <li><a href="https://www.esa.int/About_Us/Careers_at_ESA/Apply_now_to_the_ESA_Graduate_Trainee_Programme" target="_blank" rel="noopener">ESA Graduate Trainee Programme</a> (final-year master's or recent graduates, ESA member-state nationals) · <a href="https://jobs.esa.int/" target="_blank" rel="noopener">ESA job portal</a></li>
+    <li><a href="https://recruitment.jrc.ec.europa.eu/graduate-trainees" target="_blank" rel="noopener">JRC graduate trainees</a> (Ispra, Seville, Geel, Karlsruhe, Petten; energy, environment, AI)</li>
+    <li><a href="https://traineeships.ec.europa.eu/" target="_blank" rel="noopener">European Commission Blue Book traineeship</a> (two sessions a year, for graduates)</li>
+    <li><a href="https://eumetsat.int/careers-eumetsat/early-career-programme" target="_blank" rel="noopener">EUMETSAT early career programme</a></li>
+    <li><a href="https://mon-vie-via.businessfrance.fr/" target="_blank" rel="noopener">VIE — Volontariat International en Entreprise</a> (EU citizens 18–28, French companies abroad; also tracked above if the API works)</li>
+    <li><a href="https://www.imec-int.com/work-at-imec/job-opportunities/phd-at-imec" target="_blank" rel="noopener">imec PhD positions</a> · <a href="https://www.imec-int.com/en/work-at-imec/master-thesis-internship" target="_blank" rel="noopener">imec internships</a> (Belgium / Netherlands)</li>
+  </ul>
+  <h3>Remote, paid open-source programmes</h3>
+  <ul>
+    <li><a href="https://mentorship.lfx.linuxfoundation.org/" target="_blank" rel="noopener">LFX Mentorship</a> — CNCF / Kubernetes ecosystem projects (<a href="https://github.com/cncf/mentoring" target="_blank" rel="noopener">CNCF mentoring</a>)</li>
+    <li><a href="https://www.outreachy.org/" target="_blank" rel="noopener">Outreachy</a> — remote internships, eligibility is not tied to being a student</li>
+    <li><a href="https://summerofcode.withgoogle.com/" target="_blank" rel="noopener">Google Summer of Code</a> — open to students and to people new to open source</li>
+  </ul>
+  <h3>Career sites to search by hand</h3>
+  <ul>
+    <li><a href="https://jobs.careers.microsoft.com/global/en/search?q=cloud%20intern" target="_blank" rel="noopener">Microsoft</a> · <a href="https://careers.qualcomm.com/careers?query=intern" target="_blank" rel="noopener">Qualcomm</a> · <a href="https://www.ericsson.com/en/careers/students-early-careers/internships" target="_blank" rel="noopener">Ericsson early careers</a> · <a href="https://orange.jobs/" target="_blank" rel="noopener">Orange</a></li>
+    <li>LinkedIn searches (EU): <a href="https://www.linkedin.com/jobs/search/?keywords=graduate%20devops&location=European%20Union" target="_blank" rel="noopener">graduate devops</a> · <a href="https://www.linkedin.com/jobs/search/?keywords=graduate%20cloud%20engineer&location=European%20Union" target="_blank" rel="noopener">graduate cloud</a> · <a href="https://www.linkedin.com/jobs/search/?keywords=telecom%20graduate%20programme&location=European%20Union" target="_blank" rel="noopener">telecom graduate programme</a> · <a href="https://www.linkedin.com/jobs/search/?keywords=green%20software%20OR%20sustainable%20computing&location=European%20Union" target="_blank" rel="noopener">green software</a></li>
+    <li>Welcome to the Jungle: <a href="https://www.welcometothejungle.com/en/jobs?query=devops%20intern" target="_blank" rel="noopener">devops intern</a> · <a href="https://www.welcometothejungle.com/en/jobs?query=VIE%20cloud" target="_blank" rel="noopener">VIE cloud</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary id="statussum">Source status</summary>
+  <table class="status"><tbody id="status"></tbody></table>
+</details>
+
+<footer>
+  Updated every morning by GitHub Actions. Titles are matched by keywords, so some off-topic postings appear on purpose.
+  “Graduates?” is read from the job description: <b class="el graduates">graduates</b> = explicitly open to graduates (or a PhD / graduate programme / research post),
+  <b class="el students">students</b> = asks for current enrolment (convention de stage, Pflichtpraktikum, “currently enrolled”…),
+  <b class="el unknown">unclear</b> = nothing found. Hover the label to see the phrase it was based on, and always check the posting.
+  Dashed topic tags come from the description only.
+</footer>
+
+<script>
+(async function () {
+  const $ = s => document.querySelector(s);
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const KIND = {internship:'internship', graduate:'graduate prog.', phd:'PhD', research:'research eng.', junior:'junior'};
+  const ELIG = {graduates:'graduates', students:'students only', unknown:'unclear'};
+  let jobs = [], sortKey = 'first_seen', sortDir = -1;
+
+  // remember filters per browser (optional convenience)
+  const store = { get(k){ try { return JSON.parse(localStorage.getItem('f:'+k)); } catch(e){ return null; } },
+                  set(k,v){ try { localStorage.setItem('f:'+k, JSON.stringify(v)); } catch(e){} } };
+  const inputs = [...document.querySelectorAll('.controls input, .controls select')].filter(x => x.id !== 'q');
+  inputs.forEach((x, i) => { const v = store.get(x.id || x.className + x.value); if (v !== null) { if (x.type === 'checkbox') x.checked = v; else x.value = v; } });
+  const save = () => inputs.forEach(x => store.set(x.id || x.className + x.value, x.type === 'checkbox' ? x.checked : x.value));
+
+  const data = await fetch('data/jobs.json?' + Date.now()).then(r => r.json()).catch(() => ({jobs: []}));
+  jobs = data.jobs || [];
+  $('#meta').textContent = `${jobs.length} postings · last update ${data.generated_at ? new Date(data.generated_at).toLocaleString() : 'n/a'}`;
+
+  const companies = [...new Set(jobs.map(j => j.company.split(' · ')[0]))].sort((a, b) => a.localeCompare(b));
+  for (const c of companies) { const o = document.createElement('option'); o.value = c; o.textContent = c; $('#company').appendChild(o); }
+  const sc = store.get('company'); if (sc) $('#company').value = sc;
+
+  const sevenDays = Date.now() - 7 * 864e5;
+  const isNew = j => new Date(j.first_seen) >= sevenDays;
+
+  function regionOk(j, r) {
+    if (!r) return true;
+    if (r === 'eu+') return j.region !== 'other';
+    if (r.startsWith('c:')) return j.country === r.slice(2);
+    return j.region === r;
+  }
+
+  function render() {
+    save();
+    const q = $('#q').value.trim().toLowerCase();
+    const g = $('#group').value, c = $('#company').value, r = $('#region').value, e = $('#elig').value;
+    const tags = [...document.querySelectorAll('.tagf:checked')].map(x => x.value);
+    const kinds = [...document.querySelectorAll('.kindf:checked')].map(x => x.value);
+    const newonly = $('#newonly').checked, usedesc = $('#usedesc').checked;
+
+    let rows = jobs.filter(j => {
+      const t = usedesc ? [...(j.tags || []), ...(j.dtags || [])] : (j.tags || []);
+      return (!g || j.group === g) && (!c || j.company.split(' · ')[0] === c) &&
+        t.some(x => tags.includes(x)) && kinds.includes(j.kind) && regionOk(j, r) &&
+        (!e || (e === 'ok' ? j.elig === 'graduates' : j.elig !== 'students')) &&
+        (!newonly || isNew(j)) &&
+        (!q || `${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q));
+    });
+    rows.sort((a, b) => {
+      let x = a[sortKey], y = b[sortKey];
+      if (Array.isArray(x)) { x = x.join(','); y = y.join(','); }
+      x = (x ?? '').toString().toLowerCase(); y = (y ?? '').toString().toLowerCase();
+      return (x < y ? -1 : x > y ? 1 : 0) * sortDir || a.company.localeCompare(b.company);
+    });
+    $('#rows').innerHTML = rows.map(j => `<tr>
+      <td>${esc(j.company)}</td>
+      <td><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>${isNew(j) ? '<span class="new">NEW</span>' : ''}</td>
+      <td class="hide-sm"><span class="kind">${esc(KIND[j.kind] || j.kind)}</span></td>
+      <td><span class="el ${esc(j.elig)}" title="${esc(j.elig_why || '')}">${esc(ELIG[j.elig] || j.elig)}</span></td>
+      <td class="hide-sm">${esc(j.location) || '<span class="muted">—</span>'}</td>
+      <td class="hide-sm">${(j.tags || []).map(t => `<span class="tag ${t}">${t}</span>`).join('')}${(j.dtags || []).map(t => `<span class="tag d ${t}" title="from the description">${t}</span>`).join('')}</td>
+      <td>${esc(j.first_seen)}</td>
+    </tr>`).join('');
+    $('#count').textContent = `${rows.length} shown`;
+    document.querySelectorAll('th').forEach(th => th.querySelector('.dir').textContent = th.dataset.k === sortKey ? (sortDir > 0 ? '▲' : '▼') : '');
+  }
+
+  document.querySelectorAll('th').forEach(th => th.addEventListener('click', () => {
+    const k = th.dataset.k;
+    if (sortKey === k) sortDir = -sortDir; else { sortKey = k; sortDir = k === 'first_seen' ? -1 : 1; }
+    render();
+  }));
+  document.querySelectorAll('.controls input, .controls select').forEach(x => x.addEventListener(x.type === 'text' ? 'input' : 'change', render));
+  render();
+
+  // source status
+  try {
+    const st = await fetch('data/status.json?' + Date.now()).then(r => r.json());
+    const srcs = st.sources || [];
+    const bad = srcs.filter(s => !s.ok).length;
+    $('#statussum').textContent = `Source status: ${srcs.length - bad}/${srcs.length} ok${bad ? ` (${bad} failing)` : ''}`;
+    $('#status').innerHTML = srcs.map(s => `<tr>
+      <td>${s.ok ? '✓' : '<span class="err">✗</span>'}</td>
+      <td>${esc(s.company)}</td><td class="muted">${esc(s.type)}</td>
+      <td>${s.ok ? `${s.kept} kept / ${s.raw} raw` : `<span class="err">${esc(s.error)}</span>`}</td>
+      <td class="muted">${esc(s.note || '')}</td></tr>`).join('');
+  } catch (e) {}
+})();
+</script>
+</body>
+</html>
