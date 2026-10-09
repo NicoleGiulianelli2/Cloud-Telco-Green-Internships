@@ -8,6 +8,7 @@ Each fetcher returns a list of raw postings: dicts with at least
 Descriptions are only fetched for postings that survive the title filter (see run.py),
 so the expensive per-posting requests stay limited.
 """
+import datetime as _dt
 import html as _html
 import json as _json
 import re
@@ -75,6 +76,42 @@ def _text(html_or_text):
     return re.sub(r"\s+", " ", t).strip()
 
 
+def _days_ago(n):
+    return (_dt.date.today() - _dt.timedelta(days=n)).isoformat()
+
+
+def parse_date(value):
+    """Best-effort conversion of the many date formats ATSs use to YYYY-MM-DD (None if unknown)."""
+    if value in (None, ""):
+        return None
+    if isinstance(value, (int, float)):           # unix seconds or milliseconds
+        v = value / 1000 if value > 1e11 else value
+        return _dt.datetime.fromtimestamp(v, _dt.timezone.utc).date().isoformat()
+    v = str(value).strip()
+    if re.match(r"^\d{4}-\d{2}-\d{2}", v):
+        return v[:10]
+    low = v.lower()
+    if "today" in low or "just posted" in low or "aujourd" in low:
+        return _days_ago(0)
+    if "yesterday" in low or "hier" in low:
+        return _days_ago(1)
+    m = re.search(r"(\d+)\+?\s*(day|jour)", low)
+    if m:
+        return _days_ago(int(m.group(1)))
+    m = re.search(r"(\d+)\+?\s*(week|semaine)", low)
+    if m:
+        return _days_ago(7 * int(m.group(1)))
+    m = re.search(r"(\d+)\+?\s*(month|mois)", low)
+    if m:
+        return _days_ago(30 * int(m.group(1)))
+    for fmt in ("%B %d, %Y", "%b %d, %Y", "%d %B %Y", "%d %b %Y", "%d/%m/%Y", "%d.%m.%Y"):
+        try:
+            return _dt.datetime.strptime(v, fmt).date().isoformat()
+        except ValueError:
+            pass
+    return None
+
+
 # ---------------------------------------------------------------------------
 # Generic ATS backends
 # ---------------------------------------------------------------------------
@@ -92,7 +129,7 @@ def greenhouse(cfg):
         deps = " ".join(d.get("name", "") for d in j.get("departments", []) or [])
         out.append(_post_item(j.get("title"), j.get("absolute_url"),
                               (j.get("location") or {}).get("name", ""),
-                              (j.get("updated_at") or "")[:10], deps,
+                              (j.get("first_published") or j.get("updated_at") or "")[:10], deps,
                               detail=("greenhouse", slug, j.get("id"))))
     return out, f"slug={slug}"
 
@@ -191,7 +228,7 @@ def workday(cfg):
                     path = p.get("externalPath", "")
                     full = f"https://{host}/en-US/{site}{path}"
                     found[full] = _post_item(p.get("title"), full, p.get("locationsText", ""),
-                                             None, " ".join(p.get("bulletFields", []) or []),
+                                             parse_date(p.get("postedOn")), " ".join(p.get("bulletFields", []) or []),
                                              detail=("workday", host, tenant, site, path))
                 total = data.get("total", 0)
                 offset += 20
@@ -266,7 +303,7 @@ def _eightfold_one(host, cfg):
                 raise SourceError("no positions key")
             for p in positions:
                 url = p.get("canonicalPositionUrl") or f"https://{host}/careers?pid={p.get('id')}&domain={domain}"
-                found[url] = _post_item(p.get("name"), url, p.get("location", ""), None,
+                found[url] = _post_item(p.get("name"), url, p.get("location", ""), parse_date(p.get("t_create")),
                                         str(p.get("department", "")),
                                         _text(p.get("job_description")),
                                         detail=("eightfold", host, domain, p.get("id")))
@@ -316,7 +353,7 @@ def amazon(cfg):
                 url = "https://www.amazon.jobs" + j.get("job_path", "")
                 found[url] = _post_item(j.get("title"), url,
                                         j.get("normalized_location") or j.get("location", ""),
-                                        (j.get("posted_date") or "")[:10],
+                                        parse_date(j.get("posted_date")),
                                         " ".join(str(j.get(k, "")) for k in ("job_category", "job_schedule_type", "business_category")),
                                         " ".join(_text(j.get(k, "")) for k in ("description", "basic_qualifications", "preferred_qualifications")))
             offset += 100
@@ -801,50 +838,58 @@ def vie(cfg):
 # ---------------------------------------------------------------------------
 
 def fetch_detail(item):
-    """Return the plain-text description for a raw posting ('' if unavailable)."""
+    """Download what the job list doesn't give us. Returns {"desc", "location", "posted"} (values may be empty)."""
     d = item.get("detail")
     kind = d[0] if d else None
+    out = {"desc": "", "location": "", "posted": None}
     if kind == "greenhouse":
         _, slug, jid = d
-        return _text(_get(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs/{jid}").json().get("content"))
-    if kind == "workable":
+        j = _get(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs/{jid}").json()
+        out["desc"] = _text(j.get("content"))
+        out["posted"] = parse_date(j.get("first_published"))
+    elif kind == "workable":
         _, slug, code = d
         j = _get(f"https://apply.workable.com/api/v2/accounts/{slug}/jobs/{code}").json()
-        return _text(" ".join(str(j.get(k) or "") for k in ("description", "requirements", "benefits")))
-    if kind == "workday":
+        out["desc"] = _text(" ".join(str(j.get(k) or "") for k in ("description", "requirements", "benefits")))
+    elif kind == "workday":
         _, host, tenant, site, path = d
         j = _get(f"https://{host}/wday/cxs/{tenant}/{site}{path}", headers={"Accept": "application/json"}).json()
         info = j.get("jobPostingInfo") or {}
-        return _text(info.get("jobDescription")) + " " + str(info.get("location") or "")
-    if kind == "smartrecruiters":
+        out["desc"] = _text(info.get("jobDescription"))
+        locs = [info.get("location") or ""] + list(info.get("additionalLocations") or [])
+        out["location"] = "; ".join(x for x in locs if x)
+        out["posted"] = parse_date(info.get("startDate")) or parse_date(info.get("postedOn"))
+    elif kind == "smartrecruiters":
         _, company, jid = d
         j = _get(f"https://api.smartrecruiters.com/v1/companies/{company}/postings/{jid}").json()
         secs = ((j.get("jobAd") or {}).get("sections") or {})
-        return _text(" ".join(str((v or {}).get("text") or "") for v in secs.values()))
-    if kind == "eightfold":
+        out["desc"] = _text(" ".join(str((v or {}).get("text") or "") for v in secs.values()))
+    elif kind == "eightfold":
         _, host, domain, pid = d
         j = _get(f"https://{host}/api/apply/v2/jobs/{pid}?domain={domain}").json()
-        return _text(j.get("job_description"))
-    if kind == "oracle":
+        out["desc"] = _text(j.get("job_description"))
+    elif kind == "oracle":
         _, host, site, jid = d
         u = (f"https://{host}/hcmRestApi/resources/latest/recruitingCEJobRequisitionDetails"
              f"?expand=all&onlyData=true&finder=ById;Id=%22{jid}%22,siteNumber={site}")
         items = _get(u, headers={"Accept": "application/json"}).json().get("items") or [{}]
         it = items[0]
-        return _text(" ".join(str(it.get(k) or "") for k in
-                              ("ExternalDescriptionStr", "ExternalQualificationsStr", "ExternalResponsibilitiesStr")))
-    # generic: download the posting page itself
-    url = item.get("url", "").split("#")[0]
-    if not url.startswith("http"):
-        return ""
-    r = _get(url, headers={"Accept": "text/html,application/xhtml+xml,*/*;q=0.8"})
-    if "html" not in r.headers.get("Content-Type", "html"):
-        return ""
-    soup = BeautifulSoup(r.text, "lxml")
-    for t in soup(["script", "style", "nav", "footer", "header", "noscript"]):
-        t.decompose()
-    main = soup.find("main") or soup.find("article") or soup.body or soup
-    return re.sub(r"\s+", " ", main.get_text(" ", strip=True))[:40000]
+        out["desc"] = _text(" ".join(str(it.get(k) or "") for k in
+                                     ("ExternalDescriptionStr", "ExternalQualificationsStr", "ExternalResponsibilitiesStr")))
+    else:
+        # generic: download the posting page itself
+        url = item.get("url", "").split("#")[0]
+        if not url.startswith("http"):
+            return out
+        r = _get(url, headers={"Accept": "text/html,application/xhtml+xml,*/*;q=0.8"})
+        if "html" not in r.headers.get("Content-Type", "html"):
+            return out
+        soup = BeautifulSoup(r.text, "lxml")
+        for t in soup(["script", "style", "nav", "footer", "header", "noscript"]):
+            t.decompose()
+        main = soup.find("main") or soup.find("article") or soup.body or soup
+        out["desc"] = re.sub(r"\s+", " ", main.get_text(" ", strip=True))[:40000]
+    return out
 
 
 def _aslist(x):

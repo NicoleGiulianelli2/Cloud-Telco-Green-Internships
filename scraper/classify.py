@@ -14,7 +14,7 @@ phrase stored next to it, so it can always be checked by hand.
 """
 import re
 
-CLASSIFIER_VERSION = 3   # bump to force re-classification of cached postings
+CLASSIFIER_VERSION = 4   # bump to force re-classification of cached postings
 
 
 def _rx(patterns):
@@ -146,14 +146,34 @@ def topics_of(text: str) -> list[str]:
     return tags or ["other"]
 
 
+# Descriptions are full of boilerplate ("our cloud platform", "sustainable future", "global network"...),
+# so description-only topics use specific technical terms and need >= 2 different ones.
+DESC_PATTERNS = {
+    "devops": [r"devops", r"\bsre\b", r"site reliability", r"\bci ?/ ?cd\b", r"terraform", r"ansible", r"gitops",
+               r"argo ?cd", r"\bjenkins\b", r"github actions", r"gitlab ci", r"infrastructure as code", r"\bhelm\b",
+               r"prometheus", r"observability", r"\bpuppet\b", r"\bchef\b"],
+    "cloud": [r"kubernetes", r"\bk8s\b", r"\bdocker\b", r"containeri[sz]", r"container (orchestration|runtime|platform)",
+              r"serverless", r"openstack", r"\baws\b", r"\bazure\b", r"\bgcp\b", r"microservices?", r"distributed systems?",
+              r"edge computing", r"virtuali[sz]ation", r"\bhpc\b", r"cloud[- ]native", r"\bcncf\b"],
+    "telco": [r"\b5g\b", r"\b6g\b", r"\blte\b", r"o-?ran\b", r"open ran", r"\b3gpp\b", r"(?-i:\bRAN\b)", r"\bsdn\b",
+              r"\bnfv\b", r"core network", r"mm-?wave", r"baseband", r"telecommunications?", r"wireless communication",
+              r"radio access", r"\bmec\b"],
+    "green": [r"energy[- ]efficien", r"energy consumption", r"power consumption", r"carbon footprint", r"carbon emission",
+              r"green (computing|software|it|ai)", r"sustainable (computing|software|it)", r"energy[- ]aware", r"low[- ]power",
+              r"decarboni", r"life[- ]cycle assessment", r"\blca\b", r"renewable energ"],
+    "ml": [r"machine learning", r"deep learning", r"pytorch", r"tensorflow", r"\bllms?\b", r"neural networks?",
+           r"computer vision", r"\bnlp\b", r"reinforcement learning", r"large language model"],
+}
+_DESC = {k: [re.compile(p, re.I) for p in v] for k, v in DESC_PATTERNS.items()}
+
+
 def desc_topics(desc: str, already: list[str]) -> list[str]:
-    """Topics found only in the description. Needs >= 2 distinct hits to avoid boilerplate matches."""
+    """Topics found only in the description (>= 2 different specific terms)."""
     out = []
     for t in _TOPIC_ORDER:
-        if t in already or t == "research":
+        if t in already or t not in _DESC:
             continue
-        hits = {m.group(0).lower() for m in _TOPICS[t].finditer(desc or "")}
-        if len(hits) >= 2:
+        if sum(1 for rx in _DESC[t] if rx.search(desc or "")) >= 2:
             out.append(t)
     return out
 
@@ -243,34 +263,46 @@ COUNTRIES = {
     "Italy": r"\bital(y|ia)\b|milan|milano|rome\b|roma\b|turin|torino|bologna|pisa|naples|napoli|genova|genoa|padova|"
              r"trento|florence|firenze|ispra|catania|bari\b|cagliari",
     "France": r"\bfrance\b|paris|lyon|grenoble|sophia|rennes|lille|nantes|toulouse|marseille|\bnice\b|bordeaux|saclay|"
-              r"palaiseau|montpellier|strasbourg|biot|lannion|massy|v[ée]lizy|nancy",
+              r"palaiseau|montpellier|strasbourg|biot|lannion|massy|v[ée]lizy|nancy|m[ée]aulte|saint[- ]nazaire|"
+              r"[ée]lancourt|brest\b|blagnac|cannes|marignane|valence|limours|gennevilliers|sophia|\bfra\b",
     "Belgium": r"belgi|brussel|bruxelles|leuven|ghent|gent\b|antwerp|li[eè]ge|louvain|mechelen|geel",
     "Netherlands": r"netherlands|nederland|holland|amsterdam|eindhoven|delft|rotterdam|utrecht|the hague|den haag|"
-                   r"leiden|groningen|enschede|petten|nijmegen",
+                   r"leiden|groningen|enschede|petten|nijmegen|hengelo|veldhoven|\bnld\b",
     "Portugal": r"portugal|lisbon|lisboa|porto\b|braga|coimbra|aveiro",
     "Spain": r"spain|espa[ñn]a|madrid|barcelona|valencia|seville|sevilla|bilbao|malaga|m[aá]laga",
     "Germany": r"german|deutschland|berlin|munich|m[üu]nchen|hamburg|frankfurt|stuttgart|cologne|k[öo]ln|"
-               r"darmstadt|karlsruhe|dresden|aachen|n[üu]rnberg|nuremberg|d[üu]sseldorf|bonn|hannover",
+               r"darmstadt|karlsruhe|dresden|aachen|n[üu]rnberg|nuremberg|d[üu]sseldorf|bonn|hannover|gerlingen|"
+               r"renningen|reutlingen|ludwigsburg|bremen|ottobrunn|manching|immenstaad|\bdeu\b",
     "Switzerland": r"switzerland|schweiz|suisse|zurich|z[üu]rich|geneva|gen[eè]ve|lausanne|basel|bern\b",
     "Austria": r"austria|[öo]sterreich|vienna|wien|graz|linz|innsbruck",
     "Ireland": r"ireland|dublin|cork|galway|limerick",
     "United Kingdom": r"united kingdom|\buk\b|england|scotland|wales|london|cambridge, uk|oxford|manchester|edinburgh|"
-                      r"bristol|glasgow|reading|belfast",
+                      r"bristol|glasgow|reading|belfast|crawley|cheadle|broughton|templecombe|filton|stevenage|"
+                      r"portsmouth|basingstoke|guildford|bracknell|newport|stockport|swindon|\bgbr\b",
     "Nordics": r"sweden|stockholm|gothenburg|g[öo]teborg|lund|link[öo]ping|kista|finland|helsinki|espoo|tampere|oulu|"
                r"denmark|copenhagen|aarhus|norway|oslo|trondheim|iceland",
     "Central/Eastern Europe": r"poland|warsaw|krak[oó]w|wroc[lł]aw|gda[nń]sk|czech|prague|praha|brno|slovakia|bratislava|"
                               r"hungary|budapest|romania|bucharest|cluj|bulgaria|sofia|greece|athens|croatia|zagreb|"
-                              r"slovenia|ljubljana|serbia|belgrade|estonia|tallinn|latvia|riga|lithuania|vilnius|luxembourg",
+                              r"slovenia|ljubljana|serbia|belgrade|estonia|tallinn|latvia|riga|lithuania|vilnius|luxembourg|"
+                              r"ukraine|kyiv|blaj|timi[sș]oara|ia[sș]i\b",
 }
 _COUNTRY_RX = [(c, re.compile(p, re.I)) for c, p in COUNTRIES.items()]
-_CODES = {"IT": "Italy", "FR": "France", "BE": "Belgium", "NL": "Netherlands", "PT": "Portugal", "ES": "Spain",
+_CODES = {"IT": "Italy", "LU": "Central/Eastern Europe", "HU": "Central/Eastern Europe", "SK": "Central/Eastern Europe",
+          "BG": "Central/Eastern Europe", "HR": "Central/Eastern Europe", "SI": "Central/Eastern Europe", "UA": "Central/Eastern Europe", "FR": "France", "BE": "Belgium", "NL": "Netherlands", "PT": "Portugal", "ES": "Spain",
           "DE": "Germany", "CH": "Switzerland", "AT": "Austria", "IE": "Ireland", "GB": "United Kingdom",
           "SE": "Nordics", "FI": "Nordics", "DK": "Nordics", "NO": "Nordics", "PL": "Central/Eastern Europe",
           "CZ": "Central/Eastern Europe", "RO": "Central/Eastern Europe", "GR": "Central/Eastern Europe"}
 _CODE_RX = re.compile(r"(?:^|[\s,(/-])(" + "|".join(_CODES) + r")(?=$|[\s,)/-])")
+# lowercase ISO codes at the end ("Gerlingen, de" - SmartRecruiters) and other countries' codes
+_TAIL_CODE = re.compile(r",\s*([a-z]{2})\s*$")
+_NON_EU_CODES = re.compile(r"(?:^|[\s,(])(US|USA|CA|IN|CN|JP|SG|SGP|IL|BR|MX|AU|KR|TW|VN|PH|MY|ID|TH|AE|SA|ZA|AR|CL|CO|NZ|CR|PR|EG|MA|TN)(?=$|[\s,)])")
 _REMOTE = re.compile(r"remote|anywhere|telework|work from home|distributed|home[- ]?based|t[ée]l[ée]travail", re.I)
 _EUROPE_GENERIC = re.compile(r"europe|\bemea\b|\beu\b", re.I)
 _NON_EU = re.compile(r"\b(usa|united states|canada|india|china|japan|singapore|israel|brazil|mexico|australia|korea|"
+                     r"costa rica|puerto rico|ottawa|kanata|atlanta|chicago|redwood city|ashburn|englewood|santa clara|"
+                     r"san jose|hillsboro|silicon valley|yorktown|research triangle|raleigh|tucson|baton rouge|"
+                     r"poughkeepsie|maynard|denver|dallas|houston|phoenix|portland|san diego|los angeles|"
+                     r"pittsburgh|minneapolis|detroit|ann arbor|madison|columbus|nashville|charlotte|miami|"
                      r"taiwan|vietnam|philippines|egypt|turkey|t[üu]rkiye|uae|dubai|saudi|south africa|argentina|chile|"
                      r"colombia|malaysia|indonesia|thailand|pakistan|nigeria|kenya|morocco|tunisia|new zealand)\b|"
                      r"san francisco|new york|seattle|austin|boston|bangalore|bengaluru|hyderabad|pune|chennai|beijing|"
@@ -286,8 +318,15 @@ def region_of(location: str) -> tuple[str, str]:
     for country, rx in _COUNTRY_RX:
         if rx.search(loc):
             return ("remote" if _REMOTE.search(loc) else "europe"), country
+    if _NON_EU.search(loc) or _NON_EU_CODES.search(loc):
+        return "other", ""
+    m = _TAIL_CODE.search(loc)
+    if m and m.group(1).upper() in _CODES:
+        return ("remote" if _REMOTE.search(loc) else "europe"), _CODES[m.group(1).upper()]
+    if m:
+        return "other", ""
     m = _CODE_RX.search(loc)
-    if m and not _NON_EU.search(loc):
+    if m:
         return ("remote" if _REMOTE.search(loc) else "europe"), _CODES[m.group(1)]
     if _REMOTE.search(loc):
         return "remote", ""

@@ -9,7 +9,9 @@ from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from .sources import SOURCES
-from .fetchers import FETCHERS, fetch_detail
+import re
+
+from .fetchers import FETCHERS, fetch_detail, parse_date
 from .classify import (CLASSIFIER_VERSION, CORE_TOPICS, kind_of, topics_of, desc_topics, eligibility, region_of)
 
 log = logging.getLogger("run")
@@ -62,7 +64,7 @@ def _run_source(cfg):
                 "title": r["title"][:220],
                 "location": (r.get("location") or cfg.get("default_location") or "")[:140],
                 "url": r["url"],
-                "posted": r.get("posted") or None,
+                "posted": parse_date(r.get("posted")),
                 "kind": kind,
                 "tags": topics_of(f"{r['title']} {r.get('extra', '') if cfg['type'] != 'link_scan' else ''}"),
                 "via": cfg["type"],
@@ -76,20 +78,30 @@ def _run_source(cfg):
     return status, out
 
 
+_VAGUE_LOC = re.compile(r"^\s*(\d+ locations?|multiple (cities|locations)|in-office|various)?\s*$", re.I)
+
+
 def _enrich(job, raw, prev):
-    """Description-based fields: eligibility (graduates / students / unknown) and extra topics."""
+    """Description-based fields: eligibility, extra topics, better location and posting date."""
     p = prev.get(job["id"])
+    if p:
+        # keep the earliest known posting date and the most precise location
+        job["posted"] = parse_date(p.get("posted")) or job["posted"]
+        if _VAGUE_LOC.match(job["location"] or "") and p.get("location") and not _VAGUE_LOC.match(p["location"]):
+            job["location"] = p["location"]
     if p and p.get("v") == CLASSIFIER_VERSION and p.get("elig_why") != "description not available":
         for k in ("elig", "elig_why", "dtags", "desc_len"):
             job[k] = p.get(k)
-        if not job["location"] and p.get("location"):
-            job["location"] = p["location"]
         return job, False
     desc = raw.get("desc") or ""
     fetched = False
     if len(desc) < 200 and raw.get("_allow_fetch"):
         try:
-            desc = fetch_detail(raw) or desc
+            d = fetch_detail(raw)
+            desc = d["desc"] or desc
+            if d["location"] and (_VAGUE_LOC.match(job["location"] or "") or len(d["location"]) > len(job["location"])):
+                job["location"] = d["location"][:140]
+            job["posted"] = job["posted"] or d["posted"]
             fetched = True
         except Exception as e:  # noqa: BLE001
             log.info("detail failed for %s: %s", job["url"], e)
@@ -105,6 +117,13 @@ def main():
     os.makedirs(DATA_DIR, exist_ok=True)
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     prev = _load_prev()
+    try:
+        with open(JOBS_PATH) as f:
+            started = json.load(f).get("started")
+    except Exception:  # noqa: BLE001
+        started = None
+    # first day of tracking: postings without a publication date seen that day have an unknown age
+    started = started or min([j["first_seen"] for j in prev.values()] or [today])
     try:
         with open(OFFTOPIC_PATH) as f:
             offtopic = json.load(f)
@@ -166,7 +185,7 @@ def main():
     jobs_list = sorted(all_jobs.values(), key=lambda j: (j["first_seen"], j["company"], j["title"]), reverse=True)
 
     with open(JOBS_PATH, "w") as f:
-        json.dump({"generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        json.dump({"generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "started": started,
                    "count": len(jobs_list), "jobs": jobs_list}, f, indent=1, ensure_ascii=False)
     # forget off-topic ids not seen for 30 days
     cutoff = datetime.fromtimestamp(time.time() - 30 * 86400, timezone.utc).strftime("%Y-%m-%d")

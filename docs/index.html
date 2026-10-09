@@ -95,7 +95,7 @@
       <option value="ok">Open to graduates only</option>
       <option value="">All (incl. students-only)</option>
     </select>
-    <label><input type="checkbox" id="newonly"> new (7 days)</label>
+    <label title="published in the last 7 days (postings whose publication date is unknown are left out)"><input type="checkbox" id="newonly"> posted ≤ 7 days</label>
     <span class="count" id="count"></span>
   </div>
   <div class="row">
@@ -129,7 +129,7 @@
       <th data-k="elig">Graduates?<span class="dir"></span></th>
       <th data-k="location" class="hide-sm">Location<span class="dir"></span></th>
       <th data-k="tags" class="hide-sm">Topics<span class="dir"></span></th>
-      <th data-k="first_seen">First seen<span class="dir"></span></th>
+      <th data-k="age">Posted<span class="dir"></span></th>
     </tr>
   </thead>
   <tbody id="rows"></tbody>
@@ -145,7 +145,7 @@
     <li><a href="https://recruitment.jrc.ec.europa.eu/graduate-trainees" target="_blank" rel="noopener">JRC graduate trainees</a> (Ispra, Seville, Geel, Karlsruhe, Petten; energy, environment, AI)</li>
     <li><a href="https://traineeships.ec.europa.eu/" target="_blank" rel="noopener">European Commission Blue Book traineeship</a> (two sessions a year, for graduates)</li>
     <li><a href="https://eumetsat.int/careers-eumetsat/early-career-programme" target="_blank" rel="noopener">EUMETSAT early career programme</a></li>
-    <li><a href="https://mon-vie-via.businessfrance.fr/" target="_blank" rel="noopener">VIE — Volontariat International en Entreprise</a> (EU citizens 18–28, French companies abroad; also tracked above if the API works)</li>
+    <li><a href="https://mon-vie-via.businessfrance.fr/" target="_blank" rel="noopener">VIE — Volontariat International en Entreprise</a> (EU citizens 18–28, paid placements abroad with French companies)</li>
     <li><a href="https://www.imec-int.com/work-at-imec/job-opportunities/phd-at-imec" target="_blank" rel="noopener">imec PhD positions</a> · <a href="https://www.imec-int.com/en/work-at-imec/master-thesis-internship" target="_blank" rel="noopener">imec internships</a> (Belgium / Netherlands)</li>
   </ul>
   <h3>Remote, paid open-source programmes</h3>
@@ -156,7 +156,9 @@
   </ul>
   <h3>Career sites to search by hand</h3>
   <ul>
-    <li><a href="https://jobs.careers.microsoft.com/global/en/search?q=cloud%20intern" target="_blank" rel="noopener">Microsoft</a> · <a href="https://careers.qualcomm.com/careers?query=intern" target="_blank" rel="noopener">Qualcomm</a> · <a href="https://www.ericsson.com/en/careers/students-early-careers/internships" target="_blank" rel="noopener">Ericsson early careers</a> · <a href="https://orange.jobs/" target="_blank" rel="noopener">Orange</a></li>
+    <li>Telco: <a href="https://jobs.ericsson.com/careers" target="_blank" rel="noopener">Ericsson jobs</a> (<a href="https://www.ericsson.com/en/careers/students-early-careers/internships" target="_blank" rel="noopener">early careers</a>) · <a href="https://orange.jobs/" target="_blank" rel="noopener">Orange</a> · <a href="https://careers.qualcomm.com/careers?query=intern" target="_blank" rel="noopener">Qualcomm</a></li>
+    <li>Tech: <a href="https://jobs.careers.microsoft.com/global/en/search?q=cloud%20intern" target="_blank" rel="noopener">Microsoft</a></li>
+    <li>Research / PhD: <a href="https://emploi.cnrs.fr/" target="_blank" rel="noopener">CNRS</a> · <a href="https://itlisbon.recruiterbox.com" target="_blank" rel="noopener">Instituto de Telecomunicações (Lisbon)</a> · <a href="https://www.findaphd.com/" target="_blank" rel="noopener">FindAPhD</a> · <a href="https://www.academictransfer.com/en/" target="_blank" rel="noopener">AcademicTransfer (NL)</a> · <a href="https://academicpositions.com/" target="_blank" rel="noopener">Academic Positions</a></li>
     <li>LinkedIn searches (EU): <a href="https://www.linkedin.com/jobs/search/?keywords=graduate%20devops&location=European%20Union" target="_blank" rel="noopener">graduate devops</a> · <a href="https://www.linkedin.com/jobs/search/?keywords=graduate%20cloud%20engineer&location=European%20Union" target="_blank" rel="noopener">graduate cloud</a> · <a href="https://www.linkedin.com/jobs/search/?keywords=telecom%20graduate%20programme&location=European%20Union" target="_blank" rel="noopener">telecom graduate programme</a> · <a href="https://www.linkedin.com/jobs/search/?keywords=green%20software%20OR%20sustainable%20computing&location=European%20Union" target="_blank" rel="noopener">green software</a></li>
     <li>Welcome to the Jungle: <a href="https://www.welcometothejungle.com/en/jobs?query=devops%20intern" target="_blank" rel="noopener">devops intern</a> · <a href="https://www.welcometothejungle.com/en/jobs?query=VIE%20cloud" target="_blank" rel="noopener">VIE cloud</a></li>
   </ul>
@@ -172,7 +174,8 @@
   “Graduates?” is read from the job description: <b class="el graduates">graduates</b> = explicitly open to graduates (or a PhD / graduate programme / research post),
   <b class="el students">students</b> = asks for current enrolment (convention de stage, Pflichtpraktikum, “currently enrolled”…),
   <b class="el unknown">unclear</b> = nothing found. Hover the label to see the phrase it was based on, and always check the posting.
-  Dashed topic tags come from the description only.
+  Dashed topic tags come from the description only. “Posted” is the publication date given by the career site;
+  “seen …” means the site gives no date and it is the day the tracker first found the posting. The page reloads the data by itself when a new update is published.
 </footer>
 
 <script>
@@ -181,7 +184,7 @@
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const KIND = {internship:'internship', graduate:'graduate prog.', phd:'PhD', research:'research eng.', junior:'junior'};
   const ELIG = {graduates:'graduates', students:'students only', unknown:'unclear'};
-  let jobs = [], sortKey = 'first_seen', sortDir = -1;
+  let jobs = [], started = '', generatedAt = null, sortKey = 'age', sortDir = -1;
 
   // remember filters per browser (optional convenience)
   const store = { get(k){ try { return JSON.parse(localStorage.getItem('f:'+k)); } catch(e){ return null; } },
@@ -190,16 +193,36 @@
   inputs.forEach((x, i) => { const v = store.get(x.id || x.className + x.value); if (v !== null) { if (x.type === 'checkbox') x.checked = v; else x.value = v; } });
   const save = () => inputs.forEach(x => store.set(x.id || x.className + x.value, x.type === 'checkbox' ? x.checked : x.value));
 
-  const data = await fetch('data/jobs.json?' + Date.now()).then(r => r.json()).catch(() => ({jobs: []}));
-  jobs = data.jobs || [];
-  $('#meta').textContent = `${jobs.length} postings · last update ${data.generated_at ? new Date(data.generated_at).toLocaleString() : 'n/a'}`;
+  const DAY = 864e5;
+  const isoDaysAgo = n => new Date(Date.now() - n * DAY).toISOString().slice(0, 10);
+  // publication date if known; otherwise the day the tracker first saw it (unless it was there from day one)
+  const ageOf = j => j.posted || (j.first_seen > started ? j.first_seen : '');
+  const isNew = j => { const a = ageOf(j); return !!a && a >= isoDaysAgo(7); };
+  const effTags = (j, usedesc) => {
+    const t = (j.tags || []).filter(x => x !== 'other').concat(usedesc ? (j.dtags || []) : []);
+    return t.length ? t : ['other'];
+  };
 
-  const companies = [...new Set(jobs.map(j => j.company.split(' · ')[0]))].sort((a, b) => a.localeCompare(b));
-  for (const c of companies) { const o = document.createElement('option'); o.value = c; o.textContent = c; $('#company').appendChild(o); }
-  const sc = store.get('company'); if (sc) $('#company').value = sc;
+  function fillCompanies() {
+    const sel = $('#company'), cur = sel.value || store.get('company') || '';
+    sel.length = 1;
+    const companies = [...new Set(jobs.map(j => j.company.split(' · ')[0]))].sort((a, b) => a.localeCompare(b));
+    for (const c of companies) { const o = document.createElement('option'); o.value = c; o.textContent = c; sel.appendChild(o); }
+    if (companies.includes(cur)) sel.value = cur;
+  }
 
-  const sevenDays = Date.now() - 7 * 864e5;
-  const isNew = j => new Date(j.first_seen) >= sevenDays;
+  async function load() {
+    const data = await fetch('data/jobs.json?' + Date.now(), {cache: 'no-store'}).then(r => r.json()).catch(() => null);
+    if (!data || data.generated_at === generatedAt) return false;
+    generatedAt = data.generated_at;
+    jobs = (data.jobs || []).map(j => ({...j, age: '', posted: /^\d{4}-\d\d-\d\d$/.test(j.posted || '') ? j.posted : null}));
+    started = data.started || jobs.reduce((m, j) => (!m || j.first_seen < m ? j.first_seen : m), '');
+    jobs.forEach(j => j.age = ageOf(j) || ('0000 ' + j.first_seen));
+    $('#meta').textContent = `${jobs.length} postings · last update ${generatedAt ? new Date(generatedAt).toLocaleString() : 'n/a'}`;
+    fillCompanies();
+    return true;
+  }
+  await load();
 
   function regionOk(j, r) {
     if (!r) return true;
@@ -217,7 +240,7 @@
     const newonly = $('#newonly').checked, usedesc = $('#usedesc').checked;
 
     let rows = jobs.filter(j => {
-      const t = usedesc ? [...(j.tags || []), ...(j.dtags || [])] : (j.tags || []);
+      const t = effTags(j, usedesc);
       return (!g || j.group === g) && (!c || j.company.split(' · ')[0] === c) &&
         t.some(x => tags.includes(x)) && kinds.includes(j.kind) && regionOk(j, r) &&
         (!e || (e === 'ok' ? j.elig === 'graduates' : j.elig !== 'students')) &&
@@ -236,8 +259,8 @@
       <td class="hide-sm"><span class="kind">${esc(KIND[j.kind] || j.kind)}</span></td>
       <td><span class="el ${esc(j.elig)}" title="${esc(j.elig_why || '')}">${esc(ELIG[j.elig] || j.elig)}</span></td>
       <td class="hide-sm">${esc(j.location) || '<span class="muted">—</span>'}</td>
-      <td class="hide-sm">${(j.tags || []).map(t => `<span class="tag ${t}">${t}</span>`).join('')}${(j.dtags || []).map(t => `<span class="tag d ${t}" title="from the description">${t}</span>`).join('')}</td>
-      <td>${esc(j.first_seen)}</td>
+      <td class="hide-sm">${(j.tags || []).filter(t => t !== 'other' || !(usedesc && (j.dtags || []).length)).map(t => `<span class="tag ${t}">${t}</span>`).join('')}${usedesc ? (j.dtags || []).map(t => `<span class="tag d ${t}" title="from the description">${t}</span>`).join('') : ''}</td>
+      <td style="white-space:nowrap">${j.posted ? esc(j.posted) : `<span class="muted" title="${j.first_seen > started ? 'no publication date on the site: first seen by the tracker' : 'no publication date on the site; already listed when tracking started'}">seen ${esc(j.first_seen)}</span>`}</td>
     </tr>`).join('');
     $('#count').textContent = `${rows.length} shown`;
     document.querySelectorAll('th').forEach(th => th.querySelector('.dir').textContent = th.dataset.k === sortKey ? (sortDir > 0 ? '▲' : '▼') : '');
@@ -245,15 +268,26 @@
 
   document.querySelectorAll('th').forEach(th => th.addEventListener('click', () => {
     const k = th.dataset.k;
-    if (sortKey === k) sortDir = -sortDir; else { sortKey = k; sortDir = k === 'first_seen' ? -1 : 1; }
+    if (sortKey === k) sortDir = -sortDir; else { sortKey = k; sortDir = k === 'age' ? -1 : 1; }
     render();
   }));
   document.querySelectorAll('.controls input, .controls select').forEach(x => x.addEventListener(x.type === 'text' ? 'input' : 'change', render));
   render();
 
+  // auto-refresh: look for new data every 10 minutes and when the tab comes back into view
+  let lastCheck = Date.now();
+  async function refresh() {
+    lastCheck = Date.now();
+    if (await load()) { render(); loadStatus(); }
+  }
+  setInterval(refresh, 10 * 60 * 1000);
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible' && Date.now() - lastCheck > 2 * 60 * 1000) refresh();
+  });
+
   // source status
-  try {
-    const st = await fetch('data/status.json?' + Date.now()).then(r => r.json());
+  async function loadStatus() { try {
+    const st = await fetch('data/status.json?' + Date.now(), {cache: 'no-store'}).then(r => r.json());
     const srcs = st.sources || [];
     const bad = srcs.filter(s => !s.ok).length;
     $('#statussum').textContent = `Source status: ${srcs.length - bad}/${srcs.length} ok${bad ? ` (${bad} failing)` : ''}`;
@@ -262,7 +296,8 @@
       <td>${esc(s.company)}</td><td class="muted">${esc(s.type)}</td>
       <td>${s.ok ? `${s.kept} kept / ${s.raw} raw` : `<span class="err">${esc(s.error)}</span>`}</td>
       <td class="muted">${esc(s.note || '')}</td></tr>`).join('');
-  } catch (e) {}
+  } catch (e) {} }
+  loadStatus();
 })();
 </script>
 </body>

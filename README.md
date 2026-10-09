@@ -46,6 +46,8 @@ GitHub Actions (cron) -> python -m scraper -> docs/data/*.json -> git commit -> 
     PhD, graduate-programme and research-engineer posts count as open to graduates. In France a *stage* legally needs a
     *convention de stage* from a school, so French stages without an explicit "graduates welcome" are marked `students`.
   - **region**: Europe / remote / outside Europe, with the country when it can be recognised.
+  - **posted**: publication date as given by the career site (Workday's "Posted 3 days ago" is converted to a date).
+    When a site gives no date, the page shows the day the tracker first saw the posting.
 - `scraper/run.py` — runs the sources in parallel, keeps only early-career titles, downloads descriptions for the new
   ones (max 80 per source per run, cached afterwards in `jobs.json`), merges with the previous data to keep
   `first_seen`, and keeps old postings from sources that failed today.
@@ -55,8 +57,11 @@ GitHub Actions (cron) -> python -m scraper -> docs/data/*.json -> git commit -> 
 - Rules are keyword based, so expect some wrong labels: always open the posting before applying.
 - Sources marked `# unverified` in `sources.py` are best guesses (ATS slug or page layout). If one is wrong, the
   *Source status* panel on the site shows the error. Fix the slug/URL or delete the entry.
-- JavaScript-only career sites (ESA, JRC, imec, most telecom operators) can't be scraped with plain HTTP requests;
-  they are linked in the *Check by hand* section of the page instead.
+- JavaScript-only career sites and sites that block GitHub's servers (ESA, JRC, imec, CNRS, Ericsson, Vodafone, VIE,
+  FindAPhD, most telecom operators) can't be scraped with plain HTTP requests; they are linked in the *Check by hand*
+  section of the page instead.
+- The page checks for new data every 10 minutes (and when the tab comes back into view); the data itself is refreshed
+  once a day by the workflow (`cron` in `.github/workflows/update.yml`).
 - `.github/workflows/probe.yml` runs any shell command on a GitHub runner and pushes the output to the `probe` branch:
   handy to see what a broken source actually returns (e.g. `curl -s https://... | head -c 5000`).
 
