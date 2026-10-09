@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-09T10:13:15+00:00",
- "count": 834,
+ "generated_at": "2026-10-09T12:13:42+00:00",
+ "count": 871,
  "jobs": [
   {
    "id": "50301ba803f0",
@@ -627,6 +627,29 @@
    "desc_len": 3549,
    "region": "europe",
    "country": "France",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "2b877faa06df",
+   "company": "Thales",
+   "group": "big",
+   "title": "STAGE - Eco-conception et Analyse de Cycle de Vie Produit - F/H",
+   "location": "La Ferté-Saint-Aubin",
+   "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/La-Fert-Saint-Aubin/STAGE---Eco-conception-et-Analyse-de-Cycle-de-Vie-Produit---F-H_R0342306",
+   "posted": null,
+   "kind": "internship",
+   "tags": [
+    "green"
+   ],
+   "via": "workday",
+   "elig": "unknown",
+   "elig_why": "",
+   "dtags": [],
+   "desc_len": 3971,
+   "region": "",
+   "country": "",
    "first_seen": "2026-10-09",
    "last_seen": "2026-10-09",
    "v": 3
@@ -2173,6 +2196,29 @@
    "v": 3
   },
   {
+   "id": "f45146fd0933",
+   "company": "Nokia",
+   "group": "telco",
+   "title": "Working Student - ULI PLAB/security engineer",
+   "location": "Hungary",
+   "url": "https://jobs.nokia.com/en/sites/CX_1/job/40584",
+   "posted": "2026-10-09",
+   "kind": "internship",
+   "tags": [
+    "cloud"
+   ],
+   "via": "oracle_hcm",
+   "elig": "students",
+   "elig_why": "Working Student - ULI PLAB/security engineer We are seeking motiv",
+   "dtags": [],
+   "desc_len": 1735,
+   "region": "europe",
+   "country": "Central/Eastern Europe",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
    "id": "5057df753c99",
    "company": "Nokia",
    "group": "telco",
@@ -2365,31 +2411,6 @@
    "desc_len": 1703,
    "region": "other",
    "country": "",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-09",
-   "v": 3
-  },
-  {
-   "id": "c5c7d6092b0d",
-   "company": "Nokia",
-   "group": "telco",
-   "title": "Order Fulfilment Planner",
-   "location": "Italy",
-   "url": "https://jobs.nokia.com/en/sites/CX_1/job/38022",
-   "posted": "2026-09-30",
-   "kind": "junior",
-   "tags": [
-    "telco"
-   ],
-   "via": "oracle_hcm",
-   "elig": "graduates",
-   "elig_why": "junior position",
-   "dtags": [
-    "ml"
-   ],
-   "desc_len": 2547,
-   "region": "europe",
-   "country": "Italy",
    "first_seen": "2026-10-09",
    "last_seen": "2026-10-09",
    "v": 3
@@ -4809,6 +4830,31 @@
    "v": 3
   },
   {
+   "id": "ff064521f105",
+   "company": "MongoDB",
+   "group": "big",
+   "title": "2027 - Software Engineer Intern, Dublin - 6 Month Internship",
+   "location": "Dublin",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=8258279",
+   "posted": "2026-10-09",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "greenhouse",
+   "elig": "students",
+   "elig_why": "-oriented programming language. Have a minimum of one semester remaining in university studies after the internship conclu",
+   "dtags": [
+    "cloud"
+   ],
+   "desc_len": 4969,
+   "region": "europe",
+   "country": "Ireland",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
    "id": "6cc3a60b73d6",
    "company": "Intel",
    "group": "big",
@@ -5236,6 +5282,31 @@
     "cloud"
    ],
    "desc_len": 4422,
+   "region": "",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "185882afec07",
+   "company": "Intel",
+   "group": "big",
+   "title": "AI/ML Software App Development Intern",
+   "location": "PRC, Chengdu",
+   "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/PRC-Chengdu/AI-ML-Software-App-Development-Intern_JR0286946",
+   "posted": null,
+   "kind": "internship",
+   "tags": [
+    "ml"
+   ],
+   "via": "workday",
+   "elig": "unknown",
+   "elig_why": "",
+   "dtags": [
+    "cloud"
+   ],
+   "desc_len": 3816,
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
@@ -6442,12 +6513,12 @@
    "v": 3
   },
   {
-   "id": "7fc6d1c1a4c4",
+   "id": "5e6abe44ac26",
    "company": "IBM",
    "group": "big",
    "title": "Site Reliability Engineer Intern 2027",
    "location": "Markham, CA",
-   "url": "https://careers.ibm.com/careers/JobDetail?jobId=133067",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=133062",
    "posted": null,
    "kind": "internship",
    "tags": [
@@ -6490,12 +6561,12 @@
    "v": 3
   },
   {
-   "id": "5e6abe44ac26",
+   "id": "7fc6d1c1a4c4",
    "company": "IBM",
    "group": "big",
    "title": "Site Reliability Engineer Intern 2027",
    "location": "Markham, CA",
-   "url": "https://careers.ibm.com/careers/JobDetail?jobId=133062",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=133067",
    "posted": null,
    "kind": "internship",
    "tags": [
@@ -9342,6 +9413,32 @@
    "v": 3
   },
   {
+   "id": "99e8e6ceff0c",
+   "company": "HPE (incl. Juniper)",
+   "group": "big",
+   "title": "Electrical Hardware Engineering Intern",
+   "location": "Spring, Texas, United States of America",
+   "url": "https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Spring-Texas-United-States-of-America/Hardware-Engineering-Intern_1213421",
+   "posted": null,
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "lly approach the use case Education & Experience: Currently pursuing a bachelor's degree in Electrical Engineering or",
+   "dtags": [
+    "cloud",
+    "ml"
+   ],
+   "desc_len": 7655,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
    "id": "248bc8049442",
    "company": "HPE (incl. Juniper)",
    "group": "big",
@@ -10030,22 +10127,24 @@
    "v": 3
   },
   {
-   "id": "1a2d0b8c0649",
+   "id": "a551f85ea289",
    "company": "HPE (incl. Juniper)",
    "group": "big",
-   "title": "APJ Intern Program Manager",
-   "location": "Bengaluru, Karnātaka, India",
-   "url": "https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Bengaluru-Karntaka-India/APJ-Intern-Program-Manager_1211093-2",
+   "title": "AI and Machine Learning Intern",
+   "location": "Singapore, Central Singapore, Singapore",
+   "url": "https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Singapore-Central-Singapore-Singapore/AI-and-Machine-Learning-Intern_1213583",
    "posted": null,
    "kind": "internship",
    "tags": [
-    "other"
+    "ml"
    ],
    "via": "workday",
-   "elig": "students",
-   "elig_why": "ilities: Supports the beginning-to-end intern and apprenticeship experience, with a focus on programing. Activitie",
-   "dtags": [],
-   "desc_len": 6356,
+   "elig": "unknown",
+   "elig_why": "",
+   "dtags": [
+    "cloud"
+   ],
+   "desc_len": 5228,
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
@@ -11142,29 +11241,6 @@
    "v": 3
   },
   {
-   "id": "1a5db89284e9",
-   "company": "Google",
-   "group": "big",
-   "title": "Junior RTL Design Engineer, Google Cloud",
-   "location": "Tel Aviv, Israel",
-   "url": "https://www.google.com/about/careers/applications/jobs/results/140723940472300230-junior-rtl-design-engineer-google-cloud",
-   "posted": null,
-   "kind": "junior",
-   "tags": [
-    "cloud"
-   ],
-   "via": "google",
-   "elig": "graduates",
-   "elig_why": "junior position",
-   "dtags": [],
-   "desc_len": 0,
-   "region": "other",
-   "country": "",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-09",
-   "v": 3
-  },
-  {
    "id": "dfa907b3d877",
    "company": "Google",
    "group": "big",
@@ -11617,6 +11693,32 @@
    "desc_len": 6772,
    "region": "other",
    "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "5f70ae5840e0",
+   "company": "Google",
+   "group": "big",
+   "title": "Applied ML Graph Neural Network Research Software Engineer",
+   "location": "Zürich, Switzerland",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/115399839411249862-applied-ml-graph-neural-network-research-software-engineer",
+   "posted": null,
+   "kind": "research",
+   "tags": [
+    "ml",
+    "research"
+   ],
+   "via": "google",
+   "elig": "graduates",
+   "elig_why": "research position",
+   "dtags": [
+    "cloud"
+   ],
+   "desc_len": 5325,
+   "region": "europe",
+   "country": "Switzerland",
    "first_seen": "2026-10-09",
    "last_seen": "2026-10-09",
    "v": 3
@@ -13798,32 +13900,6 @@
    "v": 3
   },
   {
-   "id": "f8d546638584",
-   "company": "Elastic",
-   "group": "cloud",
-   "title": "Software Engineer I - AI Observability",
-   "location": "Portugal",
-   "url": "https://jobs.elastic.co/jobs?gh_jid=8260767&gh_jid=8260767",
-   "posted": "2026-10-07",
-   "kind": "junior",
-   "tags": [
-    "devops",
-    "ml"
-   ],
-   "via": "greenhouse",
-   "elig": "graduates",
-   "elig_why": "junior position",
-   "dtags": [
-    "cloud"
-   ],
-   "desc_len": 7639,
-   "region": "europe",
-   "country": "Portugal",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-09",
-   "v": 3
-  },
-  {
    "id": "f6eaed57a9f8",
    "company": "Elastic",
    "group": "cloud",
@@ -13845,6 +13921,32 @@
    "desc_len": 7639,
    "region": "europe",
    "country": "Central/Eastern Europe",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "f8d546638584",
+   "company": "Elastic",
+   "group": "cloud",
+   "title": "Software Engineer I - AI Observability",
+   "location": "Portugal",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8260767&gh_jid=8260767",
+   "posted": "2026-10-07",
+   "kind": "junior",
+   "tags": [
+    "devops",
+    "ml"
+   ],
+   "via": "greenhouse",
+   "elig": "graduates",
+   "elig_why": "junior position",
+   "dtags": [
+    "cloud"
+   ],
+   "desc_len": 7639,
+   "region": "europe",
+   "country": "Portugal",
    "first_seen": "2026-10-09",
    "last_seen": "2026-10-09",
    "v": 3
@@ -13925,31 +14027,6 @@
    "v": 3
   },
   {
-   "id": "bd34f5c2790c",
-   "company": "Datadog",
-   "group": "cloud",
-   "title": "Software Engineering Intern",
-   "location": "Paris, France",
-   "url": "https://careers.datadoghq.com/detail/8114186/?gh_jid=8114186",
-   "posted": "2026-09-29",
-   "kind": "internship",
-   "tags": [
-    "other"
-   ],
-   "via": "greenhouse",
-   "elig": "unknown",
-   "elig_why": "",
-   "dtags": [
-    "cloud"
-   ],
-   "desc_len": 5280,
-   "region": "europe",
-   "country": "France",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-09",
-   "v": 3
-  },
-  {
    "id": "97ef482d0679",
    "company": "Datadog",
    "group": "cloud",
@@ -13970,6 +14047,31 @@
    "desc_len": 5259,
    "region": "europe",
    "country": "Spain",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "bd34f5c2790c",
+   "company": "Datadog",
+   "group": "cloud",
+   "title": "Software Engineering Intern",
+   "location": "Paris, France",
+   "url": "https://careers.datadoghq.com/detail/8114186/?gh_jid=8114186",
+   "posted": "2026-09-29",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "greenhouse",
+   "elig": "unknown",
+   "elig_why": "",
+   "dtags": [
+    "cloud"
+   ],
+   "desc_len": 5280,
+   "region": "europe",
+   "country": "France",
    "first_seen": "2026-10-09",
    "last_seen": "2026-10-09",
    "v": 3
@@ -14126,12 +14228,12 @@
    "v": 3
   },
   {
-   "id": "a187a11aa23d",
+   "id": "ac6454b48c6a",
    "company": "Databricks",
    "group": "big",
    "title": "Systems PhD - Software Engineer",
-   "location": "Bellevue, Washington; Seattle, Washington",
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8482086002",
+   "location": "Mountain View, California; San Francisco, California",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8482037002",
    "posted": "2026-09-21",
    "kind": "phd",
    "tags": [
@@ -14152,12 +14254,12 @@
    "v": 3
   },
   {
-   "id": "ac6454b48c6a",
+   "id": "a187a11aa23d",
    "company": "Databricks",
    "group": "big",
    "title": "Systems PhD - Software Engineer",
-   "location": "Mountain View, California; San Francisco, California",
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8482037002",
+   "location": "Bellevue, Washington; Seattle, Washington",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8482086002",
    "posted": "2026-09-21",
    "kind": "phd",
    "tags": [
@@ -14478,32 +14580,6 @@
    "v": 3
   },
   {
-   "id": "05a9673ed244",
-   "company": "Cloudflare",
-   "group": "cloud",
-   "title": "Software Engineer Intern (2027)",
-   "location": "In-Office",
-   "url": "https://boards.greenhouse.io/cloudflare/jobs/8245197?gh_jid=8245197",
-   "posted": "2026-10-05",
-   "kind": "internship",
-   "tags": [
-    "other"
-   ],
-   "via": "greenhouse",
-   "elig": "graduates",
-   "elig_why": "hours are typically 9:00 AM – 6:00 PM. You should not be enrolled in classes, which would conflict with full-time c",
-   "dtags": [
-    "cloud",
-    "telco"
-   ],
-   "desc_len": 8074,
-   "region": "",
-   "country": "",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-09",
-   "v": 3
-  },
-  {
    "id": "7be051c0f0e3",
    "company": "Cloudflare",
    "group": "cloud",
@@ -14523,6 +14599,32 @@
     "telco"
    ],
    "desc_len": 8018,
+   "region": "",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "05a9673ed244",
+   "company": "Cloudflare",
+   "group": "cloud",
+   "title": "Software Engineer Intern (2027)",
+   "location": "In-Office",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8245197?gh_jid=8245197",
+   "posted": "2026-10-05",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "greenhouse",
+   "elig": "graduates",
+   "elig_why": "hours are typically 9:00 AM – 6:00 PM. You should not be enrolled in classes, which would conflict with full-time c",
+   "dtags": [
+    "cloud",
+    "telco"
+   ],
+   "desc_len": 8074,
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
@@ -17272,6 +17374,31 @@
    "v": 3
   },
   {
+   "id": "64db5c73184f",
+   "company": "Bosch",
+   "group": "big",
+   "title": "【MA】Internship Regional Product Manager in Aftermarket Asia Pacific South",
+   "location": "Bosch Corporation_Internship, jp",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000150296334",
+   "posted": "2026-09-18",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "smartrecruiters",
+   "elig": "students",
+   "elig_why": "e to work 20, 28 or 40 hours a week. Be regularly enrolled at a university during the entire internship period. Be flexible,",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 3804,
+   "region": "",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
    "id": "ff083ebe71e0",
    "company": "Bosch",
    "group": "big",
@@ -17297,6 +17424,81 @@
    "v": 3
   },
   {
+   "id": "882672be62c3",
+   "company": "Bosch",
+   "group": "big",
+   "title": "[SO] Supply Chain Intern (Korean/Japanese/German + English)",
+   "location": "Thành phố Hồ Chí Minh, vn",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000148963319",
+   "posted": "2026-09-11",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "smartrecruiters",
+   "elig": "unknown",
+   "elig_why": "",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 3621,
+   "region": "",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "6628ad002d53",
+   "company": "Bosch",
+   "group": "big",
+   "title": "[SO] Project Management Intern (EN+JP)",
+   "location": "Thành phố Hồ Chí Minh, vn",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000150304599",
+   "posted": "2026-09-18",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "smartrecruiters",
+   "elig": "unknown",
+   "elig_why": "",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 3670,
+   "region": "",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "d47cf4a93ee4",
+   "company": "Bosch",
+   "group": "big",
+   "title": "[SO] Product Legal Analysis Intern",
+   "location": "Thành phố Hồ Chí Minh, vn",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000152062849",
+   "posted": "2026-09-28",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "smartrecruiters",
+   "elig": "unknown",
+   "elig_why": "",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 3572,
+   "region": "",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
    "id": "fcc6a681eec2",
    "company": "Bosch",
    "group": "big",
@@ -17315,6 +17517,81 @@
     "green"
    ],
    "desc_len": 3575,
+   "region": "",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "ba082ad498ae",
+   "company": "Bosch",
+   "group": "big",
+   "title": "[HRL] HR Intern (Learning & Development)",
+   "location": "Tân Bình, vn",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000152132589",
+   "posted": "2026-09-28",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "smartrecruiters",
+   "elig": "unknown",
+   "elig_why": "",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 2677,
+   "region": "",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "cd11b849f396",
+   "company": "Bosch",
+   "group": "big",
+   "title": "[HRL] Employer Branding Intern",
+   "location": "Tân Bình, vn",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000151278181",
+   "posted": "2026-09-23",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "smartrecruiters",
+   "elig": "unknown",
+   "elig_why": "",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 3740,
+   "region": "",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "9c6749379e0f",
+   "company": "Bosch",
+   "group": "big",
+   "title": "[FCM] Receptionist/Admin Intern",
+   "location": "Hanoi, vn",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000150587649",
+   "posted": "2026-09-21",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "smartrecruiters",
+   "elig": "unknown",
+   "elig_why": "",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 3481,
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
@@ -17361,6 +17638,57 @@
    "elig_why": "junior position",
    "dtags": [],
    "desc_len": 0,
+   "region": "",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "72d4e92e251b",
+   "company": "Bosch",
+   "group": "big",
+   "title": "[EMN] Mechanical Engineer Intern (6-month fulltime Internship)",
+   "location": "Thành phố Hồ Chí Minh, vn",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000150586979",
+   "posted": "2026-09-21",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "smartrecruiters",
+   "elig": "unknown",
+   "elig_why": "",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 3315,
+   "region": "",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "c3a867662c24",
+   "company": "Bosch",
+   "group": "big",
+   "title": "[EAB] Embedded Software Engineer Intern (C/C++)",
+   "location": "Ho Chi Minh, vn",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000152335630",
+   "posted": "2026-09-29",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "smartrecruiters",
+   "elig": "unknown",
+   "elig_why": "",
+   "dtags": [
+    "telco",
+    "green"
+   ],
+   "desc_len": 3678,
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
@@ -17436,6 +17764,31 @@
     "green"
    ],
    "desc_len": 3138,
+   "region": "",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "7590d6100379",
+   "company": "Bosch",
+   "group": "big",
+   "title": "[Bosch R&D – Internship] Technical Documentation Intern",
+   "location": "Ho Chi Minh City, vn",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000148380925",
+   "posted": "2026-09-09",
+   "kind": "internship",
+   "tags": [
+    "research"
+   ],
+   "via": "smartrecruiters",
+   "elig": "unknown",
+   "elig_why": "",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 2701,
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
@@ -17567,6 +17920,58 @@
    "v": 3
   },
   {
+   "id": "f0116b6f7e18",
+   "company": "Bosch",
+   "group": "big",
+   "title": "Working Student Electrical Calibration",
+   "location": "Blaj, ro",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000152220817",
+   "posted": "2026-09-28",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "smartrecruiters",
+   "elig": "students",
+   "elig_why": "Working Student Electrical Calibration Discover Bosch in Blaj Bos",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 5006,
+   "region": "",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "d93cc658d9c4",
+   "company": "Bosch",
+   "group": "big",
+   "title": "Working Student Data Engineering",
+   "location": "Cluj-Napoca, ro",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000151876276",
+   "posted": "2026-09-25",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "smartrecruiters",
+   "elig": "students",
+   "elig_why": "Working Student Data Engineering About Bosch Engineering Center C",
+   "dtags": [
+    "devops",
+    "cloud",
+    "ml"
+   ],
+   "desc_len": 4084,
+   "region": "europe",
+   "country": "Central/Eastern Europe",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
    "id": "60e6fecfb144",
    "company": "Bosch",
    "group": "big",
@@ -17585,6 +17990,31 @@
     "green"
    ],
    "desc_len": 5450,
+   "region": "",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "aa5221377d3c",
+   "company": "Bosch",
+   "group": "big",
+   "title": "Working Student - Industrial Engineering",
+   "location": "Blaj, ro",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000150958359",
+   "posted": "2026-09-22",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "smartrecruiters",
+   "elig": "students",
+   "elig_why": "Working Student - Industrial Engineering Discover Bosch in Blaj B",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 4982,
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
@@ -17616,6 +18046,31 @@
    "v": 3
   },
   {
+   "id": "7f907c58a871",
+   "company": "Bosch",
+   "group": "big",
+   "title": "Training Centre Coordinator - Apprenticeship",
+   "location": "Denham, gb",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000149374160",
+   "posted": "2026-09-14",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "smartrecruiters",
+   "elig": "students",
+   "elig_why": "Training Centre Coordinator - Apprenticeship Do you want your ideas to shape the technology of",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 4630,
+   "region": "",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
    "id": "710577314f00",
    "company": "Bosch",
    "group": "big",
@@ -17634,6 +18089,33 @@
     "green"
    ],
    "desc_len": 3602,
+   "region": "",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "138b85b49e8d",
+   "company": "Bosch",
+   "group": "big",
+   "title": "Research Engineer – Accelerated Materials Discovery",
+   "location": "Watertown, us",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000148881439",
+   "posted": "2026-09-10",
+   "kind": "research",
+   "tags": [
+    "research"
+   ],
+   "via": "smartrecruiters",
+   "elig": "graduates",
+   "elig_why": "research position",
+   "dtags": [
+    "telco",
+    "green",
+    "ml"
+   ],
+   "desc_len": 6389,
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
@@ -17805,6 +18287,56 @@
    "desc_len": 0,
    "region": "europe",
    "country": "Germany",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "4e1229aa8cfe",
+   "company": "Bosch",
+   "group": "big",
+   "title": "Maintenance & TPM Support Intern",
+   "location": "Šimanovci, rs",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000151301569",
+   "posted": "2026-09-23",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "smartrecruiters",
+   "elig": "graduates",
+   "elig_why": "rm other tasks where additional support is needed Recent Graduate or undergraduate student of: Mechanical Engineer",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 2637,
+   "region": "",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "f0800261f381",
+   "company": "Bosch",
+   "group": "big",
+   "title": "Logistics Dispatch Intern",
+   "location": "Šimanovci, rs",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000151793360",
+   "posted": "2026-09-25",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "smartrecruiters",
+   "elig": "unknown",
+   "elig_why": "",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 2120,
+   "region": "",
+   "country": "",
    "first_seen": "2026-10-09",
    "last_seen": "2026-10-09",
    "v": 3
@@ -18138,6 +18670,56 @@
    "v": 3
   },
   {
+   "id": "1e317decdd27",
+   "company": "Bosch",
+   "group": "big",
+   "title": "Internship 2027, Human Resouces and Internship Management, Power Solutions (HmjP/HRL)",
+   "location": "Hemaraj Eastern Seaboard Industrial Estate, th",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000152347099",
+   "posted": "2026-09-29",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "smartrecruiters",
+   "elig": "students",
+   "elig_why": "ted internal communications and presentations. 1) Currently pursuing a Bachelor's degree in Human Resources, Business",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 4009,
+   "region": "",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "0954d03f620d",
+   "company": "Bosch",
+   "group": "big",
+   "title": "Internship 2026, Human Resources - Content Creator, Employer Branding & HR Admin Support (C/PJ-HRSTH)",
+   "location": "Klong Toei, th",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000149286121",
+   "posted": "2026-09-14",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "smartrecruiters",
+   "elig": "students",
+   "elig_why": "with ad hoc tasks as assigned by the supervisor. Currently pursuing a Bachelor’s or Master’s degree in any field. Exc",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 2702,
+   "region": "",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
    "id": "40a2e9e407ec",
    "company": "Bosch",
    "group": "big",
@@ -18157,6 +18739,108 @@
     "ml"
    ],
    "desc_len": 3934,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "90ba7a8a39eb",
+   "company": "Bosch",
+   "group": "big",
+   "title": "Intern, Supply Chain Management",
+   "location": "Singapore, sg",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000152124509",
+   "posted": "2026-09-28",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "smartrecruiters",
+   "elig": "students",
+   "elig_why": "(Qualifications & Skills) Must-Haves: Education: Currently pursuing a Bachelor's degree in Business, Supply Chain Man",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 5543,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "fce767cd06e1",
+   "company": "Bosch",
+   "group": "big",
+   "title": "Intern, Supply Chain",
+   "location": "Singapore, sg",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000150014119",
+   "posted": "2026-09-17",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "smartrecruiters",
+   "elig": "students",
+   "elig_why": "What We're Looking For (Qualifications & Skills) Currently pursuing a Diploma or Bachelor's Degree in Supply Chain Ma",
+   "dtags": [
+    "telco",
+    "green"
+   ],
+   "desc_len": 4052,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "3fe2ed7223e4",
+   "company": "Bosch",
+   "group": "big",
+   "title": "Intern, Sales Excellence Data Analyst",
+   "location": "Singapore, sg",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000150013555",
+   "posted": "2026-09-17",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "smartrecruiters",
+   "elig": "unknown",
+   "elig_why": "",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 4046,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "970e5b83c73f",
+   "company": "Bosch",
+   "group": "big",
+   "title": "Intern, Learning & Development",
+   "location": "Singapore, sg",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000150014589",
+   "posted": "2026-09-17",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "smartrecruiters",
+   "elig": "unknown",
+   "elig_why": "",
+   "dtags": [
+    "green",
+    "ml"
+   ],
+   "desc_len": 4665,
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
@@ -18208,6 +18892,56 @@
     "green"
    ],
    "desc_len": 3725,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "6cffef177d8b",
+   "company": "Bosch",
+   "group": "big",
+   "title": "Intern, Corporate Communications",
+   "location": "Singapore, sg",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000150013809",
+   "posted": "2026-09-17",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "smartrecruiters",
+   "elig": "students",
+   "elig_why": "e for a period of 6 months from Jan - Jun 2027. • Currently enrolled in Mass Communications, Marketing, or other Human",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 3967,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "2e1b6ec28a1d",
+   "company": "Bosch",
+   "group": "big",
+   "title": "Intern, Business Digital Office",
+   "location": "Singapore, sg",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000150014699",
+   "posted": "2026-09-17",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "smartrecruiters",
+   "elig": "unknown",
+   "elig_why": "",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 3545,
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
@@ -18334,6 +19068,56 @@
    "v": 3
   },
   {
+   "id": "50d510082307",
+   "company": "Bosch",
+   "group": "big",
+   "title": "Extracurricular Internship: Product Compliance Engineer (f/m/div.)",
+   "location": "Aveiro, pt",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000148967199",
+   "posted": "2026-09-11",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "smartrecruiters",
+   "elig": "graduates",
+   "elig_why": "Extracurricular Internship: Product Compliance Engineer (f/m/div.",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 3083,
+   "region": "europe",
+   "country": "Portugal",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "797eafb8e0ee",
+   "company": "Bosch",
+   "group": "big",
+   "title": "Extracurricular Internship: Process Digitalization and Automation (f/m/div.)",
+   "location": "Aveiro, pt",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000148967860",
+   "posted": "2026-09-11",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "smartrecruiters",
+   "elig": "graduates",
+   "elig_why": "Extracurricular Internship: Process Digitalization and Automation",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 3063,
+   "region": "europe",
+   "country": "Portugal",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
    "id": "50b949d38396",
    "company": "Bosch",
    "group": "big",
@@ -18381,6 +19165,58 @@
    "v": 3
   },
   {
+   "id": "a473a8be1d89",
+   "company": "Bosch",
+   "group": "big",
+   "title": "Extracurricular Internship: Agile Moderator & Data Engineering (f/m/div.)",
+   "location": "Aveiro, pt",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000148963738",
+   "posted": "2026-09-11",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "smartrecruiters",
+   "elig": "graduates",
+   "elig_why": "Extracurricular Internship: Agile Moderator & Data Engineering (f",
+   "dtags": [
+    "devops",
+    "cloud",
+    "green"
+   ],
+   "desc_len": 3023,
+   "region": "europe",
+   "country": "Portugal",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "38cf3a578744",
+   "company": "Bosch",
+   "group": "big",
+   "title": "Extracurricular Internship: AI & Automation Development (f/m/div.)",
+   "location": "Aveiro, pt",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000148960754",
+   "posted": "2026-09-11",
+   "kind": "internship",
+   "tags": [
+    "ml"
+   ],
+   "via": "smartrecruiters",
+   "elig": "graduates",
+   "elig_why": "Extracurricular Internship: AI & Automation Development (f/m/div.",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 3103,
+   "region": "europe",
+   "country": "Portugal",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
    "id": "e9acf60e4957",
    "company": "Bosch",
    "group": "big",
@@ -18397,6 +19233,31 @@
    "elig_why": "description not available",
    "dtags": [],
    "desc_len": 0,
+   "region": "",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "615154b67937",
+   "company": "Bosch",
+   "group": "big",
+   "title": "2027 Spring Logistics / Packaging Engineering Co-op / LOM",
+   "location": "Charleston, us",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000151687099",
+   "posted": "2026-09-24",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "smartrecruiters",
+   "elig": "students",
+   "elig_why": "y best practices. What you'll bring to the table: Currently pursuing a Bachelor's or Master's degree in Packaging Scie",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 5234,
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
@@ -18683,6 +19544,31 @@
    "v": 3
   },
   {
+   "id": "5464bc92c66e",
+   "company": "Amazon / AWS",
+   "group": "big",
+   "title": "Associate Solutions Architect Intern 2026",
+   "location": "London, England, GBR",
+   "url": "https://www.amazon.jobs/en/jobs/3143769/associate-solutions-architect-intern-2026",
+   "posted": "December 1",
+   "kind": "internship",
+   "tags": [
+    "cloud"
+   ],
+   "via": "amazon",
+   "elig": "graduates",
+   "elig_why": "Web Services (AWS) is seeking motivated students or recent graduates for our Associate Solutions Architect Intern pro",
+   "dtags": [
+    "telco"
+   ],
+   "desc_len": 4236,
+   "region": "europe",
+   "country": "United Kingdom",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
    "id": "ae947cee3b6c",
    "company": "Amazon / AWS",
    "group": "big",
@@ -18951,6 +19837,31 @@
    "v": 3
   },
   {
+   "id": "a607ccda0fe2",
+   "company": "Airbus",
+   "group": "big",
+   "title": "Werkstudent (d/m/w) im Bereich Tool Center-, Calibration- & Logistics Services",
+   "location": "Hamburg Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Werkstudent--d-m-w--im-Bereich-Tool-Center---Calibration----Logistics-Services_JR10445424",
+   "posted": null,
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "Werkstudent (d/m/w) im Bereich Tool Center-, Calibration- & L",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 4597,
+   "region": "europe",
+   "country": "Germany",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
    "id": "0d797befbe6b",
    "company": "Airbus",
    "group": "big",
@@ -19127,6 +20038,31 @@
    "v": 3
   },
   {
+   "id": "c9447d185997",
+   "company": "Airbus",
+   "group": "big",
+   "title": "Stage 2027 - Stagiaire Analyste SOC L1 (All Gender)",
+   "location": "Paris Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Paris-Area/Stage-2027---Stagiaire-Analyste-SOC-L1---All-Gender-_JR10449557",
+   "posted": null,
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "France: a 'stage' needs a convention de stage from a school",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 4931,
+   "region": "europe",
+   "country": "France",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
    "id": "2590f125a20e",
    "company": "Airbus",
    "group": "big",
@@ -19177,37 +20113,12 @@
    "v": 3
   },
   {
-   "id": "6195d70fa1a7",
+   "id": "be76629f6ab7",
    "company": "Airbus",
    "group": "big",
-   "title": "Stage 2027 - Impact environnemental de l'IA (All Gender)",
-   "location": "Toulouse Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/Stage-2027----Impact-environnemental-de-l-IA--All-Gender-_JR10448670",
-   "posted": null,
-   "kind": "internship",
-   "tags": [
-    "ml"
-   ],
-   "via": "workday",
-   "elig": "students",
-   "elig_why": "France: a 'stage' needs a convention de stage from a school",
-   "dtags": [
-    "green"
-   ],
-   "desc_len": 5583,
-   "region": "europe",
-   "country": "France",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-09",
-   "v": 3
-  },
-  {
-   "id": "50753284db86",
-   "company": "Airbus",
-   "group": "big",
-   "title": "Stage 2027 - Gestion de projet en production (all gender)",
-   "location": "Toulouse Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/Stage-2027---Gestion-de-projet-en-production--all-gender-_JR10446776",
+   "title": "Stage 2027 - Management de l'Obsolescence Proactive (All Gender)",
+   "location": "Marseille Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Marseille-Area/Stage-2027---Management-de-l-Obsolescence-Proactive--All-Gender-_JR10449571",
    "posted": null,
    "kind": "internship",
    "tags": [
@@ -19219,7 +20130,32 @@
    "dtags": [
     "green"
    ],
-   "desc_len": 5230,
+   "desc_len": 4249,
+   "region": "europe",
+   "country": "France",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "5c7832e61ae1",
+   "company": "Airbus",
+   "group": "big",
+   "title": "Stage 2027 - High Altitude Debris impact (All Gender)",
+   "location": "Toulouse Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/Stage-2027---High-Altitude-Debris-impact--All-Gender-_JR10449550",
+   "posted": null,
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "France: a 'stage' needs a convention de stage from a school",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 4721,
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
@@ -19245,6 +20181,31 @@
     "green"
    ],
    "desc_len": 5502,
+   "region": "europe",
+   "country": "France",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "06d2ae3fb804",
+   "company": "Airbus",
+   "group": "big",
+   "title": "Stage 2027 - Amélioration du traitement de l'obsolescence (All Gender)",
+   "location": "Marseille Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Marseille-Area/Stage-2027---Amlioration-du-traitement-de-l-obsolescence--All-Gender-_JR10449565",
+   "posted": null,
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "France: a 'stage' needs a convention de stage from a school",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 4396,
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
@@ -19328,24 +20289,26 @@
    "v": 3
   },
   {
-   "id": "c66eec379bc7",
+   "id": "18535ac2d85f",
    "company": "Airbus",
    "group": "big",
-   "title": "STAGE 2027 – Analyste R&T en tolérancement flexible (all gender)",
+   "title": "STAGE 2027 Standardisation IA et intégration dans nos processus logiciels (h/f)",
    "location": "Toulouse Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/STAGE-2027---Analyste-R-T-en-tolrancement-flexible--all-gender-_JR10443312",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/STAGE-2027-Standardisation-IA-et-intgration-dans-nos-processus-logiciels--h-f-_JR10439182",
    "posted": null,
    "kind": "internship",
    "tags": [
-    "other"
+    "ml"
    ],
    "via": "workday",
    "elig": "students",
    "elig_why": "France: a 'stage' needs a convention de stage from a school",
    "dtags": [
+    "devops",
+    "cloud",
     "green"
    ],
-   "desc_len": 4952,
+   "desc_len": 7007,
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
@@ -19556,31 +20519,6 @@
    "v": 3
   },
   {
-   "id": "1251678f1482",
-   "company": "Airbus",
-   "group": "big",
-   "title": "STAGE 2027 - Stage en IA & Automatisation des Processus (ALL GENDER)",
-   "location": "Toulouse Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/STAGE-2027---Stage-en-IA---Automatisation-des-Processus--ALL-GENDER-_JR10442015",
-   "posted": null,
-   "kind": "internship",
-   "tags": [
-    "ml"
-   ],
-   "via": "workday",
-   "elig": "students",
-   "elig_why": "France: a 'stage' needs a convention de stage from a school",
-   "dtags": [
-    "green"
-   ],
-   "desc_len": 5755,
-   "region": "europe",
-   "country": "France",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-09",
-   "v": 3
-  },
-  {
    "id": "c90e9899755e",
    "company": "Airbus",
    "group": "big",
@@ -19600,32 +20538,6 @@
     "green"
    ],
    "desc_len": 9501,
-   "region": "europe",
-   "country": "France",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-09",
-   "v": 3
-  },
-  {
-   "id": "6524d0e8a26b",
-   "company": "Airbus",
-   "group": "big",
-   "title": "STAGE 2027 - Stage en Développement d'application mobile (H/F)",
-   "location": "Marseille Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Marseille-Area/STAGE-2027---Stage-en--Dveloppement-d-application-mobile--H-F-_JR10441232",
-   "posted": null,
-   "kind": "internship",
-   "tags": [
-    "other"
-   ],
-   "via": "workday",
-   "elig": "students",
-   "elig_why": "France: a 'stage' needs a convention de stage from a school",
-   "dtags": [
-    "devops",
-    "green"
-   ],
-   "desc_len": 5742,
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
@@ -19684,6 +20596,32 @@
    "v": 3
   },
   {
+   "id": "98c082da9c38",
+   "company": "Airbus",
+   "group": "big",
+   "title": "STAGE 2027 - Spécialiste marketing digital (H/F)",
+   "location": "Toulouse Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/STAGE-2027---Spcialiste-marketing-digital--H-F-_JR10444387",
+   "posted": null,
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "France: a 'stage' needs a convention de stage from a school",
+   "dtags": [
+    "green",
+    "ml"
+   ],
+   "desc_len": 11639,
+   "region": "europe",
+   "country": "France",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
    "id": "ab3efb733a54",
    "company": "Airbus",
    "group": "big",
@@ -19702,6 +20640,31 @@
     "green"
    ],
    "desc_len": 7049,
+   "region": "europe",
+   "country": "France",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "d7a250b394f6",
+   "company": "Airbus",
+   "group": "big",
+   "title": "STAGE 2027 - Optimisation des plans d'approvisionnement (h/f)",
+   "location": "Toulouse Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/STAGE-2027---Optimisation-des-plans-d-approvisionnement--h-f-_JR10445130",
+   "posted": null,
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "France: a 'stage' needs a convention de stage from a school",
+   "dtags": [
+    "green"
+   ],
+   "desc_len": 4212,
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
@@ -19834,56 +20797,6 @@
    "v": 3
   },
   {
-   "id": "d6761fde8bda",
-   "company": "Airbus",
-   "group": "big",
-   "title": "STAGE 2027 - Ingénieur en production (ALL GENDER)",
-   "location": "Saint Nazaire Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Saint-Nazaire-Area/STAGE-2027---Ingnieur-en-production--ALL-GENDER-_JR10438334",
-   "posted": null,
-   "kind": "internship",
-   "tags": [
-    "other"
-   ],
-   "via": "workday",
-   "elig": "unknown",
-   "elig_why": "",
-   "dtags": [
-    "green"
-   ],
-   "desc_len": 5157,
-   "region": "",
-   "country": "",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-09",
-   "v": 3
-  },
-  {
-   "id": "30c157791bfe",
-   "company": "Airbus",
-   "group": "big",
-   "title": "STAGE 2027 - Ingénieur en planification industrielle (ALL GENDER)",
-   "location": "Méaulte Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Maulte-Area/STAGE-2027---Ingnieur-en-planification-industrielle--ALL-GENDER-_JR10446010",
-   "posted": null,
-   "kind": "internship",
-   "tags": [
-    "other"
-   ],
-   "via": "workday",
-   "elig": "unknown",
-   "elig_why": "",
-   "dtags": [
-    "green"
-   ],
-   "desc_len": 5188,
-   "region": "",
-   "country": "",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-09",
-   "v": 3
-  },
-  {
    "id": "8683840de975",
    "company": "Airbus",
    "group": "big",
@@ -19984,56 +20897,6 @@
    "v": 3
   },
   {
-   "id": "4b8f1b07a870",
-   "company": "Airbus",
-   "group": "big",
-   "title": "STAGE 2027 - Ingénieur Méthodes Manufacturing Engineering (ALL GENDER)",
-   "location": "Rochefort",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Rochefort/STAGE-2027---Ingnieur-Mthodes-Manufacturing-Engineering--ALL-GENDER-_JR10446879",
-   "posted": null,
-   "kind": "internship",
-   "tags": [
-    "other"
-   ],
-   "via": "workday",
-   "elig": "unknown",
-   "elig_why": "",
-   "dtags": [
-    "green"
-   ],
-   "desc_len": 5299,
-   "region": "",
-   "country": "",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-09",
-   "v": 3
-  },
-  {
-   "id": "35f894b3b8cd",
-   "company": "Airbus",
-   "group": "big",
-   "title": "STAGE 2027 - Ingénieur IA & Analyse de la Valeur Métier (F/H)",
-   "location": "Toulouse Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/STAGE-2027---Ingnieur-IA---Analyse-de-la-Valeur-Mtier--F-H-_JR10444782",
-   "posted": null,
-   "kind": "internship",
-   "tags": [
-    "ml"
-   ],
-   "via": "workday",
-   "elig": "students",
-   "elig_why": "France: a 'stage' needs a convention de stage from a school",
-   "dtags": [
-    "green"
-   ],
-   "desc_len": 8830,
-   "region": "europe",
-   "country": "France",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-09",
-   "v": 3
-  },
-  {
    "id": "d7d7789559c2",
    "company": "Airbus",
    "group": "big",
@@ -20054,56 +20917,6 @@
    "desc_len": 5164,
    "region": "",
    "country": "",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-09",
-   "v": 3
-  },
-  {
-   "id": "72caaded3e0d",
-   "company": "Airbus",
-   "group": "big",
-   "title": "STAGE 2027 - Ingénieur Génie Industriel (F/H)",
-   "location": "Toulouse Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/STAGE-2027---Ingnieur-Gnie-Industriel--F-H-_JR10442685",
-   "posted": null,
-   "kind": "internship",
-   "tags": [
-    "other"
-   ],
-   "via": "workday",
-   "elig": "students",
-   "elig_why": "France: a 'stage' needs a convention de stage from a school",
-   "dtags": [
-    "green"
-   ],
-   "desc_len": 9047,
-   "region": "europe",
-   "country": "France",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-09",
-   "v": 3
-  },
-  {
-   "id": "7af197f30d80",
-   "company": "Airbus",
-   "group": "big",
-   "title": "STAGE 2027 - Ingénieur Amélioration continue (ALL GENDER)",
-   "location": "Nantes Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Nantes-Area/STAGE-2027---Ingnieur-Amlioration-continue--ALL-GENDER-_JR10444519",
-   "posted": null,
-   "kind": "internship",
-   "tags": [
-    "other"
-   ],
-   "via": "workday",
-   "elig": "students",
-   "elig_why": "strielle Parlons de VOUS ! Vous êtes actuellement étudiant en dernière année d'École d'Ingénieur (Généraliste, Génie Industrie",
-   "dtags": [
-    "green"
-   ],
-   "desc_len": 5425,
-   "region": "europe",
-   "country": "France",
    "first_seen": "2026-10-09",
    "last_seen": "2026-10-09",
    "v": 3
@@ -20134,16 +20947,16 @@
    "v": 3
   },
   {
-   "id": "9b37674ec5d4",
+   "id": "cc57b5e83c67",
    "company": "Airbus",
    "group": "big",
-   "title": "STAGE 2027 - Gestion de projet Bâtiment et Infrastructure (ALL GENDER)",
-   "location": "Nantes Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Nantes-Area/STAGE-2027---Gestion-de-projet-Btiment-et-Infrastructure--ALL-GENDER-_JR10443330",
+   "title": "STAGE 2027 - Gestion de la conformité qualité (f/h)",
+   "location": "Toulouse Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/STAGE-2027---Gestion-de-la-conformit-qualit--f-h-_JR10444257",
    "posted": null,
    "kind": "internship",
    "tags": [
-    "cloud"
+    "other"
    ],
    "via": "workday",
    "elig": "students",
@@ -20151,7 +20964,7 @@
    "dtags": [
     "green"
    ],
-   "desc_len": 5664,
+   "desc_len": 3835,
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
@@ -20178,31 +20991,6 @@
     "ml"
    ],
    "desc_len": 7636,
-   "region": "europe",
-   "country": "France",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-09",
-   "v": 3
-  },
-  {
-   "id": "c7750d31b1aa",
-   "company": "Airbus",
-   "group": "big",
-   "title": "STAGE 2027 - Expert en Analyse de données pour la cabine d'achat après-vente (F/H)",
-   "location": "Toulouse Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/STAGE-2027-----Expert-en-Analyse-de-donnes-pour-la-cabine-d-achat-aprs-vente--F-H-_JR10445579",
-   "posted": null,
-   "kind": "internship",
-   "tags": [
-    "other"
-   ],
-   "via": "workday",
-   "elig": "students",
-   "elig_why": "France: a 'stage' needs a convention de stage from a school",
-   "dtags": [
-    "green"
-   ],
-   "desc_len": 8674,
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
@@ -20255,81 +21043,6 @@
    "desc_len": 5674,
    "region": "",
    "country": "",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-09",
-   "v": 3
-  },
-  {
-   "id": "f9ec1d3229ae",
-   "company": "Airbus",
-   "group": "big",
-   "title": "STAGE 2027 - Correspondant Hygiène, Sécurité et Environnement (ALL GENDER)",
-   "location": "Nantes Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Nantes-Area/STAGE-2027---Correspondant-Hygine--Scurit-et-Environnement--ALL-GENDER-_JR10441817",
-   "posted": null,
-   "kind": "internship",
-   "tags": [
-    "other"
-   ],
-   "via": "workday",
-   "elig": "students",
-   "elig_why": "France: a 'stage' needs a convention de stage from a school",
-   "dtags": [
-    "green"
-   ],
-   "desc_len": 5063,
-   "region": "europe",
-   "country": "France",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-09",
-   "v": 3
-  },
-  {
-   "id": "db9eb26b0e30",
-   "company": "Airbus",
-   "group": "big",
-   "title": "STAGE 2027 - Contrôle des exportations (F/H)",
-   "location": "Toulouse Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/STAGE-2027---Contrle-des-exportations--F-H-_JR10444714",
-   "posted": null,
-   "kind": "internship",
-   "tags": [
-    "other"
-   ],
-   "via": "workday",
-   "elig": "students",
-   "elig_why": "France: a 'stage' needs a convention de stage from a school",
-   "dtags": [
-    "green"
-   ],
-   "desc_len": 9397,
-   "region": "europe",
-   "country": "France",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-09",
-   "v": 3
-  },
-  {
-   "id": "b81d40b01d02",
-   "company": "Airbus",
-   "group": "big",
-   "title": "STAGE 2027 - Chef de projet Conseillé Numérique (f/h)",
-   "location": "Toulouse Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/STAGE-2027---Chef-de-projet-Conseill-Numrique--f-h-_JR10445395",
-   "posted": null,
-   "kind": "internship",
-   "tags": [
-    "other"
-   ],
-   "via": "workday",
-   "elig": "students",
-   "elig_why": "données, modélisation de données, Web sémantique, apprentissage automatique, analyse de données avancée et statis",
-   "dtags": [
-    "green"
-   ],
-   "desc_len": 6806,
-   "region": "europe",
-   "country": "France",
    "first_seen": "2026-10-09",
    "last_seen": "2026-10-09",
    "v": 3
@@ -20464,25 +21177,24 @@
    "v": 3
   },
   {
-   "id": "6ca7102d76f7",
+   "id": "0c5a4eb5072f",
    "company": "Airbus",
    "group": "big",
-   "title": "Master Student AI Powered Compliance Assistant (d/f/m)",
+   "title": "Master student in the field of Informatics or Aerospace Engineering (d/f/m)",
    "location": "Immenstaad am Bodensee",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Master-Student-AI-Powered-Compliance-Assistant---d-f-m-_JR10413345",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Master-student-in-the-field-of-Informatics-or-Aerospace-Engineering--d-f-m-_JR10434053",
    "posted": null,
    "kind": "internship",
    "tags": [
-    "ml"
+    "other"
    ],
    "via": "workday",
    "elig": "students",
-   "elig_why": "ompliance Assistant (d/f/m) You are looking for a master thesis and want to get to know the work of an AI Powered",
+   "elig_why": "d and evaluate test results You are looking for a master thesis and want to get to know the work of an Electronic",
    "dtags": [
-    "cloud",
     "green"
    ],
-   "desc_len": 4067,
+   "desc_len": 3761,
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
@@ -20509,6 +21221,32 @@
    ],
    "desc_len": 5058,
    "region": "",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "b82c7f5a37d4",
+   "company": "Airbus",
+   "group": "big",
+   "title": "Internship-Configuration & PLM Integration services",
+   "location": "Bangalore Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bangalore-Area/Internship-Configuration---PLM-Integration--services_JR10448743",
+   "posted": null,
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "elig": "unknown",
+   "elig_why": "",
+   "dtags": [
+    "cloud",
+    "green"
+   ],
+   "desc_len": 3691,
+   "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
    "last_seen": "2026-10-09",
@@ -20617,6 +21355,293 @@
    "v": 3
   },
   {
+   "id": "86cba3a69a77",
+   "company": "Airbus",
+   "group": "big",
+   "title": "Internship - Digital Infrastructures and Platforms",
+   "location": "Bangalore Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bangalore-Area/Internship---Digital-Infrastructures-and-Platforms_JR10449284",
+   "posted": null,
+   "kind": "internship",
+   "tags": [
+    "cloud"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "proactive stakeholder management. Qualifications: Currently pursuing “Engineering (graduate/post-graduate)”. You posse",
+   "dtags": [
+    "devops",
+    "green"
+   ],
+   "desc_len": 6482,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "995905a33dd1",
+   "company": "Airbus",
+   "group": "big",
+   "title": "Internship - Digital Infrastructures and Platforms",
+   "location": "Bangalore Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bangalore-Area/Internship---Digital-Infrastructures-and-Platforms_JR10449279",
+   "posted": null,
+   "kind": "internship",
+   "tags": [
+    "cloud"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "proactive stakeholder management. Qualifications: Currently pursuing “Engineering (graduate/post-graduate)”. You posse",
+   "dtags": [
+    "devops",
+    "green"
+   ],
+   "desc_len": 6482,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "9cc1a40b32b1",
+   "company": "Airbus",
+   "group": "big",
+   "title": "Internship - Digital Infrastructures and Platforms",
+   "location": "Bangalore Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bangalore-Area/Internship---Digital-Infrastructures-and-Platforms_JR10449276",
+   "posted": null,
+   "kind": "internship",
+   "tags": [
+    "cloud"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "proactive stakeholder management. Qualifications: Currently pursuing “Engineering (graduate/post-graduate)”. You posse",
+   "dtags": [
+    "devops",
+    "green"
+   ],
+   "desc_len": 6482,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "860807e15586",
+   "company": "Airbus",
+   "group": "big",
+   "title": "Internship - Digital Infrastructures and Platforms",
+   "location": "Bangalore Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bangalore-Area/Internship---Digital-Infrastructures-and-Platforms_JR10449272",
+   "posted": null,
+   "kind": "internship",
+   "tags": [
+    "cloud"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "proactive stakeholder management. Qualifications: Currently pursuing “Engineering (graduate/post-graduate)”. You posse",
+   "dtags": [
+    "devops",
+    "green"
+   ],
+   "desc_len": 6482,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "bcae6ef31dcc",
+   "company": "Airbus",
+   "group": "big",
+   "title": "Internship - Digital Infrastructures and Platforms",
+   "location": "Bangalore Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bangalore-Area/Internship---Digital-Infrastructures-and-Platforms_JR10449269",
+   "posted": null,
+   "kind": "internship",
+   "tags": [
+    "cloud"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "proactive stakeholder management. Qualifications: Currently pursuing “Engineering (graduate/post-graduate)”. You posse",
+   "dtags": [
+    "devops",
+    "green"
+   ],
+   "desc_len": 6482,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "6ed886754496",
+   "company": "Airbus",
+   "group": "big",
+   "title": "Internship - Digital Infrastructures and Platforms",
+   "location": "Bangalore Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bangalore-Area/Internship---Digital-Infrastructures-and-Platforms_JR10449262",
+   "posted": null,
+   "kind": "internship",
+   "tags": [
+    "cloud"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "proactive stakeholder management. Qualifications: Currently pursuing “Engineering (graduate/post-graduate)”. You posse",
+   "dtags": [
+    "devops",
+    "green"
+   ],
+   "desc_len": 6482,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "140bcd75de42",
+   "company": "Airbus",
+   "group": "big",
+   "title": "Internship - Digital Infrastructures and Platforms",
+   "location": "Bangalore Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bangalore-Area/Internship---Digital-Infrastructures-and-Platforms_JR10449252",
+   "posted": null,
+   "kind": "internship",
+   "tags": [
+    "cloud"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "proactive stakeholder management. Qualifications: Currently pursuing “Engineering (graduate/post-graduate)”. You posse",
+   "dtags": [
+    "devops",
+    "green"
+   ],
+   "desc_len": 6482,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "483c1639db32",
+   "company": "Airbus",
+   "group": "big",
+   "title": "Internship - DMZ",
+   "location": "Bangalore Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bangalore-Area/Internship---DMZ_JR10448613",
+   "posted": null,
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "ny, Composer, Drush, JavaScript.) Qualifications: Currently pursuing “BE / B Tech”. You possess the following competen",
+   "dtags": [
+    "cloud",
+    "green"
+   ],
+   "desc_len": 6124,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "56f2de4b1410",
+   "company": "Airbus",
+   "group": "big",
+   "title": "Internship - DMZ",
+   "location": "Bangalore Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bangalore-Area/Internship---DMZ_JR10448612",
+   "posted": null,
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "ny, Composer, Drush, JavaScript.) Qualifications: Currently pursuing “BE / B Tech”. You possess the following competen",
+   "dtags": [
+    "cloud",
+    "green"
+   ],
+   "desc_len": 6130,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "d949c685c209",
+   "company": "Airbus",
+   "group": "big",
+   "title": "Internship - DMZ",
+   "location": "Bangalore Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bangalore-Area/Internship---DMZ_JR10448609",
+   "posted": null,
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "ny, Composer, Drush, JavaScript.) Qualifications: Currently pursuing “BE / B Tech”. You possess the following competen",
+   "dtags": [
+    "cloud",
+    "green"
+   ],
+   "desc_len": 6130,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
+   "id": "c1e08069df85",
+   "company": "Airbus",
+   "group": "big",
+   "title": "Internship - DCB",
+   "location": "Bangalore Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bangalore-Area/Internship---DCB_JR10449101",
+   "posted": null,
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "elig": "unknown",
+   "elig_why": "",
+   "dtags": [
+    "cloud",
+    "green",
+    "ml"
+   ],
+   "desc_len": 4333,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "v": 3
+  },
+  {
    "id": "01b67ad07830",
    "company": "Airbus",
    "group": "big",
@@ -20637,86 +21662,6 @@
    "desc_len": 5557,
    "region": "europe",
    "country": "United Kingdom",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-09",
-   "v": 3
-  },
-  {
-   "id": "4ac2a9dc0aa7",
-   "company": "Airbus",
-   "group": "big",
-   "title": "Digital and Technology Solutions Degree Engineering Apprenticeship",
-   "location": "Bristol Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bristol-Area/Digital-and-Technology-Solutions-Degree-Engineering-Apprenticeship_JR10430012",
-   "posted": null,
-   "kind": "internship",
-   "tags": [
-    "other"
-   ],
-   "via": "workday",
-   "elig": "graduates",
-   "elig_why": "ould include personal projects, academic work and extracurricular activities. Important Information: GRADES: If you",
-   "dtags": [
-    "cloud",
-    "green"
-   ],
-   "desc_len": 7231,
-   "region": "europe",
-   "country": "United Kingdom",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-09",
-   "v": 3
-  },
-  {
-   "id": "494d5e2c6681",
-   "company": "Airbus",
-   "group": "big",
-   "title": "Digital & Technology Solutions Plant Degree Apprenticeship",
-   "location": "Broughton",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Broughton/Digital---Technology-Solutions-Plant-Degree-Apprenticeship_JR10427966",
-   "posted": null,
-   "kind": "internship",
-   "tags": [
-    "other"
-   ],
-   "via": "workday",
-   "elig": "graduates",
-   "elig_why": "ould include personal projects, academic work and extracurricular activities. Important Information: GRADES: If you",
-   "dtags": [
-    "cloud",
-    "green",
-    "ml"
-   ],
-   "desc_len": 8837,
-   "region": "",
-   "country": "",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-09",
-   "v": 3
-  },
-  {
-   "id": "b0fdc7f746cf",
-   "company": "Airbus",
-   "group": "big",
-   "title": "Digital & Technology Solutions Degree Apprenticeship",
-   "location": "Broughton",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Broughton/Digital---Technology-Solutions-Degree-Apprenticeship_JR10427977",
-   "posted": null,
-   "kind": "internship",
-   "tags": [
-    "other"
-   ],
-   "via": "workday",
-   "elig": "graduates",
-   "elig_why": "ould include personal projects, academic work and extracurricular activities. Important Information: GRADES: If you",
-   "dtags": [
-    "cloud",
-    "green",
-    "ml"
-   ],
-   "desc_len": 10178,
-   "region": "",
-   "country": "",
    "first_seen": "2026-10-09",
    "last_seen": "2026-10-09",
    "v": 3
