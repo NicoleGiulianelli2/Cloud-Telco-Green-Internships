@@ -1,324 +1,27 @@
 {
- "generated_at": "2026-10-09T12:13:42+00:00",
+ "generated_at": "2026-10-09T12:37:42+00:00",
  "sources": [
-  {
-   "company": "Academic Positions",
-   "group": "portal",
-   "type": "link_scan",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "note": "",
-   "error": "SourceError: all pages failed: HTTPError 403 Client Error: Forbidden for url: https://academicpositio | HTTPError 403 Client Error: Forbidden for url: https://academicpositio | HTTPError 403 Client Error: Forbidden for url: https://academicpositio",
-   "seconds": 0.3
-  },
-  {
-   "company": "Accelleran (O-RAN)",
-   "group": "telco",
-   "type": "page_scan",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "note": "",
-   "error": "SourceError: all pages failed: https://www.accelleran.com/careers/: HTTPError 404 Client Error: Not Found for url: https://accelleran.com/ | https://accelleran.com/careers: HTTPError 404 Client Error: Not Found for url: https://accelleran.com/",
-   "seconds": 2.3
-  },
-  {
-   "company": "Akamai",
-   "group": "big",
-   "type": "workday",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "note": "",
-   "error": "SourceError: akamai_careers: HTTPError: 422 Client Error: Unprocessable Entity for url: https://akamai.wd1.myworkdayjobs.com/wday/cxs/akamai/akamai_careers/jobs; External: HTTPError: 422 Client Error: Unprocessable Entity for url: https://akamai.wd1.myworkdayjobs.com/wday/cxs/akamai/External/jobs",
-   "seconds": 0.4
-  },
-  {
-   "company": "Amdocs",
-   "group": "telco",
-   "type": "workday",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "note": "",
-   "error": "SourceError: Amdocs: HTTPError: 422 Client Error: Unprocessable Entity for url: https://amdocs.wd3.myworkdayjobs.com/wday/cxs/amdocs/Amdocs/jobs; External: HTTPError: 422 Client Error: Unprocessable Entity for url: https://amdocs.wd3.myworkdayjobs.com/wday/cxs/amdocs/External/jobs",
-   "seconds": 1.3
-  },
-  {
-   "company": "CINECA",
-   "group": "research",
-   "type": "page_scan",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "note": "",
-   "error": "SourceError: all pages failed: https://www.cineca.it/lavora-con-noi: HTTPError 403 Client Error: Forbidden for url: https://www.cineca.it/l",
-   "seconds": 0.1
-  },
-  {
-   "company": "CTTC",
-   "group": "research",
-   "type": "page_scan",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "note": "",
-   "error": "SourceError: all pages failed: https://www.cttc.cat/jobs/: HTTPError 404 Client Error: Not Found for url: https://www.cttc.cat/jo | https://www.cttc.cat/job-offers/: HTTPError 404 Client Error: Not Found for url: https://www.cttc.cat/jo",
-   "seconds": 2.3
-  },
-  {
-   "company": "Climeworks",
-   "group": "green",
-   "type": "ats_any",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "note": "",
-   "error": "SourceError: greenhouse:climeworks SourceError; lever:climeworks SourceError",
-   "seconds": 0.1
-  },
-  {
-   "company": "Dell Technologies",
-   "group": "big",
-   "type": "workday",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "note": "",
-   "error": "SourceError: External: HTTPError: 422 Client Error: Unprocessable Entity for url: https://dell.wd1.myworkdayjobs.com/wday/cxs/dell/External/jobs",
-   "seconds": 0.3
-  },
-  {
-   "company": "DigitalOcean",
-   "group": "cloud",
-   "type": "ats_any",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "note": "",
-   "error": "SourceError: greenhouse:digitaloceanllc SourceError; ashby:digitalocean SourceError; lever:digitalocean SourceError",
-   "seconds": 0.3
-  },
-  {
-   "company": "EURECOM",
-   "group": "research",
-   "type": "page_scan",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "note": "",
-   "error": "SourceError: all pages failed: https://www.eurecom.fr/en/jobs: HTTPError 404 Client Error: Not Found for url: https://www.eurecom.fr/ | https://www.eurecom.fr/en/eurecom-careers: HTTPError 404 Client Error: Not Found for url: https://www.eurecom.fr/",
-   "seconds": 1.1
-  },
-  {
-   "company": "Electricity Maps",
-   "group": "green",
-   "type": "ats_any",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "note": "",
-   "error": "SourceError: workable:electricitymaps SourceError; lever:electricitymaps SourceError; greenhouse:electricitymaps SourceError; page_scan:['https://www.electricitymaps.com/careers'] empty",
-   "seconds": 0.7
-  },
-  {
-   "company": "Ericsson",
-   "group": "telco",
-   "type": "eightfold",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "note": "",
-   "error": "SourceError: jobs.ericsson.com: HTTPError: 403 Client Error: FORBIDDEN for url: https://jobs.ericsson.com/api/apply/v2/jobs?domain=ericsson.com&query=graduate&star",
-   "seconds": 0.3
-  },
-  {
-   "company": "FindAPhD",
-   "group": "portal",
-   "type": "link_scan",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "note": "",
-   "error": "SourceError: all pages failed: HTTPError 403 Client Error: Forbidden for url: https://www.findaphd.co | HTTPError 403 Client Error: Forbidden for url: https://www.findaphd.co | HTTPError 403 Client Error: Forbidden for url: https://www.findaphd.co",
-   "seconds": 0.3
-  },
-  {
-   "company": "Greenly",
-   "group": "green",
-   "type": "ats_any",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "note": "",
-   "error": "SourceError: lever:greenly SourceError; ashby:greenly SourceError; workable:greenly SourceError",
-   "seconds": 0.2
-  },
-  {
-   "company": "IMDEA Networks",
-   "group": "research",
-   "type": "page_scan",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "note": "",
-   "error": "SourceError: all pages failed: https://networks.imdea.org/job-offers/: HTTPError 404 Client Error: Not Found for url: https://networks.imdea. | https://networks.imdea.org/work-with-us/: HTTPError 404 Client Error: Not Found for url: https://networks.imdea.",
-   "seconds": 2.7
-  },
-  {
-   "company": "INESC TEC",
-   "group": "research",
-   "type": "page_scan",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "note": "",
-   "error": "SourceError: all pages failed: https://www.inesctec.pt/en/opportunities: HTTPError 500 Server Error: Internal Server Error for url: https://www | https://www.inesctec.pt/en/jobs: HTTPError 500 Server Error: Internal Server Error for url: https://www",
-   "seconds": 1.8
-  },
-  {
-   "company": "Instituto de Telecomunicações",
-   "group": "research",
-   "type": "page_scan",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "note": "",
-   "error": "SourceError: all pages failed: https://www.it.pt/Jobs: HTTPError 404 Client Error: Not found for url: https://www.it.pt/Jobs | https://www.it.pt/Opportunities: HTTPError 404 Client Error: Not found for url: https://www.it.pt/Oppor",
-   "seconds": 1.3
-  },
-  {
-   "company": "Kayrros",
-   "group": "green",
-   "type": "ats_any",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "note": "",
-   "error": "SourceError: lever:kayrros SourceError; ashby:kayrros SourceError; greenhouse:kayrros SourceError",
-   "seconds": 0.2
-  },
-  {
-   "company": "Keysight",
-   "group": "telco",
-   "type": "workday",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "note": "",
-   "error": "SourceError: Keysight: HTTPError: 422 Client Error: Unprocessable Entity for url: https://keysight.wd5.myworkdayjobs.com/wday/cxs/keysight/Keysight/jobs; External: HTTPError: 422 Client Error: Unprocessable Entity for url: https://keysight.wd5.myworkdayjobs.com/wday/cxs/keysight/External/jobs",
-   "seconds": 0.2
-  },
-  {
-   "company": "Liberty Global",
-   "group": "telco",
-   "type": "workday",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "note": "",
-   "error": "SourceError: LibertyGlobal: SourceError: 404; External: SourceError: 404",
-   "seconds": 1.2
-  },
-  {
-   "company": "NetApp",
-   "group": "big",
-   "type": "workday",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "note": "",
-   "error": "SourceError: NetAppCareers: HTTPError: 422 Client Error: Unprocessable Entity for url: https://netapp.wd1.myworkdayjobs.com/wday/cxs/netapp/NetAppCareers/jobs; External: HTTPError: 422 Client Error: Unprocessable Entity for url: https://netapp.wd1.myworkdayjobs.com/wday/cxs/netapp/External/jobs",
-   "seconds": 0.5
-  },
-  {
-   "company": "Octopus Energy / Kraken",
-   "group": "green",
-   "type": "ats_any",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "note": "",
-   "error": "SourceError: ashby:kraken SourceError; ashby:octopusenergy SourceError; greenhouse:octopusenergy SourceError",
-   "seconds": 0.2
-  },
-  {
-   "company": "Swisscom",
-   "group": "telco",
-   "type": "page_scan",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "note": "",
-   "error": "SourceError: all pages failed: https://www.swisscom.ch/en/about/career/young-talents.html: HTTPError 404 Client Error: Not Found for url: https://www.swisscom.ch",
-   "seconds": 1.7
-  },
-  {
-   "company": "VIE (Business France)",
-   "group": "programme",
-   "type": "vie",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "note": "",
-   "error": "ConnectionError: HTTPSConnectionPool(host='civiweb-api-prd.azure-api.net', port=443): Max retries exceeded with url: /api/Offers/search (Caused by NameResolutionError(\"HTTPSConnection(host='civiweb-api-prd.azure-api.net', port=443): Failed to resolve 'civiweb-api-prd.azure-api.net' ([Errno -2] Name or service not kn",
-   "seconds": 0.0
-  },
-  {
-   "company": "Vodafone",
-   "group": "telco",
-   "type": "eightfold",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "note": "",
-   "error": "SourceError: jobs.vodafone.com: HTTPError: 403 Client Error: FORBIDDEN for url: https://jobs.vodafone.com/api/apply/v2/jobs?domain=vodafone.com&query=graduate&star; vodafone.eightfold.ai: HTTPError: 403 Client Error: FORBIDDEN for url: https://vodafone.eightfold.ai/api/apply/v2/jobs?domain=vodafone.com&query=gra",
-   "seconds": 1.2
-  },
-  {
-   "company": "i2CAT",
-   "group": "research",
-   "type": "page_scan",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "note": "",
-   "error": "SourceError: all pages failed: https://i2cat.net/work-with-us/: HTTPError 404 Client Error: Not Found for url: https://i2cat.net/work- | https://i2cat.net/careers/: HTTPError 404 Client Error: Not Found for url: https://i2cat.net/caree",
-   "seconds": 2.6
-  },
-  {
-   "company": "AcademicTransfer (NL)",
-   "group": "portal",
-   "type": "link_scan",
-   "ok": true,
-   "raw": 0,
-   "kept": 0,
-   "note": "pages_ok=6/6",
-   "error": "",
-   "seconds": 6.7
-  },
   {
    "company": "Adyen",
    "group": "big",
    "type": "greenhouse",
    "ok": true,
-   "raw": 235,
+   "raw": 236,
    "kept": 0,
    "note": "slug=adyen",
    "error": "",
-   "seconds": 0.1
+   "seconds": 3.7
   },
   {
    "company": "Airbus",
    "group": "big",
    "type": "workday",
    "ok": true,
-   "raw": 189,
-   "kept": 82,
+   "raw": 194,
+   "kept": 18,
    "note": "site=Airbus",
    "error": "",
-   "seconds": 15.5
+   "seconds": 15.0
   },
   {
    "company": "Amazon / AWS",
@@ -326,21 +29,21 @@
    "type": "amazon",
    "ok": true,
    "raw": 19,
-   "kept": 16,
+   "kept": 13,
    "note": "",
    "error": "",
-   "seconds": 1.8
+   "seconds": 2.5
   },
   {
    "company": "Bosch",
    "group": "big",
    "type": "smartrecruiters",
    "ok": true,
-   "raw": 1608,
-   "kept": 77,
+   "raw": 1609,
+   "kept": 20,
    "note": "company=BoschGroup",
    "error": "",
-   "seconds": 19.5
+   "seconds": 19.3
   },
   {
    "company": "Broadcom / VMware",
@@ -351,7 +54,7 @@
    "kept": 0,
    "note": "site=External_Career",
    "error": "",
-   "seconds": 5.1
+   "seconds": 4.0
   },
   {
    "company": "CERN (IT / computing)",
@@ -362,10 +65,10 @@
    "kept": 6,
    "note": "company=CERN",
    "error": "",
-   "seconds": 3.1
+   "seconds": 3.0
   },
   {
-   "company": "CNRS",
+   "company": "CTTC",
    "group": "research",
    "type": "link_scan",
    "ok": true,
@@ -373,7 +76,7 @@
    "kept": 0,
    "note": "pages_ok=1/1",
    "error": "",
-   "seconds": 1.5
+   "seconds": 1.4
   },
   {
    "company": "CWI Amsterdam",
@@ -384,7 +87,7 @@
    "kept": 1,
    "note": "pages_ok=1/1",
    "error": "",
-   "seconds": 1.1
+   "seconds": 3.0
   },
   {
    "company": "Canonical",
@@ -417,18 +120,18 @@
    "kept": 25,
    "note": "site=Careers",
    "error": "",
-   "seconds": 4.3
+   "seconds": 4.8
   },
   {
    "company": "Cisco",
    "group": "big",
    "type": "workday",
    "ok": true,
-   "raw": 751,
+   "raw": 750,
    "kept": 58,
    "note": "site=Cisco_Careers",
    "error": "",
-   "seconds": 14.6
+   "seconds": 16.4
   },
   {
    "company": "Cloudflare",
@@ -450,7 +153,7 @@
    "kept": 0,
    "note": "slug=confluent",
    "error": "",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "company": "Databricks",
@@ -461,7 +164,7 @@
    "kept": 13,
    "note": "slug=databricks",
    "error": "",
-   "seconds": 0.1
+   "seconds": 2.4
   },
   {
    "company": "Datadog",
@@ -472,18 +175,7 @@
    "kept": 9,
    "note": "slug=datadog",
    "error": "",
-   "seconds": 0.1
-  },
-  {
-   "company": "Deutsche Telekom",
-   "group": "telco",
-   "type": "page_scan",
-   "ok": true,
-   "raw": 0,
-   "kept": 0,
-   "note": "pages_ok=2/2",
-   "error": "",
-   "seconds": 4.2
+   "seconds": 2.1
   },
   {
    "company": "Docker",
@@ -505,7 +197,18 @@
    "kept": 1,
    "note": "pages_ok=10/13",
    "error": "",
-   "seconds": 3.7
+   "seconds": 2.8
+  },
+  {
+   "company": "EURECOM",
+   "group": "research",
+   "type": "page_scan",
+   "ok": true,
+   "raw": 35,
+   "kept": 8,
+   "note": "pages_ok=1/1",
+   "error": "",
+   "seconds": 1.0
   },
   {
    "company": "Elastic",
@@ -527,7 +230,7 @@
    "kept": 42,
    "note": "site=External",
    "error": "",
-   "seconds": 4.9
+   "seconds": 4.7
   },
   {
    "company": "Fastly",
@@ -546,10 +249,10 @@
    "type": "link_scan",
    "ok": true,
    "raw": 95,
-   "kept": 44,
+   "kept": 6,
    "note": "pages_ok=7/7",
    "error": "",
-   "seconds": 5.2
+   "seconds": 4.5
   },
   {
    "company": "GitLab",
@@ -567,11 +270,11 @@
    "group": "big",
    "type": "google",
    "ok": true,
-   "raw": 362,
-   "kept": 60,
+   "raw": 486,
+   "kept": 24,
    "note": "",
    "error": "",
-   "seconds": 11.1
+   "seconds": 13.9
   },
   {
    "company": "Grafana Labs",
@@ -582,7 +285,7 @@
    "kept": 0,
    "note": "slug=grafanalabs",
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "company": "HPE (incl. Juniper)",
@@ -593,7 +296,7 @@
    "kept": 118,
    "note": "site=Jobsathpe",
    "error": "",
-   "seconds": 13.1
+   "seconds": 10.2
   },
   {
    "company": "Hugging Face",
@@ -604,7 +307,7 @@
    "kept": 0,
    "note": "slug=huggingface",
    "error": "",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "company": "IBM",
@@ -615,7 +318,7 @@
    "kept": 42,
    "note": "",
    "error": "",
-   "seconds": 0.6
+   "seconds": 1.2
   },
   {
    "company": "IBM Research",
@@ -626,7 +329,18 @@
    "kept": 15,
    "note": "pages_ok=2/2",
    "error": "",
-   "seconds": 2.3
+   "seconds": 4.6
+  },
+  {
+   "company": "IMDEA Networks",
+   "group": "research",
+   "type": "link_scan",
+   "ok": true,
+   "raw": 11,
+   "kept": 4,
+   "note": "pages_ok=2/2",
+   "error": "",
+   "seconds": 5.8
   },
   {
    "company": "Inria",
@@ -634,10 +348,10 @@
    "type": "link_scan",
    "ok": true,
    "raw": 130,
-   "kept": 20,
+   "kept": 7,
    "note": "pages_ok=1/1",
    "error": "",
-   "seconds": 1.6
+   "seconds": 1.1
   },
   {
    "company": "Intel",
@@ -645,10 +359,10 @@
    "type": "workday",
    "ok": true,
    "raw": 92,
-   "kept": 25,
+   "kept": 9,
    "note": "site=External",
    "error": "",
-   "seconds": 6.3
+   "seconds": 5.8
   },
   {
    "company": "Kong",
@@ -659,18 +373,7 @@
    "kept": 0,
    "note": "ashby slug=kong",
    "error": "",
-   "seconds": 0.3
-  },
-  {
-   "company": "Mistral AI",
-   "group": "big",
-   "type": "lever",
-   "ok": true,
-   "raw": 0,
-   "kept": 0,
-   "note": "slug=mistral",
-   "error": "",
-   "seconds": 0.6
+   "seconds": 0.2
   },
   {
    "company": "MongoDB",
@@ -689,10 +392,10 @@
    "type": "workday",
    "ok": true,
    "raw": 107,
-   "kept": 48,
+   "kept": 16,
    "note": "site=NVIDIAExternalCareerSite",
    "error": "",
-   "seconds": 5.5
+   "seconds": 6.3
   },
   {
    "company": "Nokia",
@@ -700,10 +403,10 @@
    "type": "oracle_hcm",
    "ok": true,
    "raw": 267,
-   "kept": 57,
+   "kept": 58,
    "note": "",
    "error": "",
-   "seconds": 6.1
+   "seconds": 6.7
   },
   {
    "company": "OVHcloud",
@@ -714,14 +417,14 @@
    "kept": 0,
    "note": "page_scan pages_ok=1/1",
    "error": "",
-   "seconds": 2.2
+   "seconds": 2.1
   },
   {
    "company": "Pure Storage",
    "group": "cloud",
    "type": "greenhouse",
    "ok": true,
-   "raw": 363,
+   "raw": 364,
    "kept": 1,
    "note": "slug=purestorage",
    "error": "",
@@ -736,18 +439,7 @@
    "kept": 27,
    "note": "site=Jobs",
    "error": "",
-   "seconds": 3.4
-  },
-  {
-   "company": "SAP",
-   "group": "big",
-   "type": "link_scan",
-   "ok": true,
-   "raw": 0,
-   "kept": 0,
-   "note": "pages_ok=5/5",
-   "error": "",
-   "seconds": 3.0
+   "seconds": 4.1
   },
   {
    "company": "SUSE",
@@ -758,7 +450,7 @@
    "kept": 0,
    "note": "site=Jobsatsuse",
    "error": "",
-   "seconds": 4.6
+   "seconds": 5.0
   },
   {
    "company": "Scaleway",
@@ -769,7 +461,7 @@
    "kept": 4,
    "note": "lever slug=scaleway",
    "error": "",
-   "seconds": 0.1
+   "seconds": 1.3
   },
   {
    "company": "Snowflake",
@@ -780,7 +472,7 @@
    "kept": 5,
    "note": "",
    "error": "",
-   "seconds": 1.4
+   "seconds": 1.6
   },
   {
    "company": "Spotify",
@@ -791,7 +483,7 @@
    "kept": 0,
    "note": "slug=spotify",
    "error": "",
-   "seconds": 1.2
+   "seconds": 0.8
   },
   {
    "company": "Supabase",
@@ -835,7 +527,7 @@
    "kept": 0,
    "note": "slug=tailscale",
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "company": "Thales",
@@ -843,10 +535,10 @@
    "type": "workday",
    "ok": true,
    "raw": 223,
-   "kept": 35,
+   "kept": 14,
    "note": "site=Careers",
    "error": "",
-   "seconds": 18.1
+   "seconds": 16.7
   },
   {
    "company": "Vercel",
@@ -857,7 +549,7 @@
    "kept": 2,
    "note": "slug=vercel",
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "company": "Watershed",
@@ -871,26 +563,15 @@
    "seconds": 0.1
   },
   {
-   "company": "imec",
-   "group": "research",
-   "type": "link_scan",
-   "ok": true,
-   "raw": 0,
-   "kept": 0,
-   "note": "pages_ok=2/2",
-   "error": "",
-   "seconds": 1.6
-  },
-  {
    "company": "jobs.ac.uk",
    "group": "portal",
    "type": "link_scan",
    "ok": true,
    "raw": 60,
-   "kept": 13,
+   "kept": 3,
    "note": "pages_ok=5/5",
    "error": "",
-   "seconds": 7.5
+   "seconds": 6.6
   }
  ]
 }
