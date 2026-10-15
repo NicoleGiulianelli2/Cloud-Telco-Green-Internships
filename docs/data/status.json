@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T11:25:45+00:00",
+ "generated_at": "2026-10-15T11:02:40+00:00",
  "sources": [
   {
    "company": "Adyen",
@@ -17,55 +17,55 @@
    "group": "big",
    "type": "workday",
    "ok": true,
-   "raw": 185,
-   "kept": 17,
+   "raw": 181,
+   "kept": 18,
    "note": "site=Airbus",
    "error": "",
-   "seconds": 14.6
+   "seconds": 16.5
   },
   {
    "company": "Amazon / AWS",
    "group": "big",
    "type": "amazon",
    "ok": true,
-   "raw": 17,
-   "kept": 12,
+   "raw": 250,
+   "kept": 25,
    "note": "",
    "error": "",
-   "seconds": 1.8
+   "seconds": 3.7
   },
   {
    "company": "Bosch",
    "group": "big",
    "type": "smartrecruiters",
    "ok": true,
-   "raw": 1632,
+   "raw": 1636,
    "kept": 28,
    "note": "company=BoschGroup",
    "error": "",
-   "seconds": 18.1
+   "seconds": 22.2
   },
   {
    "company": "Broadcom / VMware",
    "group": "big",
    "type": "workday",
    "ok": true,
-   "raw": 128,
+   "raw": 130,
    "kept": 0,
    "note": "site=External_Career",
    "error": "",
-   "seconds": 3.6
+   "seconds": 3.9
   },
   {
    "company": "CERN (IT / computing)",
    "group": "programme",
    "type": "smartrecruiters",
    "ok": true,
-   "raw": 45,
+   "raw": 42,
    "kept": 6,
    "note": "company=CERN",
    "error": "",
-   "seconds": 2.7
+   "seconds": 3.3
   },
   {
    "company": "CTTC",
@@ -76,7 +76,7 @@
    "kept": 0,
    "note": "pages_ok=1/1",
    "error": "",
-   "seconds": 1.3
+   "seconds": 1.6
   },
   {
    "company": "CWI Amsterdam",
@@ -87,14 +87,14 @@
    "kept": 1,
    "note": "pages_ok=1/1",
    "error": "",
-   "seconds": 0.6
+   "seconds": 1.3
   },
   {
    "company": "Canonical",
    "group": "cloud",
    "type": "greenhouse",
    "ok": true,
-   "raw": 311,
+   "raw": 310,
    "kept": 16,
    "note": "slug=canonical",
    "error": "",
@@ -109,7 +109,7 @@
    "kept": 1,
    "note": "greenhouse slug=chainguard",
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "company": "Ciena",
@@ -127,18 +127,18 @@
    "group": "big",
    "type": "workday",
    "ok": true,
-   "raw": 772,
-   "kept": 60,
+   "raw": 781,
+   "kept": 66,
    "note": "site=Cisco_Careers",
    "error": "",
-   "seconds": 19.2
+   "seconds": 20.4
   },
   {
    "company": "Cloudflare",
    "group": "cloud",
    "type": "greenhouse",
    "ok": true,
-   "raw": 448,
+   "raw": 441,
    "kept": 3,
    "note": "slug=cloudflare",
    "error": "",
@@ -171,7 +171,7 @@
    "group": "cloud",
    "type": "greenhouse",
    "ok": true,
-   "raw": 439,
+   "raw": 434,
    "kept": 9,
    "note": "slug=datadog",
    "error": "",
@@ -182,7 +182,7 @@
    "group": "cloud",
    "type": "ats_any",
    "ok": true,
-   "raw": 62,
+   "raw": 66,
    "kept": 0,
    "note": "ashby slug=docker",
    "error": "",
@@ -194,10 +194,10 @@
    "type": "link_scan",
    "ok": true,
    "raw": 10,
-   "kept": 0,
+   "kept": 1,
    "note": "pages_ok=10/13",
    "error": "",
-   "seconds": 2.4
+   "seconds": 2.6
   },
   {
    "company": "EURECOM",
@@ -208,14 +208,14 @@
    "kept": 8,
    "note": "pages_ok=1/1",
    "error": "",
-   "seconds": 1.1
+   "seconds": 1.2
   },
   {
    "company": "Elastic",
    "group": "cloud",
    "type": "greenhouse",
    "ok": true,
-   "raw": 374,
+   "raw": 383,
    "kept": 3,
    "note": "slug=elastic",
    "error": "",
@@ -226,11 +226,11 @@
    "group": "big",
    "type": "workday",
    "ok": true,
-   "raw": 75,
-   "kept": 43,
+   "raw": 77,
+   "kept": 45,
    "note": "site=External",
    "error": "",
-   "seconds": 4.8
+   "seconds": 5.2
   },
   {
    "company": "Fastly",
@@ -241,47 +241,47 @@
    "kept": 0,
    "note": "slug=fastly",
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "company": "Fraunhofer",
    "group": "research",
    "type": "link_scan",
    "ok": true,
-   "raw": 97,
+   "raw": 94,
    "kept": 7,
    "note": "pages_ok=7/7",
    "error": "",
-   "seconds": 3.6
+   "seconds": 4.2
   },
   {
    "company": "GitLab",
    "group": "cloud",
    "type": "greenhouse",
    "ok": true,
-   "raw": 215,
+   "raw": 216,
    "kept": 0,
    "note": "slug=gitlab",
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "company": "Google",
    "group": "big",
    "type": "google",
    "ok": true,
-   "raw": 124,
-   "kept": 21,
+   "raw": 386,
+   "kept": 24,
    "note": "",
    "error": "",
-   "seconds": 6.2
+   "seconds": 12.4
   },
   {
    "company": "Grafana Labs",
    "group": "cloud",
    "type": "greenhouse",
    "ok": true,
-   "raw": 112,
+   "raw": 110,
    "kept": 0,
    "note": "slug=grafanalabs",
    "error": "",
@@ -292,11 +292,11 @@
    "group": "big",
    "type": "workday",
    "ok": true,
-   "raw": 150,
-   "kept": 124,
+   "raw": 151,
+   "kept": 126,
    "note": "site=Jobsathpe",
    "error": "",
-   "seconds": 10.8
+   "seconds": 9.4
   },
   {
    "company": "Hugging Face",
@@ -307,29 +307,29 @@
    "kept": 0,
    "note": "slug=huggingface",
    "error": "",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "company": "IBM",
    "group": "big",
    "type": "ibm",
    "ok": true,
-   "raw": 134,
+   "raw": 137,
    "kept": 46,
    "note": "",
    "error": "",
-   "seconds": 0.7
+   "seconds": 0.5
   },
   {
    "company": "IBM Research",
    "group": "big",
    "type": "page_scan",
    "ok": true,
-   "raw": 15,
-   "kept": 15,
+   "raw": 16,
+   "kept": 16,
    "note": "pages_ok=2/2",
    "error": "",
-   "seconds": 1.2
+   "seconds": 1.8
   },
   {
    "company": "IMDEA Networks",
@@ -340,29 +340,29 @@
    "kept": 4,
    "note": "pages_ok=2/2",
    "error": "",
-   "seconds": 3.5
+   "seconds": 3.4
   },
   {
    "company": "Inria",
    "group": "research",
    "type": "link_scan",
    "ok": true,
-   "raw": 133,
+   "raw": 139,
    "kept": 8,
    "note": "pages_ok=1/1",
    "error": "",
-   "seconds": 1.0
+   "seconds": 1.9
   },
   {
    "company": "Intel",
    "group": "big",
    "type": "workday",
    "ok": true,
-   "raw": 93,
+   "raw": 97,
    "kept": 7,
    "note": "site=External",
    "error": "",
-   "seconds": 6.3
+   "seconds": 5.4
   },
   {
    "company": "Kong",
@@ -380,7 +380,7 @@
    "group": "big",
    "type": "greenhouse",
    "ok": true,
-   "raw": 395,
+   "raw": 400,
    "kept": 1,
    "note": "slug=mongodb",
    "error": "",
@@ -391,22 +391,22 @@
    "group": "big",
    "type": "workday",
    "ok": true,
-   "raw": 111,
+   "raw": 112,
    "kept": 16,
    "note": "site=NVIDIAExternalCareerSite",
    "error": "",
-   "seconds": 6.7
+   "seconds": 7.1
   },
   {
    "company": "Nokia",
    "group": "telco",
    "type": "oracle_hcm",
    "ok": true,
-   "raw": 265,
-   "kept": 63,
+   "raw": 266,
+   "kept": 60,
    "note": "",
    "error": "",
-   "seconds": 6.1
+   "seconds": 6.8
   },
   {
    "company": "OVHcloud",
@@ -417,14 +417,14 @@
    "kept": 0,
    "note": "page_scan pages_ok=1/1",
    "error": "",
-   "seconds": 1.8
+   "seconds": 2.2
   },
   {
    "company": "Pure Storage",
    "group": "cloud",
    "type": "greenhouse",
    "ok": true,
-   "raw": 368,
+   "raw": 377,
    "kept": 1,
    "note": "slug=purestorage",
    "error": "",
@@ -435,33 +435,33 @@
    "group": "big",
    "type": "workday",
    "ok": true,
-   "raw": 47,
-   "kept": 28,
+   "raw": 46,
+   "kept": 27,
    "note": "site=Jobs",
    "error": "",
-   "seconds": 4.5
+   "seconds": 4.4
   },
   {
    "company": "SUSE",
    "group": "big",
    "type": "workday",
    "ok": true,
-   "raw": 26,
+   "raw": 25,
    "kept": 0,
    "note": "site=Jobsatsuse",
    "error": "",
-   "seconds": 4.2
+   "seconds": 5.4
   },
   {
    "company": "Scaleway",
    "group": "cloud",
    "type": "ats_any",
    "ok": true,
-   "raw": 24,
+   "raw": 25,
    "kept": 2,
    "note": "lever slug=scaleway",
    "error": "",
-   "seconds": 1.2
+   "seconds": 0.1
   },
   {
    "company": "Snowflake",
@@ -472,29 +472,29 @@
    "kept": 5,
    "note": "",
    "error": "",
-   "seconds": 0.8
+   "seconds": 1.4
   },
   {
    "company": "Spotify",
    "group": "big",
    "type": "lever",
    "ok": true,
-   "raw": 81,
+   "raw": 82,
    "kept": 0,
    "note": "slug=spotify",
    "error": "",
-   "seconds": 1.0
+   "seconds": 0.5
   },
   {
    "company": "Supabase",
    "group": "cloud",
    "type": "ats_any",
    "ok": true,
-   "raw": 52,
+   "raw": 54,
    "kept": 0,
    "note": "ashby slug=supabase",
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "company": "Sweep",
@@ -505,7 +505,7 @@
    "kept": 0,
    "note": "ashby slug=sweep",
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "company": "Sylvera",
@@ -516,7 +516,7 @@
    "kept": 0,
    "note": "ashby slug=sylvera",
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "company": "Tailscale",
@@ -527,51 +527,51 @@
    "kept": 0,
    "note": "slug=tailscale",
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "company": "Thales",
    "group": "big",
    "type": "workday",
    "ok": true,
-   "raw": 225,
-   "kept": 20,
+   "raw": 226,
+   "kept": 19,
    "note": "site=Careers",
    "error": "",
-   "seconds": 15.6
+   "seconds": 19.0
   },
   {
    "company": "Vercel",
    "group": "cloud",
    "type": "greenhouse",
    "ok": true,
-   "raw": 89,
+   "raw": 90,
    "kept": 2,
    "note": "slug=vercel",
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.0
   },
   {
    "company": "Watershed",
    "group": "green",
    "type": "ats_any",
    "ok": true,
-   "raw": 37,
+   "raw": 34,
    "kept": 0,
    "note": "ashby slug=watershed",
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.2
   },
   {
    "company": "jobs.ac.uk",
    "group": "portal",
    "type": "link_scan",
    "ok": true,
-   "raw": 67,
-   "kept": 5,
+   "raw": 64,
+   "kept": 6,
    "note": "pages_ok=5/5",
    "error": "",
-   "seconds": 5.6
+   "seconds": 8.1
   }
  ]
 }
