@@ -11,8 +11,6 @@ taken by someone who has *already graduated* (an extra-curricular internship, a 
 it requires current enrolment at a university (curricular internship: "currently enrolled", "returning to school",
 *convention de stage*, *Pflichtpraktikum*, *tirocinio curriculare*, master thesis…).
 
-Adapted from [MicheleArmillotta/Cybersec-Research-Internships](https://github.com/MicheleArmillotta/Cybersec-Research-Internships)
-(same architecture, fetchers and GitHub Actions setup).
 
 ## Publish it (first time, ~5 minutes)
 
