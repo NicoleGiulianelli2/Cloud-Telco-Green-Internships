@@ -1,8 +1,795 @@
 {
- "generated_at": "2026-10-19T12:30:50+00:00",
+ "generated_at": "2026-10-20T11:06:42+00:00",
  "started": "2026-10-09",
- "count": 656,
+ "count": 660,
  "jobs": [
+  {
+   "id": "afe619a8ccfb",
+   "company": "jobs.ac.uk",
+   "group": "portal",
+   "title": "Post-doctoral researcher in aerosols, clouds and their interactions with focus on km-scale modelling",
+   "location": "United Kingdom",
+   "url": "https://www.jobs.ac.uk/job/DTI346/post-doctoral-researcher-in-aerosols-clouds-and-their-interactions-with-focus-on-km-scale-modelling",
+   "posted": null,
+   "kind": "phd",
+   "tags": [
+    "cloud",
+    "research"
+   ],
+   "via": "link_scan",
+   "elig": "graduates",
+   "elig_why": "phd position",
+   "dtags": [],
+   "desc_len": 6499,
+   "region": "europe",
+   "country": "United Kingdom",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "192a7a0e7383",
+   "company": "Thales",
+   "group": "big",
+   "title": "Stagiaire – Automatisation DevOps et IA pour l'usine logicielle - F/H",
+   "location": "Gennevilliers",
+   "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Gennevilliers/Stagiaire---Ingnieur-Automatisation-IA-et-qualimtrie-logicielle--F-H-_R0343154",
+   "posted": "2026-10-20",
+   "kind": "internship",
+   "tags": [
+    "devops",
+    "ml"
+   ],
+   "via": "workday",
+   "elig": "unknown",
+   "elig_why": "",
+   "dtags": [],
+   "desc_len": 3594,
+   "region": "europe",
+   "country": "France",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "dbc3f72c779f",
+   "company": "Thales",
+   "group": "big",
+   "title": "STAGE – Ingénieur DevOps : mise à hauteur chaine CI/CD Logiciel Radar F/H",
+   "location": "Bordeaux",
+   "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bordeaux/STAGE---Ingnieur-DevOps---mise--hauteur-chaine-CI-CD-Logiciel-Radar-F-H_R0344393-1",
+   "posted": "2026-10-20",
+   "kind": "internship",
+   "tags": [
+    "devops"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "France: a 'stage' needs a convention de stage from a school",
+   "dtags": [],
+   "desc_len": 2656,
+   "region": "europe",
+   "country": "France",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "1a11ae6fe448",
+   "company": "Thales",
+   "group": "big",
+   "title": "STAGE - Ingénieur Edge Computing Spatial et IA Embarquée – F/H",
+   "location": "Toulouse",
+   "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Toulouse/STAGE---Ingnieur--Edge-Computing-Spatial-et-IA-Embarque---F-H_R0344952-1",
+   "posted": "2026-10-20",
+   "kind": "internship",
+   "tags": [
+    "cloud",
+    "ml"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "France: a 'stage' needs a convention de stage from a school",
+   "dtags": [
+    "telco"
+   ],
+   "desc_len": 4228,
+   "region": "europe",
+   "country": "France",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "c5feb9b47988",
+   "company": "Thales",
+   "group": "big",
+   "title": "STAGE - IA et DevOps : automatisation de l'intégration logicielle - F/H",
+   "location": "Gennevilliers",
+   "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Gennevilliers/STAGE---IA-et-DevOps---automatisation-de-l-intgration-logicielle---F-H_R0344075",
+   "posted": "2026-10-20",
+   "kind": "internship",
+   "tags": [
+    "devops",
+    "ml"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "cialisation en informatique et vous recherchez un stage de fin d'études de 6 mois. Vous maîtrisez le scripting en Python",
+   "dtags": [
+    "cloud"
+   ],
+   "desc_len": 3846,
+   "region": "europe",
+   "country": "France",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "256bfb6fb066",
+   "company": "Thales",
+   "group": "big",
+   "title": "STAGE - Application des LLMs à l'Automatisation de Tests 4G/5G - F/H",
+   "location": "Gennevilliers",
+   "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Gennevilliers/STAGE---Application-des-LLMs--l-Automatisation-de-Tests-4G-5G---F-H_R0343996-1",
+   "posted": "2026-10-20",
+   "kind": "internship",
+   "tags": [
+    "telco",
+    "ml"
+   ],
+   "via": "workday",
+   "elig": "unknown",
+   "elig_why": "",
+   "dtags": [],
+   "desc_len": 3481,
+   "region": "europe",
+   "country": "France",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "b104c34a3b5e",
+   "company": "Nokia",
+   "group": "telco",
+   "title": "AI SW Engineer",
+   "location": "India",
+   "url": "https://jobs.nokia.com/en/sites/CX_1/job/41102",
+   "posted": "2026-10-08",
+   "kind": "phd",
+   "tags": [
+    "devops",
+    "cloud",
+    "ml",
+    "research"
+   ],
+   "via": "oracle_hcm",
+   "elig": "graduates",
+   "elig_why": "phd position",
+   "dtags": [],
+   "desc_len": 3935,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "a7837ab2d69e",
+   "company": "Intel",
+   "group": "big",
+   "title": "Cloud Analytics - Application PhD Intern",
+   "location": "US, Oregon, Hillsboro",
+   "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/US-Oregon-Hillsboro/Cloud-Analytics---Application-PhD-Intern_JR0288170",
+   "posted": "2026-10-19",
+   "kind": "internship",
+   "tags": [
+    "cloud",
+    "research"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "Cloud Analytics - Application PhD Intern Job Details: Job Description: The Role and Impact",
+   "dtags": [
+    "devops",
+    "ml"
+   ],
+   "desc_len": 5335,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "df4715453bbe",
+   "company": "IBM",
+   "group": "big",
+   "title": "Software Developer Intern-Poughkeepsie, NY",
+   "location": "POUGHKEEPSIE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=130113",
+   "posted": null,
+   "kind": "internship",
+   "tags": [
+    "cloud"
+   ],
+   "via": "ibm",
+   "elig": "unknown",
+   "elig_why": "description not available",
+   "dtags": [],
+   "desc_len": 0,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "5e6abe44ac26",
+   "company": "IBM",
+   "group": "big",
+   "title": "Site Reliability Engineer Intern 2027",
+   "location": "Markham, CA",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=133062",
+   "posted": null,
+   "kind": "internship",
+   "tags": [
+    "devops",
+    "cloud"
+   ],
+   "via": "ibm",
+   "elig": "unknown",
+   "elig_why": "description not available",
+   "dtags": [],
+   "desc_len": 0,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "df4357d15b47",
+   "company": "IBM",
+   "group": "big",
+   "title": "Research Intern 2027 – Quantum-HPC Integration",
+   "location": "Yorktown Heights, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=133667",
+   "posted": null,
+   "kind": "internship",
+   "tags": [
+    "cloud",
+    "research"
+   ],
+   "via": "ibm",
+   "elig": "unknown",
+   "elig_why": "description not available",
+   "dtags": [],
+   "desc_len": 0,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "cfd6dbe03eb7",
+   "company": "IBM",
+   "group": "big",
+   "title": "Quantum Infrastructure Intern 2027 - SRE",
+   "location": "Yorktown Heights, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=133504",
+   "posted": null,
+   "kind": "internship",
+   "tags": [
+    "devops",
+    "cloud"
+   ],
+   "via": "ibm",
+   "elig": "unknown",
+   "elig_why": "description not available",
+   "dtags": [],
+   "desc_len": 0,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "8126f4e9955a",
+   "company": "IBM",
+   "group": "big",
+   "title": "Quantum Infrastructure Intern 2027 - Platform Automation",
+   "location": "Yorktown Heights, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=133127",
+   "posted": null,
+   "kind": "internship",
+   "tags": [
+    "cloud"
+   ],
+   "via": "ibm",
+   "elig": "unknown",
+   "elig_why": "description not available",
+   "dtags": [],
+   "desc_len": 0,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "1ff82e4e0991",
+   "company": "IBM",
+   "group": "big",
+   "title": "Hardware intern 2027: advanced packaging",
+   "location": "Yorktown Heights, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=133153",
+   "posted": null,
+   "kind": "internship",
+   "tags": [
+    "cloud"
+   ],
+   "via": "ibm",
+   "elig": "unknown",
+   "elig_why": "description not available",
+   "dtags": [],
+   "desc_len": 0,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "9a972c251eb4",
+   "company": "IBM",
+   "group": "big",
+   "title": "Control Electronics Engineer Intern 2027",
+   "location": "POUGHKEEPSIE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=134106",
+   "posted": null,
+   "kind": "internship",
+   "tags": [
+    "cloud"
+   ],
+   "via": "ibm",
+   "elig": "unknown",
+   "elig_why": "description not available",
+   "dtags": [],
+   "desc_len": 0,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "0d6cf3dbc303",
+   "company": "HPE (incl. Juniper)",
+   "group": "big",
+   "title": "Supply Chain Business Analyst Intern",
+   "location": "Singapore, Central Singapore, Singapore",
+   "url": "https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Singapore-Central-Singapore-Singapore/Supply-Chain-Business-Analyst-ntern_1213582",
+   "posted": "2026-09-30",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "elig": "unknown",
+   "elig_why": "",
+   "dtags": [],
+   "desc_len": 5725,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "bf93ac20c73e",
+   "company": "HPE (incl. Juniper)",
+   "group": "big",
+   "title": "R&D Hardware Design Engineer (Graduate)",
+   "location": "Singapore, Central Singapore, Singapore",
+   "url": "https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Singapore-Central-Singapore-Singapore/Hardware-Design-Graduate_1213614-1",
+   "posted": "2026-10-13",
+   "kind": "graduate",
+   "tags": [
+    "research"
+   ],
+   "via": "workday",
+   "elig": "graduates",
+   "elig_why": "ul engineering challenges. This is more than your first job. It’s where your engineering journey begins. Why",
+   "dtags": [],
+   "desc_len": 8169,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "b91f45360b67",
+   "company": "HPE (incl. Juniper)",
+   "group": "big",
+   "title": "Payroll Intern",
+   "location": "Wroclaw, Lower Silesian, Poland",
+   "url": "https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Wroclaw-Lower-Silesian-Poland/Intern_1215171",
+   "posted": "2026-10-19",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "Location: Wroclaw, Poland Mandatory Requirements: Enrolled at a University for the duration of the internship, part-time (30",
+   "dtags": [],
+   "desc_len": 9003,
+   "region": "europe",
+   "country": "Central/Eastern Europe",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "2ffca99bea32",
+   "company": "HPE (incl. Juniper)",
+   "group": "big",
+   "title": "Finance Intern",
+   "location": "San Jose, California, United States of America",
+   "url": "https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/San-Jose-California-United-States-of-America/Finance-Intern_1213767",
+   "posted": "2026-10-19",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "elig": "graduates",
+   "elig_why": "Job Description: Job Family Definition: Students or recent graduates of college, university, or other accredited acad",
+   "dtags": [],
+   "desc_len": 7128,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "d95347b735ae",
+   "company": "HPE (incl. Juniper)",
+   "group": "big",
+   "title": "Data Analytics (Supply Chain) Intern",
+   "location": "Singapore, Central Singapore, Singapore",
+   "url": "https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Singapore-Central-Singapore-Singapore/Data-Analytics--Supply-Chain--Intern_1213573",
+   "posted": "2026-09-20",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "elig": "unknown",
+   "elig_why": "",
+   "dtags": [],
+   "desc_len": 5195,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "f496d9aded2a",
+   "company": "HPE (incl. Juniper)",
+   "group": "big",
+   "title": "Customer Success Intern",
+   "location": "Winnersh, Berkshire, United Kingdom",
+   "url": "https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Winnersh-Berkshire-United-Kingdom/Customer-Success-Intern_1211002",
+   "posted": "2026-10-20",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "elig": "unknown",
+   "elig_why": "",
+   "dtags": [
+    "cloud",
+    "ml"
+   ],
+   "desc_len": 10667,
+   "region": "europe",
+   "country": "United Kingdom",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "d4c775d2d285",
+   "company": "HPE (incl. Juniper)",
+   "group": "big",
+   "title": "ASIC Intern",
+   "location": "Roseville, California, United States of America",
+   "url": "https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Roseville-California-United-States-of-America/ASIC-Intern_1214020",
+   "posted": "2026-10-19",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "kills and business needs. Education & Experience: Currently pursuing a Bachelor's or Master's degree in Computer Engin",
+   "dtags": [],
+   "desc_len": 7457,
+   "region": "europe",
+   "country": "Spain",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "179897494697",
+   "company": "HPE (incl. Juniper)",
+   "group": "big",
+   "title": "AI and Machine Learning Engineering Graduate",
+   "location": "Durham, North Carolina, United States of America",
+   "url": "https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Durham-North-Carolina-United-States-of-America/AI-and-Machine-Learning-Engineering-Graduate_1213475",
+   "posted": "2026-09-20",
+   "kind": "graduate",
+   "tags": [
+    "ml"
+   ],
+   "via": "workday",
+   "elig": "graduates",
+   "elig_why": "graduate position",
+   "dtags": [],
+   "desc_len": 9533,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "39908efd0a80",
+   "company": "Cisco",
+   "group": "big",
+   "title": "Critical Accounts Manager I (Intern) - Mexico",
+   "location": "Mexico City, Mexico",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Mexico-City-Mexico/Critical-Accounts-Manager-I--Intern----Mexico_2026269",
+   "posted": "2026-10-19",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "mum qualifications Education & Enrollment Status: Currently enrolled in an undergraduate degree program (Associate's o",
+   "dtags": [],
+   "desc_len": 3912,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "154868f83d2b",
+   "company": "Cisco",
+   "group": "big",
+   "title": "Attack Surface Management Security Engineer I (Full-Time) – United States",
+   "location": "RTP, North Carolina, US; Knoxville, Tennessee, US",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/RTP-North-Carolina-US/Attack-Surface-Management-Security-Engineer-I--Full-Time----United-States_2029031",
+   "posted": "2026-10-19",
+   "kind": "junior",
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "workforce development program (e.g., Associate’s, Apprenticeship, Boot camp, or Certification) with 1 year of work",
+   "dtags": [],
+   "desc_len": 7896,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "41ea79a2d14a",
+   "company": "Cisco",
+   "group": "big",
+   "title": "Amplify Marketing Specialist Intern, Singapore",
+   "location": "Singapore, Singapore",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Singapore-Singapore/Amplify-Marketing-Specialist-Intern--Singapore_2029387",
+   "posted": "2026-10-20",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "uate of a certification program from a Boot Camp, Apprenticeship, Community College or 4-Year University Recently",
+   "dtags": [],
+   "desc_len": 3883,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "fd6e6f0e6ce9",
+   "company": "Cisco",
+   "group": "big",
+   "title": "Amplify Marketing Specialist Intern, Singapore",
+   "location": "Singapore, Singapore",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Singapore-Singapore/Amplify-Marketing-Specialist-Intern--Singapore_2028776",
+   "posted": "2026-10-20",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "uate of a certification program from a Boot Camp, Apprenticeship, Community College or 4-Year University Recently",
+   "dtags": [],
+   "desc_len": 3630,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "5e2ecb0658ef",
+   "company": "Ciena",
+   "group": "telco",
+   "title": "Services Business Intelligence & Analytics Intern",
+   "location": "Montreal; Ottawa",
+   "url": "https://ciena.wd5.myworkdayjobs.com/en-US/Careers/job/Montreal/Services-Business-Intelligence---Analytics-Intern_R031851",
+   "posted": "2026-10-19",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "ss evolution. The must haves: Education: Actively enrolled in a degree program in Engineering, Computer Science, or simi",
+   "dtags": [],
+   "desc_len": 3458,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "321f446a76f9",
+   "company": "Bosch",
+   "group": "big",
+   "title": "AI Research Intern: Wireless Foundation Models",
+   "location": "Pittsburgh, us",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156323136",
+   "posted": "2026-10-19",
+   "kind": "internship",
+   "tags": [
+    "telco",
+    "ml",
+    "research"
+   ],
+   "via": "smartrecruiters",
+   "elig": "students",
+   "elig_why": "d/or patent application. Required Qualifications: Currently enrolled in a PhD program in Computer Science, Electrical",
+   "dtags": [],
+   "desc_len": 4353,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "bce3f6473bed",
+   "company": "Amazon / AWS",
+   "group": "big",
+   "title": "Associate Solutions Architect Internship 2027",
+   "location": "Stockholm, Stockholm County, SWE",
+   "url": "https://www.amazon.jobs/en/jobs/10582540/associate-solutions-architect-internship-2027",
+   "posted": "2026-10-19",
+   "kind": "internship",
+   "tags": [
+    "cloud"
+   ],
+   "via": "amazon",
+   "elig": "graduates",
+   "elig_why": "ip serves as a pathway to our Solutions Architect Graduate Program, offering you the opportunity to build foundation",
+   "dtags": [],
+   "desc_len": 5616,
+   "region": "europe",
+   "country": "Nordics",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "4c381843019d",
+   "company": "Airbus",
+   "group": "big",
+   "title": "Stage 2027 - Stagiaire en Développement d'outils IA pour la conception d'écrans de cockpit (F/H)",
+   "location": "Toulouse Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/Stage-2027---Stagiaire-en-Dveloppement-d-outils-IA-pour-la-conception-d-crans-de-cockpit--F-H-_JR10443690",
+   "posted": "2026-10-20",
+   "kind": "internship",
+   "tags": [
+    "ml"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "e période de stage. Attestation de possibilité de convention de stage délivrée par votre école. 2027 Internship - Inter",
+   "dtags": [
+    "devops"
+   ],
+   "desc_len": 10260,
+   "region": "europe",
+   "country": "France",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "6524d0e8a26b",
+   "company": "Airbus",
+   "group": "big",
+   "title": "STAGE 2027 - Stage en Développement d'application mobile (H/F)",
+   "location": "Marseille Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Marseille-Area/STAGE-2027---Stage-en--Dveloppement-d-application-mobile--H-F-_JR10441232",
+   "posted": "2026-10-20",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "elig": "students",
+   "elig_why": "France: a 'stage' needs a convention de stage from a school",
+   "dtags": [
+    "devops"
+   ],
+   "desc_len": 5693,
+   "region": "europe",
+   "country": "France",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "b8ce776b20f3",
+   "company": "Adyen",
+   "group": "big",
+   "title": "Full-Stack Developer (Junior) - Docs Experience Engineering Team",
+   "location": "Chicago",
+   "url": "https://job-boards.greenhouse.io/adyen/jobs/8068230",
+   "posted": "2026-09-11",
+   "kind": "junior",
+   "tags": [
+    "other"
+   ],
+   "via": "greenhouse",
+   "elig": "graduates",
+   "elig_why": "junior position",
+   "dtags": [],
+   "desc_len": 4324,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
   {
    "id": "03fe4ca29b5b",
    "company": "IBM",
@@ -23,30 +810,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "29771afa06e0",
-   "company": "HPE (incl. Juniper)",
-   "group": "big",
-   "title": "Thermal Engineering Intern",
-   "location": "Sunnyvale, California, United States of America",
-   "url": "https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Sunnyvale-California-United-States-of-America/Thermal-Engineering-Intern_1214190",
-   "posted": "2026-10-08",
-   "kind": "internship",
-   "tags": [
-    "other"
-   ],
-   "via": "workday",
-   "elig": "graduates",
-   "elig_why": "Job Description: Job Family Definition: Students or recent graduates of college, university, or other accredited acad",
-   "dtags": [],
-   "desc_len": 6527,
-   "region": "other",
-   "country": "",
-   "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -69,7 +833,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -92,7 +856,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -115,7 +879,7 @@
    "region": "europe",
    "country": "Italy",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -138,55 +902,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "a403125a4195",
-   "company": "Fraunhofer",
-   "group": "research",
-   "title": "Master's Thesis \"N-doped carbon xerogels as 3D electrodes for sodium-iodine batteries\"",
-   "location": "Germany",
-   "url": "https://jobs.fraunhofer.de/job/Oberhausen-Master&apos;s-Thesis-N-doped-carbon-xerogels-as-3D-electrodes-for-sodium-iodine-batteries-46047/1444621933/",
-   "posted": null,
-   "kind": "internship",
-   "tags": [
-    "green",
-    "research"
-   ],
-   "via": "link_scan",
-   "elig": "students",
-   "elig_why": "Master's Thesis \"N-doped carbon xerogels as 3D electrodes for sod",
-   "dtags": [],
-   "desc_len": 8919,
-   "region": "europe",
-   "country": "Germany",
-   "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "41e4c3460b01",
-   "company": "EURAXESS",
-   "group": "portal",
-   "title": "Prospective PhD fellowship in advanced characterisation of thin films for sustainable energy technologies",
-   "location": "",
-   "url": "https://euraxess.ec.europa.eu/jobs/473858",
-   "posted": null,
-   "kind": "phd",
-   "tags": [
-    "green",
-    "research"
-   ],
-   "via": "link_scan",
-   "elig": "graduates",
-   "elig_why": "phd position",
-   "dtags": [],
-   "desc_len": 15790,
-   "region": "",
-   "country": "",
-   "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -211,53 +927,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "53386e122597",
-   "company": "Airbus",
-   "group": "big",
-   "title": "STAGE 2027 - Software Defined Radio Functions Designer (h/f)",
-   "location": "Aix-en-Provence Les Milles",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Aix-en-Provence-Les-Milles/STAGE-2027---Software-Defined-Radio-Functions-Designer--h-f-_JR10444926",
-   "posted": "2026-10-19",
-   "kind": "internship",
-   "tags": [
-    "telco"
-   ],
-   "via": "workday",
-   "elig": "unknown",
-   "elig_why": "",
-   "dtags": [],
-   "desc_len": 4544,
-   "region": "",
-   "country": "",
-   "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "1f5547fcf2c8",
-   "company": "Airbus",
-   "group": "big",
-   "title": "STAGE 2027 - Développement d'outils pour les opérations et l'avionique de satellites",
-   "location": "Toulouse Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/STAGE-2027---Dveloppement-d-outils-pour-les-oprations-et-l-avionique-de-satellites_JR10443163",
-   "posted": "2026-10-19",
-   "kind": "internship",
-   "tags": [
-    "telco"
-   ],
-   "via": "workday",
-   "elig": "students",
-   "elig_why": "France: a 'stage' needs a convention de stage from a school",
-   "dtags": [],
-   "desc_len": 6434,
-   "region": "europe",
-   "country": "France",
-   "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -280,32 +950,7 @@
    "region": "europe",
    "country": "Germany",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "483c1639db32",
-   "company": "Airbus",
-   "group": "big",
-   "title": "Internship - DMZ",
-   "location": "Bangalore Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bangalore-Area/Internship---DMZ_JR10448613",
-   "posted": "2026-10-19",
-   "kind": "internship",
-   "tags": [
-    "other"
-   ],
-   "via": "workday",
-   "elig": "students",
-   "elig_why": "ny, Composer, Drush, JavaScript.) Qualifications: Currently pursuing “BE / B Tech”. You possess the following competen",
-   "dtags": [
-    "cloud"
-   ],
-   "desc_len": 6109,
-   "region": "other",
-   "country": "",
-   "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -329,7 +974,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-18",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -352,30 +997,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-18",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "632a82473b99",
-   "company": "IBM",
-   "group": "big",
-   "title": "2027 Intern Conversion - Canada",
-   "location": "Multiple Cities",
-   "url": "https://careers.ibm.com/careers/JobDetail?jobId=127921",
-   "posted": null,
-   "kind": "internship",
-   "tags": [
-    "cloud"
-   ],
-   "via": "ibm",
-   "elig": "unknown",
-   "elig_why": "description not available",
-   "dtags": [],
-   "desc_len": 0,
-   "region": "",
-   "country": "",
-   "first_seen": "2026-10-18",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -399,31 +1021,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-17",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "8ffb1bebdf14",
-   "company": "Thales",
-   "group": "big",
-   "title": "STAGE - Ingénieur Backend, Intégration & DevOps (Applications digitales et IA) -F/H",
-   "location": "Toulouse",
-   "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Toulouse/STAGE---Ingnieur-Backend--Intgration---DevOps--Applications-digitales-et-IA---F-H_R0343561",
-   "posted": "2026-10-12",
-   "kind": "internship",
-   "tags": [
-    "devops",
-    "ml"
-   ],
-   "via": "workday",
-   "elig": "students",
-   "elig_why": "France: a 'stage' needs a convention de stage from a school",
-   "dtags": [],
-   "desc_len": 4200,
-   "region": "europe",
-   "country": "France",
-   "first_seen": "2026-10-17",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -446,7 +1044,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-17",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -469,32 +1067,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-17",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "d7288e80de94",
-   "company": "Nokia",
-   "group": "telco",
-   "title": "CDC Strategy & Capabilities Professional Intern",
-   "location": "Belgium",
-   "url": "https://jobs.nokia.com/en/sites/CX_1/job/41510",
-   "posted": "2026-10-16",
-   "kind": "internship",
-   "tags": [
-    "other"
-   ],
-   "via": "oracle_hcm",
-   "elig": "students",
-   "elig_why": "n Security Operations Center (SOC). You have/are: Currently enrolled as a student in a relevant field Demonstrable int",
-   "dtags": [
-    "ml"
-   ],
-   "desc_len": 2699,
-   "region": "europe",
-   "country": "Belgium",
-   "first_seen": "2026-10-17",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -519,7 +1092,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-17",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -542,30 +1115,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-17",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "619be4fd7251",
-   "company": "HPE (incl. Juniper)",
-   "group": "big",
-   "title": "Operations Project Analyst Intern",
-   "location": "Bucharest, Romania",
-   "url": "https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Bucharest-Romania/Operations-Project-Analyst-Intern_1216279",
-   "posted": "2026-10-16",
-   "kind": "internship",
-   "tags": [
-    "other"
-   ],
-   "via": "workday",
-   "elig": "students",
-   "elig_why": "erational activities as needed. What you’ll need: Currently enrolled in a Bachelor’s or Master’s degree program Experi",
-   "dtags": [],
-   "desc_len": 6980,
-   "region": "europe",
-   "country": "Central/Eastern Europe",
-   "first_seen": "2026-10-17",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -588,7 +1138,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-17",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -611,7 +1161,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-17",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -637,7 +1187,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-17",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -660,7 +1210,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-17",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -683,7 +1233,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-17",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -708,7 +1258,7 @@
    "region": "europe",
    "country": "Switzerland",
    "first_seen": "2026-10-17",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -731,30 +1281,7 @@
    "region": "europe",
    "country": "Germany",
    "first_seen": "2026-10-17",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "87a76f05fbfb",
-   "company": "Amazon / AWS",
-   "group": "big",
-   "title": "Associate Solutions Architect Internship 2027",
-   "location": "Stockholm, Stockholm County, SWE",
-   "url": "https://www.amazon.jobs/en/jobs/10581253/associate-solutions-architect-internship-2027",
-   "posted": "2026-10-16",
-   "kind": "internship",
-   "tags": [
-    "cloud"
-   ],
-   "via": "amazon",
-   "elig": "graduates",
-   "elig_why": "ip serves as a pathway to our Solutions Architect Graduate Program, offering you the opportunity to build foundation",
-   "dtags": [],
-   "desc_len": 5610,
-   "region": "europe",
-   "country": "Nordics",
-   "first_seen": "2026-10-17",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -777,30 +1304,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-17",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "d8b95ad9383c",
-   "company": "Amazon / AWS",
-   "group": "big",
-   "title": "Associate Solutions Architect Internship 2027",
-   "location": "Munich, Bavaria, DEU",
-   "url": "https://www.amazon.jobs/en/jobs/10581251/associate-solutions-architect-internship-2027",
-   "posted": "2026-10-16",
-   "kind": "internship",
-   "tags": [
-    "cloud"
-   ],
-   "via": "amazon",
-   "elig": "graduates",
-   "elig_why": "ip serves as a pathway to our Solutions Architect Graduate Program, offering you the opportunity to build foundation",
-   "dtags": [],
-   "desc_len": 5615,
-   "region": "europe",
-   "country": "Germany",
-   "first_seen": "2026-10-17",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -823,7 +1327,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-17",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -846,7 +1350,7 @@
    "region": "europe",
    "country": "Spain",
    "first_seen": "2026-10-17",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -869,7 +1373,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-17",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -894,7 +1398,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -918,7 +1422,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -945,7 +1449,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -971,7 +1475,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -998,7 +1502,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1022,7 +1526,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1046,7 +1550,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1072,7 +1576,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1096,7 +1600,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1119,7 +1623,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1142,7 +1646,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1165,7 +1669,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1188,7 +1692,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1211,7 +1715,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1234,7 +1738,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1257,7 +1761,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1280,7 +1784,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1303,7 +1807,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1326,7 +1830,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1349,30 +1853,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "1a5db89284e9",
-   "company": "Google",
-   "group": "big",
-   "title": "Junior RTL Design Engineer, Google Cloud",
-   "location": "Tel Aviv, Israel",
-   "url": "https://www.google.com/about/careers/applications/jobs/results/140723940472300230-junior-rtl-design-engineer-google-cloud",
-   "posted": null,
-   "kind": "junior",
-   "tags": [
-    "cloud"
-   ],
-   "via": "google",
-   "elig": "graduates",
-   "elig_why": "junior position",
-   "dtags": [],
-   "desc_len": 5869,
-   "region": "other",
-   "country": "",
-   "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1395,7 +1876,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1418,7 +1899,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1441,7 +1922,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1464,7 +1945,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1487,7 +1968,7 @@
    "region": "europe",
    "country": "Switzerland",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1510,7 +1991,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1535,7 +2016,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1560,7 +2041,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1585,7 +2066,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1609,7 +2090,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1632,7 +2113,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1655,7 +2136,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1678,7 +2159,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1701,7 +2182,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1724,7 +2205,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1750,7 +2231,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1776,7 +2257,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1799,7 +2280,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1822,7 +2303,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1846,7 +2327,7 @@
    "region": "europe",
    "country": "Nordics",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1872,7 +2353,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1897,7 +2378,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1920,7 +2401,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1943,7 +2424,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1969,7 +2450,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -1993,7 +2474,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2018,7 +2499,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2043,7 +2524,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2066,7 +2547,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2091,7 +2572,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2116,7 +2597,7 @@
    "region": "europe",
    "country": "Germany",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2139,7 +2620,7 @@
    "region": "europe",
    "country": "Germany",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2164,7 +2645,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2187,7 +2668,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2210,7 +2691,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2235,7 +2716,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2260,7 +2741,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2286,7 +2767,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2310,7 +2791,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2335,7 +2816,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2359,7 +2840,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2382,7 +2863,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2406,7 +2887,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2429,7 +2910,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2453,7 +2934,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2477,7 +2958,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2500,7 +2981,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2523,7 +3004,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2546,7 +3027,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2569,7 +3050,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2592,7 +3073,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2615,7 +3096,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2638,7 +3119,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2661,7 +3142,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2686,7 +3167,7 @@
    "region": "europe",
    "country": "Germany",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2711,7 +3192,7 @@
    "region": "europe",
    "country": "Germany",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2734,7 +3215,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2757,7 +3238,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2780,7 +3261,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2806,7 +3287,7 @@
    "region": "europe",
    "country": "Germany",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2829,7 +3310,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2852,7 +3333,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2877,7 +3358,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2900,30 +3381,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "87ff358b6e25",
-   "company": "Airbus",
-   "group": "big",
-   "title": "STAGE 2027 - Monteur/éditeur vidéo pour réseaux sociaux (F/H)",
-   "location": "Toulouse Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/STAGE-2026---Monteur-diteur-vido-pour-rseaux-sociaux--F-H-_JR10445190",
-   "posted": "2026-10-14",
-   "kind": "internship",
-   "tags": [
-    "telco"
-   ],
-   "via": "workday",
-   "elig": "students",
-   "elig_why": "onaux L'accès aux ressources et aux plateformes d'apprentissage d'Airbus pour soutenir votre développement. Votre",
-   "dtags": [],
-   "desc_len": 10097,
-   "region": "europe",
-   "country": "France",
-   "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2948,7 +3406,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2971,7 +3429,7 @@
    "region": "europe",
    "country": "Switzerland",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -2994,7 +3452,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3020,7 +3478,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3044,7 +3502,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3068,7 +3526,7 @@
    "region": "europe",
    "country": "Portugal",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3092,7 +3550,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3117,7 +3575,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3140,7 +3598,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3165,7 +3623,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3188,7 +3646,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3211,7 +3669,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3234,7 +3692,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3257,7 +3715,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3280,7 +3738,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3303,30 +3761,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "eef7913f91cb",
-   "company": "Equinix",
-   "group": "big",
-   "title": "Data Center Customer Operations II",
-   "location": "Dubai",
-   "url": "https://equinix.wd1.myworkdayjobs.com/en-US/External/job/Dubai/Data-Center-Customer-Operations-II_JR-162976",
-   "posted": "2026-10-13",
-   "kind": "junior",
-   "tags": [
-    "cloud"
-   ],
-   "via": "workday",
-   "elig": "graduates",
-   "elig_why": "junior position",
-   "dtags": [],
-   "desc_len": 3766,
-   "region": "other",
-   "country": "",
-   "first_seen": "2026-10-13",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3349,7 +3784,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3372,32 +3807,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "ea7350d6b4b4",
-   "company": "Airbus",
-   "group": "big",
-   "title": "Internship - Industrialisation",
-   "location": "Bangalore Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bangalore-Area/Internship---Industrialisation_JR10449645",
-   "posted": "2026-10-13",
-   "kind": "internship",
-   "tags": [
-    "other"
-   ],
-   "via": "workday",
-   "elig": "unknown",
-   "elig_why": "",
-   "dtags": [
-    "cloud"
-   ],
-   "desc_len": 3832,
-   "region": "other",
-   "country": "",
-   "first_seen": "2026-10-13",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3422,7 +3832,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-12",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3445,7 +3855,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-12",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3468,7 +3878,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-12",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3491,7 +3901,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-12",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3516,7 +3926,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-12",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3541,7 +3951,7 @@
    "region": "europe",
    "country": "Germany",
    "first_seen": "2026-10-11",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3564,7 +3974,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3587,7 +3997,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3610,7 +4020,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3633,7 +4043,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3656,7 +4066,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3681,32 +4091,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "8083a1b2a793",
-   "company": "jobs.ac.uk",
-   "group": "portal",
-   "title": "Phd Studentship: AI-Enhanced Flexible Antenna Systems for Resilient Next-Generation Wireless Networks",
-   "location": "United Kingdom",
-   "url": "https://www.jobs.ac.uk/job/DSQ818/phd-studentship-ai-enhanced-flexible-antenna-systems-for-resilient-next-generation-wireless-networks",
-   "posted": null,
-   "kind": "phd",
-   "tags": [
-    "telco",
-    "ml",
-    "research"
-   ],
-   "via": "link_scan",
-   "elig": "graduates",
-   "elig_why": "phd position",
-   "dtags": [],
-   "desc_len": 6503,
-   "region": "europe",
-   "country": "United Kingdom",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3730,7 +4115,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3754,7 +4139,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3777,7 +4162,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3800,7 +4185,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3823,7 +4208,7 @@
    "region": "europe",
    "country": "Germany",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3847,7 +4232,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3872,7 +4257,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3897,7 +4282,7 @@
    "region": "europe",
    "country": "Netherlands",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3920,32 +4305,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "e25ae18534d9",
-   "company": "Thales",
-   "group": "big",
-   "title": "STAGE - Ingénieur DevOps (H/F)",
-   "location": "Vélizy-Villacoublay",
-   "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Vlizy-Villacoublay/STAGE---Ingnieur-DevOps--H-F-_R0339835-1",
-   "posted": "2026-10-08",
-   "kind": "internship",
-   "tags": [
-    "devops"
-   ],
-   "via": "workday",
-   "elig": "unknown",
-   "elig_why": "",
-   "dtags": [
-    "cloud"
-   ],
-   "desc_len": 3529,
-   "region": "europe",
-   "country": "France",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3968,7 +4328,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -3991,7 +4351,7 @@
    "region": "europe",
    "country": "Netherlands",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4014,7 +4374,7 @@
    "region": "europe",
    "country": "Spain",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4037,7 +4397,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4060,7 +4420,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4083,7 +4443,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4106,7 +4466,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4129,7 +4489,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4152,7 +4512,7 @@
    "region": "europe",
    "country": "Germany",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4175,7 +4535,7 @@
    "region": "europe",
    "country": "Germany",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4198,7 +4558,7 @@
    "region": "europe",
    "country": "Germany",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4221,7 +4581,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4246,7 +4606,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4271,7 +4631,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4296,7 +4656,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4321,7 +4681,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4346,7 +4706,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4369,7 +4729,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4392,7 +4752,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4417,7 +4777,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4440,7 +4800,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4463,7 +4823,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4486,7 +4846,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4509,7 +4869,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4534,7 +4894,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4559,7 +4919,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4582,7 +4942,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4607,7 +4967,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4630,7 +4990,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4653,7 +5013,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4678,7 +5038,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4701,7 +5061,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4726,7 +5086,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4749,7 +5109,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4772,7 +5132,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4795,7 +5155,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4818,7 +5178,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4841,7 +5201,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4864,7 +5224,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4887,7 +5247,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4910,7 +5270,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4933,7 +5293,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4956,7 +5316,7 @@
    "region": "europe",
    "country": "Nordics",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -4979,7 +5339,7 @@
    "region": "europe",
    "country": "Italy",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5002,7 +5362,7 @@
    "region": "europe",
    "country": "Italy",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5026,7 +5386,7 @@
    "region": "europe",
    "country": "Italy",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5049,7 +5409,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5072,7 +5432,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5097,7 +5457,7 @@
    "region": "europe",
    "country": "Portugal",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5120,7 +5480,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5143,7 +5503,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5166,7 +5526,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5191,7 +5551,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5216,7 +5576,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5241,7 +5601,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5264,7 +5624,7 @@
    "region": "europe",
    "country": "Italy",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5288,7 +5648,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5314,7 +5674,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5337,7 +5697,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5360,7 +5720,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5383,7 +5743,7 @@
    "region": "europe",
    "country": "Nordics",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5406,7 +5766,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5430,7 +5790,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5456,7 +5816,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5479,7 +5839,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5503,7 +5863,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5526,7 +5886,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5551,7 +5911,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5574,7 +5934,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5600,7 +5960,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5626,7 +5986,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5649,7 +6009,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5672,7 +6032,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5695,7 +6055,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5719,7 +6079,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5745,7 +6105,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5769,7 +6129,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5792,7 +6152,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5815,7 +6175,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5839,32 +6199,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "f3e855167631",
-   "company": "Nokia",
-   "group": "telco",
-   "title": "Customer Applications Eng Co-op/Intern",
-   "location": "Canada",
-   "url": "https://jobs.nokia.com/en/sites/CX_1/job/39430",
-   "posted": "2026-09-15",
-   "kind": "internship",
-   "tags": [
-    "cloud",
-    "telco",
-    "green"
-   ],
-   "via": "oracle_hcm",
-   "elig": "students",
-   "elig_why": "ybrid in Ottawa, CANADA Education Recommendations Currently enrolled in the second, third, or fourth year of a bachelo",
-   "dtags": [],
-   "desc_len": 1198,
-   "region": "other",
-   "country": "",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5887,7 +6222,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5910,7 +6245,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5937,7 +6272,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5964,7 +6299,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -5989,7 +6324,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6012,7 +6347,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6036,7 +6371,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6060,7 +6395,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6086,7 +6421,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6113,7 +6448,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6139,7 +6474,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6164,7 +6499,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6190,7 +6525,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6215,7 +6550,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6241,7 +6576,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6267,7 +6602,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6293,7 +6628,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6317,7 +6652,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6342,7 +6677,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6368,7 +6703,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6395,7 +6730,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6419,7 +6754,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6446,7 +6781,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6471,7 +6806,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6494,7 +6829,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6517,7 +6852,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6542,7 +6877,7 @@
    "region": "europe",
    "country": "Ireland",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6565,7 +6900,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6591,7 +6926,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6616,7 +6951,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6641,7 +6976,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6666,7 +7001,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6691,7 +7026,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6717,7 +7052,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6743,7 +7078,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6769,7 +7104,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6795,7 +7130,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6819,7 +7154,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6844,7 +7179,7 @@
    "region": "europe",
    "country": "Spain",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6868,7 +7203,7 @@
    "region": "europe",
    "country": "Spain",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6893,7 +7228,7 @@
    "region": "europe",
    "country": "Spain",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6917,7 +7252,7 @@
    "region": "europe",
    "country": "Spain",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6942,7 +7277,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6965,7 +7300,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -6988,7 +7323,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7012,7 +7347,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7036,7 +7371,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7060,7 +7395,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7084,7 +7419,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7107,7 +7442,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7130,7 +7465,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7155,7 +7490,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7179,7 +7514,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7202,7 +7537,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7225,7 +7560,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7250,7 +7585,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7273,7 +7608,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7297,7 +7632,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7321,7 +7656,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7345,7 +7680,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7368,7 +7703,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7391,7 +7726,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7415,7 +7750,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7439,7 +7774,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7463,7 +7798,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7486,7 +7821,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7509,7 +7844,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7532,7 +7867,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7556,7 +7891,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7580,7 +7915,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7603,7 +7938,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7626,7 +7961,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7649,7 +7984,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7672,7 +8007,7 @@
    "region": "europe",
    "country": "Germany",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7695,7 +8030,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7718,7 +8053,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7741,7 +8076,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7764,7 +8099,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7787,7 +8122,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7810,7 +8145,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7833,7 +8168,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7856,7 +8191,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7879,7 +8214,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7902,7 +8237,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7925,7 +8260,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7948,7 +8283,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7972,7 +8307,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -7995,7 +8330,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8018,7 +8353,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8041,7 +8376,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8064,7 +8399,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8089,7 +8424,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8112,7 +8447,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8135,7 +8470,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8158,7 +8493,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8181,7 +8516,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8204,7 +8539,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8227,7 +8562,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8250,7 +8585,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8273,7 +8608,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8296,7 +8631,7 @@
    "region": "europe",
    "country": "Spain",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8319,7 +8654,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8342,7 +8677,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8365,7 +8700,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8388,7 +8723,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8411,7 +8746,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8434,7 +8769,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8457,7 +8792,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8480,7 +8815,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8503,7 +8838,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8526,7 +8861,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8549,7 +8884,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8572,7 +8907,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8595,7 +8930,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8618,7 +8953,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8641,7 +8976,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8664,7 +8999,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8687,7 +9022,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8710,7 +9045,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8733,7 +9068,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8756,7 +9091,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8779,7 +9114,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8802,7 +9137,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8825,30 +9160,7 @@
    "region": "europe",
    "country": "Belgium",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "c6e0cf48f5a7",
-   "company": "HPE (incl. Juniper)",
-   "group": "big",
-   "title": "Networking Sales Graduate",
-   "location": "Amstelveen, North Holland, Netherlands",
-   "url": "https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Amstelveen-North-Holland-Netherlands/Networking-Sales-Graduate_1210030",
-   "posted": "2026-09-09",
-   "kind": "graduate",
-   "tags": [
-    "telco"
-   ],
-   "via": "workday",
-   "elig": "graduates",
-   "elig_why": "graduate position",
-   "dtags": [],
-   "desc_len": 6789,
-   "region": "europe",
-   "country": "Netherlands",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8871,7 +9183,7 @@
    "region": "europe",
    "country": "Belgium",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8894,30 +9206,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "5b298b0e6537",
-   "company": "HPE (incl. Juniper)",
-   "group": "big",
-   "title": "Networking (Power) Intern",
-   "location": "Sunnyvale, California, United States of America",
-   "url": "https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Sunnyvale-California-United-States-of-America/Networking--Power--Intern_1214229",
-   "posted": "2026-10-07",
-   "kind": "internship",
-   "tags": [
-    "telco"
-   ],
-   "via": "workday",
-   "elig": "students",
-   "elig_why": "y and circuit development Education & Experience: Currently pursuing a Bachelor's or Master's degree in Electrical Eng",
-   "dtags": [],
-   "desc_len": 6858,
-   "region": "other",
-   "country": "",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8940,7 +9229,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8963,7 +9252,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -8986,30 +9275,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "265df12b4292",
-   "company": "HPE (incl. Juniper)",
-   "group": "big",
-   "title": "Internship - Cloud Dev Engineering",
-   "location": "Galway, Galway, Ireland",
-   "url": "https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Galway-Galway-Ireland/Internship---Cloud-Dev-Engineering_1211017",
-   "posted": "2026-09-09",
-   "kind": "internship",
-   "tags": [
-    "cloud"
-   ],
-   "via": "workday",
-   "elig": "students",
-   "elig_why": "Location: Galway, Ireland Mandatory Requirements: Enrolled in a University during the internship and eligibility to work in",
-   "dtags": [],
-   "desc_len": 7782,
-   "region": "europe",
-   "country": "Ireland",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9032,7 +9298,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9055,7 +9321,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9078,7 +9344,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9103,7 +9369,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9126,7 +9392,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9149,7 +9415,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9172,7 +9438,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9195,30 +9461,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "aab485070d32",
-   "company": "HPE (incl. Juniper)",
-   "group": "big",
-   "title": "Hardware Engineering Intern",
-   "location": "Sunnyvale, California, United States of America",
-   "url": "https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Sunnyvale-California-United-States-of-America/Hardware-Engineering-Intern_1214159",
-   "posted": "2026-10-07",
-   "kind": "internship",
-   "tags": [
-    "other"
-   ],
-   "via": "workday",
-   "elig": "students",
-   "elig_why": "ned projects/initiatives. Education & Experience: Currently pursuing a Bachelor's degree in Electrical Engineering or",
-   "dtags": [],
-   "desc_len": 6995,
-   "region": "other",
-   "country": "",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9241,7 +9484,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9264,30 +9507,7 @@
    "region": "europe",
    "country": "Belgium",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "ca665541a3ec",
-   "company": "HPE (incl. Juniper)",
-   "group": "big",
-   "title": "HPE Labs - EMEA Research Lab Ph.D. Intern",
-   "location": "Munich, Bavaria, Germany",
-   "url": "https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Munich-Bavaria-Germany/HPE-Labs---EMEA-Research-Lab-PhD-Intern_1192380",
-   "posted": "2026-09-28",
-   "kind": "internship",
-   "tags": [
-    "research"
-   ],
-   "via": "workday",
-   "elig": "students",
-   "elig_why": "HPE Labs - EMEA Research Lab Ph.D. Intern",
-   "dtags": [],
-   "desc_len": 0,
-   "region": "europe",
-   "country": "Germany",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9313,30 +9533,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "3686bb1e9024",
-   "company": "HPE (incl. Juniper)",
-   "group": "big",
-   "title": "Graduate Technology Consultant",
-   "location": "Budapest, Budapest, Hungary",
-   "url": "https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Budapest-Budapest-Hungary/Presales-Graduate_1202870-1",
-   "posted": "2026-09-09",
-   "kind": "graduate",
-   "tags": [
-    "other"
-   ],
-   "via": "workday",
-   "elig": "graduates",
-   "elig_why": "o will support you throughout the duration of the graduate program to grow, develop and succeed. Start Date : Septem",
-   "dtags": [],
-   "desc_len": 6871,
-   "region": "europe",
-   "country": "Central/Eastern Europe",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9359,7 +9556,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9382,7 +9579,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9405,7 +9602,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9428,7 +9625,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9451,7 +9648,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9474,7 +9671,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9497,7 +9694,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9520,7 +9717,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9543,7 +9740,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9566,7 +9763,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9589,7 +9786,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9612,7 +9809,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9635,7 +9832,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9658,7 +9855,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9681,7 +9878,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9704,7 +9901,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9727,7 +9924,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9750,7 +9947,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9773,7 +9970,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9796,7 +9993,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9819,7 +10016,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9842,7 +10039,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9865,7 +10062,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9888,7 +10085,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9911,7 +10108,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9934,7 +10131,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9957,7 +10154,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -9980,7 +10177,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10003,7 +10200,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10026,7 +10223,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10049,7 +10246,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10072,7 +10269,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10095,7 +10292,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10118,7 +10315,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10141,7 +10338,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10164,7 +10361,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10189,7 +10386,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10212,7 +10409,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10237,7 +10434,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10262,7 +10459,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10285,7 +10482,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10308,7 +10505,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10331,7 +10528,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10354,7 +10551,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10379,7 +10576,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10402,7 +10599,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10425,7 +10622,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10448,7 +10645,7 @@
    "region": "europe",
    "country": "Switzerland",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10472,7 +10669,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10496,7 +10693,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10521,7 +10718,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10546,7 +10743,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10569,7 +10766,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10592,7 +10789,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10615,7 +10812,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10638,7 +10835,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10661,7 +10858,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10684,7 +10881,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10707,7 +10904,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10730,7 +10927,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10753,7 +10950,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10776,7 +10973,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10799,7 +10996,7 @@
    "region": "europe",
    "country": "Ireland",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10822,7 +11019,7 @@
    "region": "europe",
    "country": "Germany",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10847,7 +11044,7 @@
    "region": "europe",
    "country": "Germany",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10873,7 +11070,7 @@
    "region": "europe",
    "country": "Germany",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10897,7 +11094,7 @@
    "region": "europe",
    "country": "Germany",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10921,7 +11118,7 @@
    "region": "europe",
    "country": "Germany",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10944,7 +11141,7 @@
    "region": "europe",
    "country": "Spain",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10967,7 +11164,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -10990,7 +11187,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11013,7 +11210,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11036,7 +11233,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11059,7 +11256,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11085,7 +11282,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11108,7 +11305,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11131,7 +11328,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11154,7 +11351,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11177,7 +11374,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11200,7 +11397,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11223,7 +11420,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11246,7 +11443,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11269,7 +11466,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11292,7 +11489,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11315,7 +11512,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11338,7 +11535,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11361,7 +11558,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11384,7 +11581,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11407,7 +11604,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11430,7 +11627,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11453,30 +11650,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "9c01cee2f714",
-   "company": "Equinix",
-   "group": "big",
-   "title": "Datacenter Customer Operations Technician II",
-   "location": "Helsinki",
-   "url": "https://equinix.wd1.myworkdayjobs.com/en-US/External/job/Helsinki/Datacenter-Customer-Operations-Technician-II_JR-163685",
-   "posted": "2026-09-25",
-   "kind": "junior",
-   "tags": [
-    "cloud"
-   ],
-   "via": "workday",
-   "elig": "graduates",
-   "elig_why": "junior position",
-   "dtags": [],
-   "desc_len": 7057,
-   "region": "europe",
-   "country": "Nordics",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11499,7 +11673,7 @@
    "region": "europe",
    "country": "Germany",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11522,7 +11696,7 @@
    "region": "europe",
    "country": "Ireland",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11545,7 +11719,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11568,7 +11742,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11591,7 +11765,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11614,7 +11788,7 @@
    "region": "europe",
    "country": "Italy",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11637,7 +11811,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11660,7 +11834,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11683,7 +11857,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11709,55 +11883,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "f6eaed57a9f8",
-   "company": "Elastic",
-   "group": "cloud",
-   "title": "Software Engineer I - AI Observability",
-   "location": "Greece",
-   "url": "https://jobs.elastic.co/jobs?gh_jid=8260766&gh_jid=8260766",
-   "posted": "2026-10-07",
-   "kind": "junior",
-   "tags": [
-    "devops",
-    "ml"
-   ],
-   "via": "greenhouse",
-   "elig": "graduates",
-   "elig_why": "junior position",
-   "dtags": [],
-   "desc_len": 7639,
-   "region": "europe",
-   "country": "Central/Eastern Europe",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "1c8dcd55ba02",
-   "company": "Elastic",
-   "group": "cloud",
-   "title": "Software Engineer I - AI Observability",
-   "location": "Spain",
-   "url": "https://jobs.elastic.co/jobs?gh_jid=8245844&gh_jid=8245844",
-   "posted": "2026-10-07",
-   "kind": "junior",
-   "tags": [
-    "devops",
-    "ml"
-   ],
-   "via": "greenhouse",
-   "elig": "graduates",
-   "elig_why": "junior position",
-   "dtags": [],
-   "desc_len": 7639,
-   "region": "europe",
-   "country": "Spain",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11781,7 +11907,55 @@
    "region": "europe",
    "country": "Portugal",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "f6eaed57a9f8",
+   "company": "Elastic",
+   "group": "cloud",
+   "title": "Software Engineer I - AI Observability",
+   "location": "Greece",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8260766&gh_jid=8260766",
+   "posted": "2026-10-07",
+   "kind": "junior",
+   "tags": [
+    "devops",
+    "ml"
+   ],
+   "via": "greenhouse",
+   "elig": "graduates",
+   "elig_why": "junior position",
+   "dtags": [],
+   "desc_len": 7639,
+   "region": "europe",
+   "country": "Central/Eastern Europe",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "1c8dcd55ba02",
+   "company": "Elastic",
+   "group": "cloud",
+   "title": "Software Engineer I - AI Observability",
+   "location": "Spain",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8245844&gh_jid=8245844",
+   "posted": "2026-10-07",
+   "kind": "junior",
+   "tags": [
+    "devops",
+    "ml"
+   ],
+   "via": "greenhouse",
+   "elig": "graduates",
+   "elig_why": "junior position",
+   "dtags": [],
+   "desc_len": 7639,
+   "region": "europe",
+   "country": "Spain",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11804,7 +11978,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11827,7 +12001,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11850,7 +12024,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11873,7 +12047,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11896,7 +12070,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11919,7 +12093,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11942,7 +12116,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11965,7 +12139,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -11990,32 +12164,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "bd34f5c2790c",
-   "company": "Datadog",
-   "group": "cloud",
-   "title": "Software Engineering Intern",
-   "location": "Paris, France",
-   "url": "https://careers.datadoghq.com/detail/8114186/?gh_jid=8114186",
-   "posted": "2026-09-29",
-   "kind": "internship",
-   "tags": [
-    "other"
-   ],
-   "via": "greenhouse",
-   "elig": "unknown",
-   "elig_why": "",
-   "dtags": [
-    "cloud"
-   ],
-   "desc_len": 5280,
-   "region": "europe",
-   "country": "France",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12040,7 +12189,32 @@
    "region": "europe",
    "country": "Spain",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "bd34f5c2790c",
+   "company": "Datadog",
+   "group": "cloud",
+   "title": "Software Engineering Intern",
+   "location": "Paris, France",
+   "url": "https://careers.datadoghq.com/detail/8114186/?gh_jid=8114186",
+   "posted": "2026-09-29",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "greenhouse",
+   "elig": "unknown",
+   "elig_why": "",
+   "dtags": [
+    "cloud"
+   ],
+   "desc_len": 5280,
+   "region": "europe",
+   "country": "France",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12065,7 +12239,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12088,7 +12262,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12111,7 +12285,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12134,7 +12308,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12157,7 +12331,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12184,30 +12358,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "ac6454b48c6a",
-   "company": "Databricks",
-   "group": "big",
-   "title": "Systems PhD - Software Engineer",
-   "location": "Mountain View, California; San Francisco, California",
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8482037002",
-   "posted": "2026-09-21",
-   "kind": "phd",
-   "tags": [
-    "research"
-   ],
-   "via": "greenhouse",
-   "elig": "graduates",
-   "elig_why": "phd position",
-   "dtags": [],
-   "desc_len": 4295,
-   "region": "other",
-   "country": "",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12230,7 +12381,30 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "ac6454b48c6a",
+   "company": "Databricks",
+   "group": "big",
+   "title": "Systems PhD - Software Engineer",
+   "location": "Mountain View, California; San Francisco, California",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8482037002",
+   "posted": "2026-09-21",
+   "kind": "phd",
+   "tags": [
+    "research"
+   ],
+   "via": "greenhouse",
+   "elig": "graduates",
+   "elig_why": "phd position",
+   "dtags": [],
+   "desc_len": 4295,
+   "region": "other",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12253,7 +12427,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12276,7 +12450,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12299,7 +12473,7 @@
    "region": "europe",
    "country": "Germany",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12322,7 +12496,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12345,7 +12519,7 @@
    "region": "europe",
    "country": "Netherlands",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12368,7 +12542,7 @@
    "region": "europe",
    "country": "Nordics",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12391,7 +12565,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12414,7 +12588,7 @@
    "region": "europe",
    "country": "Germany",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12437,7 +12611,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12460,7 +12634,7 @@
    "region": "europe",
    "country": "Netherlands",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12484,7 +12658,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12507,30 +12681,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "05a9673ed244",
-   "company": "Cloudflare",
-   "group": "cloud",
-   "title": "Software Engineer Intern (2027)",
-   "location": "In-Office",
-   "url": "https://boards.greenhouse.io/cloudflare/jobs/8245197?gh_jid=8245197",
-   "posted": "2026-10-05",
-   "kind": "internship",
-   "tags": [
-    "other"
-   ],
-   "via": "greenhouse",
-   "elig": "graduates",
-   "elig_why": "hours are typically 9:00 AM – 6:00 PM. You should not be enrolled in classes, which would conflict with full-time c",
-   "dtags": [],
-   "desc_len": 8074,
-   "region": "",
-   "country": "",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12553,7 +12704,30 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
+   "v": 4
+  },
+  {
+   "id": "05a9673ed244",
+   "company": "Cloudflare",
+   "group": "cloud",
+   "title": "Software Engineer Intern (2027)",
+   "location": "In-Office",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8245197?gh_jid=8245197",
+   "posted": "2026-10-05",
+   "kind": "internship",
+   "tags": [
+    "other"
+   ],
+   "via": "greenhouse",
+   "elig": "graduates",
+   "elig_why": "hours are typically 9:00 AM – 6:00 PM. You should not be enrolled in classes, which would conflict with full-time c",
+   "dtags": [],
+   "desc_len": 8074,
+   "region": "",
+   "country": "",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12576,7 +12750,7 @@
    "region": "europe",
    "country": "Switzerland",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12599,7 +12773,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12622,7 +12796,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12645,7 +12819,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12668,7 +12842,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12691,7 +12865,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12714,7 +12888,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12737,7 +12911,7 @@
    "region": "europe",
    "country": "Nordics",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12760,7 +12934,7 @@
    "region": "europe",
    "country": "Ireland",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12785,7 +12959,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12810,7 +12984,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12836,7 +13010,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12862,7 +13036,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12887,7 +13061,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12912,7 +13086,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12937,7 +13111,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12962,7 +13136,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -12985,7 +13159,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13008,7 +13182,7 @@
    "region": "europe",
    "country": "Nordics",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13031,7 +13205,7 @@
    "region": "europe",
    "country": "Nordics",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13056,7 +13230,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13081,7 +13255,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13104,7 +13278,7 @@
    "region": "europe",
    "country": "Italy",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13127,7 +13301,7 @@
    "region": "europe",
    "country": "Spain",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13150,7 +13324,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13173,7 +13347,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13196,7 +13370,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13219,7 +13393,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13242,7 +13416,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13265,7 +13439,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13288,7 +13462,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13313,7 +13487,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13338,7 +13512,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13361,7 +13535,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13384,7 +13558,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13407,7 +13581,7 @@
    "region": "europe",
    "country": "France",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13430,7 +13604,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13453,7 +13627,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13476,7 +13650,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13499,7 +13673,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13522,7 +13696,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13545,7 +13719,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13568,7 +13742,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13591,7 +13765,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13614,7 +13788,7 @@
    "region": "europe",
    "country": "Ireland",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13637,7 +13811,7 @@
    "region": "europe",
    "country": "Ireland",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13660,7 +13834,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13683,7 +13857,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13706,7 +13880,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13731,7 +13905,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13754,7 +13928,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13777,7 +13951,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13800,7 +13974,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13826,7 +14000,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13849,7 +14023,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13872,7 +14046,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13895,7 +14069,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13918,7 +14092,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13943,7 +14117,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13966,7 +14140,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -13989,7 +14163,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14014,7 +14188,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14037,7 +14211,7 @@
    "region": "remote",
    "country": "Germany",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14060,7 +14234,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14083,7 +14257,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14106,7 +14280,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14131,7 +14305,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14154,30 +14328,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "81e8b18d90ea",
-   "company": "Ciena",
-   "group": "telco",
-   "title": "Hardware Engineer - New Grad",
-   "location": "Ottawa",
-   "url": "https://ciena.wd5.myworkdayjobs.com/en-US/Careers/job/Ottawa/Hardware-Engineer---New-Grad_R031783",
-   "posted": "2026-09-28",
-   "kind": "graduate",
-   "tags": [
-    "other"
-   ],
-   "via": "workday",
-   "elig": "graduates",
-   "elig_why": "Hardware Engineer - New Grad As the global leader in high-speed connectivity,",
-   "dtags": [],
-   "desc_len": 4426,
-   "region": "other",
-   "country": "",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14200,7 +14351,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14223,7 +14374,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14246,7 +14397,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14269,7 +14420,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14292,7 +14443,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14315,7 +14466,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14338,7 +14489,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14363,7 +14514,7 @@
    "region": "remote",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14386,7 +14537,7 @@
    "region": "remote",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14409,7 +14560,7 @@
    "region": "remote",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14432,7 +14583,7 @@
    "region": "remote",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14455,7 +14606,7 @@
    "region": "remote",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14478,7 +14629,7 @@
    "region": "remote",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14501,7 +14652,7 @@
    "region": "remote",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14524,7 +14675,7 @@
    "region": "remote",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14547,7 +14698,7 @@
    "region": "remote",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14570,7 +14721,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14593,7 +14744,7 @@
    "region": "remote",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14616,7 +14767,7 @@
    "region": "remote",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14639,7 +14790,7 @@
    "region": "remote",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14662,7 +14813,7 @@
    "region": "remote",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14687,7 +14838,7 @@
    "region": "remote",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14712,7 +14863,7 @@
    "region": "remote",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14735,7 +14886,7 @@
    "region": "europe",
    "country": "Netherlands",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14758,7 +14909,7 @@
    "region": "europe",
    "country": "Switzerland",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14781,30 +14932,7 @@
    "region": "europe",
    "country": "Switzerland",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "e36602e5ad78",
-   "company": "CERN (IT / computing)",
-   "group": "programme",
-   "title": "Junior Field Operations Coordinator (SCE-SSC-SC-2026-232-GRAE)",
-   "location": "Geneva, ch",
-   "url": "https://jobs.smartrecruiters.com/CERN/744000152082399",
-   "posted": "2026-09-28",
-   "kind": "junior",
-   "tags": [
-    "other"
-   ],
-   "via": "smartrecruiters",
-   "elig": "graduates",
-   "elig_why": "junior position",
-   "dtags": [],
-   "desc_len": 4459,
-   "region": "europe",
-   "country": "Switzerland",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14827,7 +14955,7 @@
    "region": "europe",
    "country": "Switzerland",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14850,7 +14978,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14873,7 +15001,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14899,31 +15027,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
-   "v": 4
-  },
-  {
-   "id": "0ee9b21919bb",
-   "company": "Bosch",
-   "group": "big",
-   "title": "Wireless Research Engineer",
-   "location": "Sunnyvale, us",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000149910364",
-   "posted": "2026-09-16",
-   "kind": "research",
-   "tags": [
-    "telco",
-    "research"
-   ],
-   "via": "smartrecruiters",
-   "elig": "graduates",
-   "elig_why": "research position",
-   "dtags": [],
-   "desc_len": 3997,
-   "region": "other",
-   "country": "",
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14947,7 +15051,7 @@
    "region": "europe",
    "country": "Germany",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14970,7 +15074,7 @@
    "region": "europe",
    "country": "Germany",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -14995,7 +15099,7 @@
    "region": "europe",
    "country": "Germany",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -15018,7 +15122,7 @@
    "region": "europe",
    "country": "Germany",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -15041,7 +15145,7 @@
    "region": "europe",
    "country": "Switzerland",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -15066,7 +15170,7 @@
    "region": "europe",
    "country": "Central/Eastern Europe",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -15089,7 +15193,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -15112,7 +15216,7 @@
    "region": "europe",
    "country": "Portugal",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -15136,7 +15240,7 @@
    "region": "europe",
    "country": "Portugal",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -15159,7 +15263,7 @@
    "region": "europe",
    "country": "Portugal",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -15182,7 +15286,7 @@
    "region": "europe",
    "country": "Portugal",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -15205,7 +15309,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -15228,7 +15332,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -15251,7 +15355,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -15274,7 +15378,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -15297,7 +15401,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -15320,7 +15424,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -15344,7 +15448,7 @@
    "region": "europe",
    "country": "Ireland",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -15368,7 +15472,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -15391,7 +15495,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -15414,7 +15518,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -15437,7 +15541,7 @@
    "region": "other",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -15460,7 +15564,7 @@
    "region": "",
    "country": "",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   },
   {
@@ -15483,7 +15587,7 @@
    "region": "europe",
    "country": "United Kingdom",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "v": 4
   }
  ]
