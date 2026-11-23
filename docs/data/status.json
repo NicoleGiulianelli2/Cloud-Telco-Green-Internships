@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T14:16:27+00:00",
+ "generated_at": "2026-11-23T17:38:45+00:00",
  "sources": [
   {
    "company": "Airbus",
@@ -10,7 +10,7 @@
    "kept": 0,
    "note": "",
    "error": "SourceError: Airbus: HTTPError: 429 Client Error: Too Many Requests for url: https://ag.wd3.myworkdayjobs.com/wday/cxs/ag/Airbus/jobs",
-   "seconds": 1.2
+   "seconds": 0.9
   },
   {
    "company": "Broadcom / VMware",
@@ -32,7 +32,7 @@
    "kept": 0,
    "note": "",
    "error": "SourceError: Careers: HTTPError: 429 Client Error: Too Many Requests for url: https://ciena.wd5.myworkdayjobs.com/wday/cxs/ciena/Careers/jobs; External: HTTPError: 429 Client Error: Too Many Requests for url: https://ciena.wd5.myworkdayjobs.com/wday/cxs/ciena/External/jobs",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "company": "Cisco",
@@ -43,7 +43,7 @@
    "kept": 0,
    "note": "",
    "error": "SourceError: Cisco_Careers: HTTPError: 429 Client Error: Too Many Requests for url: https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs",
-   "seconds": 0.1
+   "seconds": 7.1
   },
   {
    "company": "Equinix",
@@ -65,7 +65,7 @@
    "kept": 0,
    "note": "",
    "error": "SourceError: Jobsathpe: HTTPError: 429 Client Error: Too Many Requests for url: https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/Jobsathpe/jobs; ACJobSite: HTTPError: 429 Client Error: Too Many Requests for url: https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/ACJobSite/jobs",
-   "seconds": 0.1
+   "seconds": 0.3
   },
   {
    "company": "Intel",
@@ -76,7 +76,7 @@
    "kept": 0,
    "note": "",
    "error": "SourceError: External: HTTPError: 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs",
-   "seconds": 0.1
+   "seconds": 0.4
   },
   {
    "company": "NVIDIA",
@@ -98,7 +98,7 @@
    "kept": 0,
    "note": "",
    "error": "SourceError: Jobs: HTTPError: 429 Client Error: Too Many Requests for url: https://redhat.wd5.myworkdayjobs.com/wday/cxs/redhat/Jobs/jobs; jobs: HTTPError: 429 Client Error: Too Many Requests for url: https://redhat.wd5.myworkdayjobs.com/wday/cxs/redhat/jobs/jobs",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "company": "SUSE",
@@ -108,8 +108,8 @@
    "raw": 0,
    "kept": 0,
    "note": "",
-   "error": "SourceError: Jobsatsuse: HTTPError: 429 Client Error: Too Many Requests for url: https://suse.wd3.myworkdayjobs.com/wday/cxs/suse/Jobsatsuse/jobs; SUSE: HTTPError: 429 Client Error: Too Many Requests for url: https://suse.wd3.myworkdayjobs.com/wday/cxs/suse/SUSE/jobs; External: HTTPError: 429 Client Error: Too M",
-   "seconds": 2.4
+   "error": "SourceError: Jobsatsuse: HTTPError: 429 Client Error: Too Many Requests for url: https://suse.wd3.myworkdayjobs.com/wday/cxs/suse/Jobsatsuse/jobs; SUSE: SourceError: 404; External: SourceError: 404",
+   "seconds": 1.7
   },
   {
    "company": "Thales",
@@ -120,18 +120,29 @@
    "kept": 0,
    "note": "",
    "error": "SourceError: Careers: HTTPError: 429 Client Error: Too Many Requests for url: https://thales.wd3.myworkdayjobs.com/wday/cxs/thales/Careers/jobs",
-   "seconds": 1.2
+   "seconds": 1.0
+  },
+  {
+   "company": "jobs.ac.uk",
+   "group": "portal",
+   "type": "link_scan",
+   "ok": false,
+   "raw": 0,
+   "kept": 0,
+   "note": "",
+   "error": "SourceError: all pages failed: HTTPError 500 Server Error: Internal Server Error for url: https://www | HTTPError 500 Server Error: Internal Server Error for url: https://www | HTTPError 500 Server Error: Internal Server Error for url: https://www",
+   "seconds": 0.3
   },
   {
    "company": "Adyen",
    "group": "big",
    "type": "greenhouse",
    "ok": true,
-   "raw": 243,
+   "raw": 244,
    "kept": 0,
    "note": "slug=adyen",
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "company": "Amazon / AWS",
@@ -142,29 +153,29 @@
    "kept": 35,
    "note": "",
    "error": "",
-   "seconds": 3.3
+   "seconds": 3.4
   },
   {
    "company": "Bosch",
    "group": "big",
    "type": "smartrecruiters",
    "ok": true,
-   "raw": 1670,
-   "kept": 37,
+   "raw": 1675,
+   "kept": 36,
    "note": "company=BoschGroup",
    "error": "",
-   "seconds": 19.5
+   "seconds": 18.9
   },
   {
    "company": "CERN (IT / computing)",
    "group": "programme",
    "type": "smartrecruiters",
    "ok": true,
-   "raw": 50,
+   "raw": 51,
    "kept": 26,
    "note": "company=CERN",
    "error": "",
-   "seconds": 2.9
+   "seconds": 2.8
   },
   {
    "company": "CTTC",
@@ -175,7 +186,7 @@
    "kept": 0,
    "note": "pages_ok=1/1",
    "error": "",
-   "seconds": 2.1
+   "seconds": 3.6
   },
   {
    "company": "CWI Amsterdam",
@@ -186,7 +197,7 @@
    "kept": 1,
    "note": "pages_ok=1/1",
    "error": "",
-   "seconds": 0.8
+   "seconds": 1.7
   },
   {
    "company": "Canonical",
@@ -197,14 +208,14 @@
    "kept": 16,
    "note": "slug=canonical",
    "error": "",
-   "seconds": 0.1
+   "seconds": 1.4
   },
   {
    "company": "Chainguard",
    "group": "cloud",
    "type": "ats_any",
    "ok": true,
-   "raw": 109,
+   "raw": 110,
    "kept": 1,
    "note": "greenhouse slug=chainguard",
    "error": "",
@@ -215,8 +226,8 @@
    "group": "cloud",
    "type": "greenhouse",
    "ok": true,
-   "raw": 504,
-   "kept": 8,
+   "raw": 503,
+   "kept": 9,
    "note": "slug=cloudflare",
    "error": "",
    "seconds": 0.1
@@ -230,14 +241,14 @@
    "kept": 0,
    "note": "slug=confluent",
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "company": "Databricks",
    "group": "big",
    "type": "greenhouse",
    "ok": true,
-   "raw": 895,
+   "raw": 886,
    "kept": 18,
    "note": "slug=databricks",
    "error": "",
@@ -248,7 +259,7 @@
    "group": "cloud",
    "type": "greenhouse",
    "ok": true,
-   "raw": 382,
+   "raw": 386,
    "kept": 6,
    "note": "slug=datadog",
    "error": "",
@@ -274,7 +285,7 @@
    "kept": 0,
    "note": "pages_ok=10/13",
    "error": "",
-   "seconds": 2.6
+   "seconds": 2.5
   },
   {
    "company": "EURECOM",
@@ -285,29 +296,29 @@
    "kept": 8,
    "note": "pages_ok=1/1",
    "error": "",
-   "seconds": 1.3
+   "seconds": 1.4
   },
   {
    "company": "Elastic",
    "group": "cloud",
    "type": "greenhouse",
    "ok": true,
-   "raw": 382,
+   "raw": 385,
    "kept": 1,
    "note": "slug=elastic",
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "company": "Fastly",
    "group": "cloud",
    "type": "greenhouse",
    "ok": true,
-   "raw": 48,
+   "raw": 50,
    "kept": 0,
    "note": "slug=fastly",
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "company": "Fraunhofer",
@@ -315,43 +326,43 @@
    "type": "link_scan",
    "ok": true,
    "raw": 97,
-   "kept": 6,
+   "kept": 5,
    "note": "pages_ok=7/7",
    "error": "",
-   "seconds": 5.0
+   "seconds": 4.6
   },
   {
    "company": "GitLab",
    "group": "cloud",
    "type": "greenhouse",
    "ok": true,
-   "raw": 246,
+   "raw": 245,
    "kept": 1,
    "note": "slug=gitlab",
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "company": "Google",
    "group": "big",
    "type": "google",
    "ok": true,
-   "raw": 499,
+   "raw": 489,
    "kept": 10,
    "note": "",
    "error": "",
-   "seconds": 13.6
+   "seconds": 13.1
   },
   {
    "company": "Grafana Labs",
    "group": "cloud",
    "type": "greenhouse",
    "ok": true,
-   "raw": 140,
+   "raw": 139,
    "kept": 0,
    "note": "slug=grafanalabs",
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "company": "Hugging Face",
@@ -362,18 +373,18 @@
    "kept": 0,
    "note": "slug=huggingface",
    "error": "",
-   "seconds": 0.3
+   "seconds": 0.2
   },
   {
    "company": "IBM",
    "group": "big",
    "type": "ibm",
    "ok": true,
-   "raw": 124,
-   "kept": 39,
+   "raw": 121,
+   "kept": 37,
    "note": "",
    "error": "",
-   "seconds": 0.7
+   "seconds": 1.0
   },
   {
    "company": "IBM Research",
@@ -384,7 +395,7 @@
    "kept": 17,
    "note": "pages_ok=2/2",
    "error": "",
-   "seconds": 2.6
+   "seconds": 4.1
   },
   {
    "company": "IMDEA Networks",
@@ -395,36 +406,36 @@
    "kept": 3,
    "note": "pages_ok=2/2",
    "error": "",
-   "seconds": 2.6
+   "seconds": 3.0
   },
   {
    "company": "Inria",
    "group": "research",
    "type": "link_scan",
    "ok": true,
-   "raw": 137,
+   "raw": 135,
    "kept": 10,
    "note": "pages_ok=1/1",
    "error": "",
-   "seconds": 3.1
+   "seconds": 4.5
   },
   {
    "company": "Kong",
    "group": "cloud",
    "type": "ats_any",
    "ok": true,
-   "raw": 126,
+   "raw": 128,
    "kept": 0,
    "note": "ashby slug=kong",
    "error": "",
-   "seconds": 0.3
+   "seconds": 0.1
   },
   {
    "company": "MongoDB",
    "group": "big",
    "type": "greenhouse",
    "ok": true,
-   "raw": 417,
+   "raw": 418,
    "kept": 6,
    "note": "slug=mongodb",
    "error": "",
@@ -435,11 +446,11 @@
    "group": "telco",
    "type": "oracle_hcm",
    "ok": true,
-   "raw": 257,
+   "raw": 259,
    "kept": 30,
    "note": "",
    "error": "",
-   "seconds": 5.9
+   "seconds": 6.2
   },
   {
    "company": "OVHcloud",
@@ -457,7 +468,7 @@
    "group": "cloud",
    "type": "greenhouse",
    "ok": true,
-   "raw": 401,
+   "raw": 397,
    "kept": 3,
    "note": "slug=purestorage",
    "error": "",
@@ -472,7 +483,7 @@
    "kept": 3,
    "note": "lever slug=scaleway",
    "error": "",
-   "seconds": 0.4
+   "seconds": 2.5
   },
   {
    "company": "Snowflake",
@@ -483,29 +494,29 @@
    "kept": 9,
    "note": "",
    "error": "",
-   "seconds": 5.6
+   "seconds": 7.6
   },
   {
    "company": "Spotify",
    "group": "big",
    "type": "lever",
    "ok": true,
-   "raw": 91,
+   "raw": 90,
    "kept": 0,
    "note": "slug=spotify",
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.8
   },
   {
    "company": "Supabase",
    "group": "cloud",
    "type": "ats_any",
    "ok": true,
-   "raw": 80,
+   "raw": 81,
    "kept": 0,
    "note": "ashby slug=supabase",
    "error": "",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "company": "Sweep",
@@ -534,11 +545,11 @@
    "group": "cloud",
    "type": "greenhouse",
    "ok": true,
-   "raw": 89,
+   "raw": 87,
    "kept": 0,
    "note": "slug=tailscale",
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "company": "Vercel",
@@ -549,29 +560,18 @@
    "kept": 0,
    "note": "slug=vercel",
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "company": "Watershed",
    "group": "green",
    "type": "ats_any",
    "ok": true,
-   "raw": 39,
+   "raw": 40,
    "kept": 0,
    "note": "ashby slug=watershed",
    "error": "",
-   "seconds": 0.1
-  },
-  {
-   "company": "jobs.ac.uk",
-   "group": "portal",
-   "type": "link_scan",
-   "ok": true,
-   "raw": 68,
-   "kept": 16,
-   "note": "pages_ok=5/5",
-   "error": "",
-   "seconds": 6.2
+   "seconds": 0.2
   }
  ]
 }
